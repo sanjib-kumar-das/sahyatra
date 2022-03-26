@@ -1,0 +1,21 @@
+#customRange3 {
+  width: 160%;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@500;600&display=swap");
+
+body {
+  /* background-image: linear-gradient(to bottom right, #fc354c, #0abfbc); */
+  /* background-image: linear-gradient(to bottom right, #dae2f8, #d6a4a4); */
+  /* background-image: linear-gradient(to bottom right, #ed4264, #ffedbc); */
+  /* background-image: linear-gradient(to bottom right, #dc2424, #4a569d); */
+  /* background-image: linear-gradient(to bottom right, #134e5e, #71b280); */
+  /* background-image: linear-gradient(to bottom right, #16a085, #f4d03f); */
+  /* background-image: linear-gradient(to bottom right, #034a55, #8ecdff); */
+  /* background-color: #598ec2; */
+  /* background-image: linear-gradient(to bottom right, #013780, #68abe6); */
+  /* background-image: linear-gradient(to bottom right, #013780, #68abe6, #013780); */
+  background-image: linear-gradient(to bottom right, #c8d8ef, #e9eff8, #c8d8ef);
+  height: auto;
+  width: auto;
+}

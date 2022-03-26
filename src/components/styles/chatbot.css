@@ -1,0 +1,23 @@
+.cross {
+  font-size: 1.3rem;
+}
+.div {
+  position: static;
+}
+img {
+  z-index: 1999;
+
+  bottom: 0;
+}
+
+.div {
+  overflow: auto;
+}
+
+.container {
+  position: relative;
+}
+
+.botimg {
+  --fa-animation-duration: 5s;
+}
