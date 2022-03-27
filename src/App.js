@@ -8,6 +8,7 @@ import Updates from "./components/Updates";
 import Chatbot from "./components/Chatbot";
 import Footer from "./components/Footer";
 import Error from "./components/Error";
+import About from "./components/About";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
 
         <Routes>
           <Route exact path="/" element={<Home key="home" />}></Route>
+          <Route exact path="about" element={<About key="about" />}></Route>
           <Route
             exact
             path="updates"

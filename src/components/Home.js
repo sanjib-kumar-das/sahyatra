@@ -51,13 +51,26 @@ export default function Home() {
                       />
                       <div className="card-body">
                         <h5 className="card-title">Baga Beach</h5>
-                        <p className="card-text">
-                          A beautiful place in Kolkata, West Bengal.
+                        <p className="card-text text-truncate">
+                          One of the most popular beaches in North Goa, Baga
+                          Beach is located close to Calangute beach, around 30
+                          Km North of Panjim. Baga is the perfect destination to
+                          witness the dazzling nightlife of Goa as signature
+                          places such as Britto's, Tito's and Mambos are located
+                          in the vicinity. Being one of the most visited beaches
+                          in the North, Baga also offers a vast range of water
+                          sports. Lined with an array of tattoo parlours, tarot
+                          shops, palmistry shops, spas, sun decks and some
+                          legendary shacks, it gives you a chance to live out
+                          your perfect beach holiday.
                         </p>
+                        <hr class="dropdown-divider" />
+                        <h6>Suraksha Score: </h6>
+                        <h6>Swachhata Ratings: ⭐⭐ </h6>
                         <p>
                           <button
                             type="button"
-                            className="btn btn-primary"
+                            className="btn btn-primary mt-2"
                             data-bs-toggle="modal"
                             data-bs-target="#staticBackdrop11"
                           >
@@ -82,13 +95,31 @@ export default function Home() {
                       />
                       <div className="card-body">
                         <h5 className="card-title">Madgaon</h5>
-                        <p className="card-text">
-                          A beautiful place in Kolkata, West Bengal.
+                        <p className="card-text text-truncate">
+                          There are a number of temples and churches in Margao
+                          city The famous churches in Margao are the Holy Spirit
+                          Church, the Grace Church, The St Sebastian Church in
+                          Aquem (The Old St. Sebastian Chapel, popularly known
+                          as the Pandava Copel still stands next to the modern
+                          St. Sebastian Church) and the Monte Hill Chapel. The
+                          famous temples are the 'Damodar Temple' (Saal), the
+                          'Hari Mandir', the 'Maruti Mandir' at Davorlim the
+                          'Saibaba Temple' at Davorlim, the 'Shiv Temple' (Ling)
+                          at Fatorda near Nehru Stadium (which is the original
+                          Temple of Damodara). Pandava Caves Located in Aquem
+                          Behind St. Sebestian Church. There are two mosques in
+                          Margao, one in the Malbhat area and one on the Monte
+                          hill. There is also a Jain temple and a Jama'at Khana
+                          for the Khoja faith in Pajifond.
                         </p>
+                        <hr class="dropdown-divider" />
+                        <h6>Suraksha Score: </h6>
+                        <h6>Swachhata Ratings: ⭐⭐ </h6>
+
                         <p>
                           <button
                             type="button"
-                            className="btn btn-primary"
+                            className="btn btn-primary mt-2"
                             data-bs-toggle="modal"
                             data-bs-target="#staticBackdrop12"
                           >
@@ -114,13 +145,33 @@ export default function Home() {
                       />
                       <div className="card-body">
                         <h5 className="card-title">Panaji</h5>
-                        <p className="card-text">
-                          A beautiful place in Kolkata, West Bengal.
+                        <p className="card-text text-truncate">
+                          This is the capital of Goa, and the North Goa
+                          district. It is situated on the banks of the river
+                          “Mandovi”. It is connected to the mainland by
+                          bridges.Typical of a Goan town, Panaji is built around
+                          a church facing a prominent square. The town has some
+                          beautiful Portuguese Baroque style buildings and
+                          enchanting old villas. The riverside, speckled with
+                          brightly whitewashed houses with wrought iron
+                          balconies, offers a fine view.There are some fine
+                          government buildings along the riverside boulevard,
+                          and the Passport Office is especially noteworthy. In
+                          the 16th century, the edifice was the palace of Adil
+                          Shah (the Sultan of Bijapur). The Portuguese took over
+                          the palace and constructed the Viceregal Lodge in
+                          1615.The Church Square is a fine illustration of the
+                          awesome Portuguese Baroque style. The Church of the
+                          Immaculate Conception is easily one of the most
+                          elegant and picturesque monuments in Goa.
                         </p>
+                        <hr class="dropdown-divider" />
+                        <h6>Suraksha Score: </h6>
+                        <h6>Swachhata Ratings: ⭐⭐ </h6>
                         <p>
                           <button
                             type="button"
-                            className="btn btn-primary"
+                            className="btn btn-primary mt-2"
                             data-bs-toggle="modal"
                             data-bs-target="#staticBackdrop13"
                           >
@@ -170,13 +221,25 @@ export default function Home() {
                       />
                       <div className="card-body">
                         <h5 className="card-title">Bhubaneshwar</h5>
-                        <p className="card-text">
-                          A beautiful place in Kolkata, West Bengal.
+                        <p className="card-text text-truncate">
+                          Bhubaneswar, the temple city of India, once known for
+                          its architecture and grand temples, is presently a
+                          thriving centre for commerce and business.Bhubaneshwar
+                          is an ancient city replete with beautiful historic
+                          temples which attract pilgrims and tourists from all
+                          over the country. Bhubaneshwar being the centre for
+                          religious tourism has a number of majestic temples
+                          built centuries ago which have still retained their
+                          original over all these years. Among them the Lingaraj
+                          temple and the Parasurameswara temple are must-visits.
                         </p>
+                        <hr class="dropdown-divider" />
+                        <h6>Suraksha Score: </h6>
+                        <h6>Swachhata Ratings: ⭐⭐ </h6>
                         <p>
                           <button
                             type="button"
-                            className="btn btn-primary"
+                            className="btn btn-primary mt-2"
                             data-bs-toggle="modal"
                             data-bs-target="#staticBackdrop21"
                           >
@@ -201,13 +264,23 @@ export default function Home() {
                       />
                       <div className="card-body">
                         <h5 className="card-title">Konark</h5>
-                        <p className="card-text">
-                          A beautiful place in Kolkata, West Bengal.
+                        <p className="card-text text-truncate">
+                          Konark, in the state of Orissa is renowned world over
+                          for the Sun Temple which is also a UNESCO World
+                          Heritage Site, the Annual dance festival and its
+                          beautiful sandy beaches. Konark's Sun Temple is an
+                          architectural marvel and is one of the most beautiful
+                          monuments of India. Konark sun temple is the must
+                          visit place in your travel bucket list if you love to
+                          explore the ancient histories.
                         </p>
+                        <hr class="dropdown-divider" />
+                        <h6>Suraksha Score: </h6>
+                        <h6>Swachhata Ratings: ⭐⭐ </h6>
                         <p>
                           <button
                             type="button"
-                            className="btn btn-primary"
+                            className="btn btn-primary mt-2"
                             data-bs-toggle="modal"
                             data-bs-target="#staticBackdrop22"
                           >
@@ -233,13 +306,27 @@ export default function Home() {
                       />
                       <div className="card-body">
                         <h5 className="card-title">Puri</h5>
-                        <p className="card-text">
-                          A beautiful place in Kolkata, West Bengal.
+                        <p className="card-text text-truncate">
+                          Puri in Odisha is one of the four must-visit
+                          pilgrimage sites for Hindus because of Jagannath
+                          Temple that forms the part of Char Dham in India. Puri
+                          is a beach city located on the coast of Bay of Bengal.
+                          Known as the resting place of Lord Shiva, the majestic
+                          history and heritage of Puri date back to the 3rd
+                          century B. C. Puri, Konark and Bhubaneshwar complete
+                          the Golden Triangle of Orissa, with their religious
+                          significance and cultural heritage. There are a lot of
+                          places near Puri that one must visit, like the Chilika
+                          lake, Dhabal Giri, Uday Giri, Khanda Giri, Lingaraj
+                          Temple, Raghurajpur - the artistic village.
                         </p>
+                        <hr class="dropdown-divider" />
+                        <h6>Suraksha Score: </h6>
+                        <h6>Swachhata Ratings: ⭐⭐ </h6>
                         <p>
                           <button
                             type="button"
-                            className="btn btn-primary"
+                            className="btn btn-primary mt-2"
                             data-bs-toggle="modal"
                             data-bs-target="#staticBackdrop23"
                           >
@@ -290,13 +377,25 @@ export default function Home() {
                       />
                       <div className="card-body">
                         <h5 className="card-title">Agra</h5>
-                        <p className="card-text">
-                          A beautiful place in Kolkata, West Bengal.
+                        <p className="card-text text-truncate">
+                          Located on the banks of River Yamuna in Uttar Pradesh,
+                          Agra is a popular tourist destination as it is home to
+                          one of the 7 wonders of the world, the Taj Mahal. It
+                          is a sneak peek into the architectural history and
+                          legacy of the Mughal empire with other amazing
+                          historical tourists spots Agra Fort, Fatehpur Sikri,
+                          Akbar Tomb, Jama Masjid Agra, Mehtab Bagh, Anguri
+                          Bagh, Taj Museum. History, architecture, romance all
+                          together create the magic of Agra, and makes it a
+                          must-visit for anyone living in or visiting India.
                         </p>
+                        <hr class="dropdown-divider" />
+                        <h6>Suraksha Score: </h6>
+                        <h6>Swachhata Ratings: ⭐⭐ </h6>
                         <p>
                           <button
                             type="button"
-                            className="btn btn-primary"
+                            className="btn btn-primary mt-2"
                             data-bs-toggle="modal"
                             data-bs-target="#staticBackdrop31"
                           >
@@ -321,13 +420,28 @@ export default function Home() {
                       />
                       <div className="card-body">
                         <h5 className="card-title">Mathura</h5>
-                        <p className="card-text">
-                          A beautiful place in Kolkata, West Bengal.
+                        <p className="card-text text-truncate">
+                          One of Hinduism's seven sacred cities, Mathura is the
+                          birthplace of the very beloved Lord Krishna. Located
+                          in the state of Uttar Pradesh, Mathura and Vrindavan
+                          are often considered twin cities (located only 10km
+                          away from each other). Mathura is a small town dotted
+                          with temples from various ages and attracts a horde of
+                          pilgrims from all over the world. One side of Mathura
+                          is stretched across the Yamuna River, lined with 25
+                          ghats. Shri Krishna Janmabhumi is the most famous
+                          tourist attraction in Mathura, as this place is
+                          believed to the be the exact place where Lord Krishna
+                          was born, and the prison where he was born is now on
+                          display for tourists to see.
                         </p>
+                        <hr class="dropdown-divider" />
+                        <h6>Suraksha Score: </h6>
+                        <h6>Swachhata Ratings: ⭐⭐ </h6>
                         <p>
                           <button
                             type="button"
-                            className="btn btn-primary"
+                            className="btn btn-primary mt-2"
                             data-bs-toggle="modal"
                             data-bs-target="#staticBackdrop32"
                           >
@@ -350,13 +464,26 @@ export default function Home() {
                       />
                       <div className="card-body">
                         <h5 className="card-title">Varanasi</h5>
-                        <p className="card-text">
-                          A beautiful place in Kolkata, West Bengal.
+                        <p className="card-text text-truncate">
+                          World's oldest living city, Varanasi - also known as
+                          Kashi (City of Life) and Benaras, is the spiritual
+                          capital of India. It is one of Hinduism's seven holy
+                          cities. The old city of Varanasi lies along the
+                          western banks of the Ganges, spread across a labyrinth
+                          of narrow galis. There's a lot templates to visit but
+                          the Kashi Vishwanath Temple is the most visited temple
+                          in Varanasi. This divine city is also an important
+                          destination for Buddhists. Gautam Buddha preached his
+                          first sermon in Benaras, a part which is now in
+                          Sarnath.
                         </p>
+                        <hr class="dropdown-divider" />
+                        <h6>Suraksha Score: </h6>
+                        <h6>Swachhata Ratings: ⭐⭐ </h6>
                         <p>
                           <button
                             type="button"
-                            className="btn btn-primary"
+                            className="btn btn-primary mt-2"
                             data-bs-toggle="modal"
                             data-bs-target="#staticBackdrop33"
                           >
@@ -405,13 +532,26 @@ export default function Home() {
                       />
                       <div className="card-body">
                         <h5 className="card-title">Haridwar</h5>
-                        <p className="card-text">
-                          A beautiful place in Kolkata, West Bengal.
+                        <p className="card-text text-truncate">
+                          Haridwar is one of the seven holiest cities in India,
+                          situated in Uttarakhand. It is located where the
+                          sacred river Ganga enters the Indo-Gangetic plains for
+                          the first time. Dotted with temples, ashrams and
+                          narrow lanes across the city, Haridwar is a famous
+                          Hindu temple town where millions of devotees come to
+                          take a dip in the holy Ganges. It's believed that
+                          taking a dip in the sacred Har Ki Pauri relieves one
+                          of all the sins. The highlight of Haridwar is the
+                          famous Ganga Aarti held at the Har ki Pauri Ghat every
+                          evening.
                         </p>
+                        <hr class="dropdown-divider" />
+                        <h6>Suraksha Score: </h6>
+                        <h6>Swachhata Ratings: ⭐⭐ </h6>
                         <p>
                           <button
                             type="button"
-                            className="btn btn-primary"
+                            className="btn btn-primary mt-2"
                             data-bs-toggle="modal"
                             data-bs-target="#staticBackdrop41"
                           >
@@ -434,13 +574,27 @@ export default function Home() {
                       />
                       <div className="card-body">
                         <h5 className="card-title">Mussoorie</h5>
-                        <p className="card-text">
-                          A beautiful place in Kolkata, West Bengal.
+                        <p className="card-text text-truncate">
+                          Mussoorie is one of the most popular hill stations
+                          located at a distance of 290 km from Delhi in the
+                          Dehradun district of Uttarakhand. With a backdrop of
+                          the Shivalik range of Himalayas and doon valley,
+                          Mussoorie, also known as Queen of The Hills, stands at
+                          an altitude of 7000 feet above sea level. With a cool
+                          and pleasant climate throughout the year. The British
+                          remnants can be seen in the city in the archaic
+                          architecture of the hotels and churches. One of the
+                          most popular tourist attractions in Mussoorie is The
+                          Mall (also known as the Mall Road). Another major
+                          highlight of Mussoorie is the Ropeway to Gun Hill.
                         </p>
+                        <hr class="dropdown-divider" />
+                        <h6>Suraksha Score: </h6>
+                        <h6>Swachhata Ratings: ⭐⭐ </h6>
                         <p>
                           <button
                             type="button"
-                            className="btn btn-primary"
+                            className="btn btn-primary mt-2"
                             data-bs-toggle="modal"
                             data-bs-target="#staticBackdrop42"
                           >
@@ -464,13 +618,28 @@ export default function Home() {
                       />
                       <div className="card-body">
                         <h5 className="card-title">Rishikesh</h5>
-                        <p className="card-text">
-                          A beautiful place in Kolkata, West Bengal.
+                        <p className="card-text text-truncate">
+                          Located in the foothills of the Himalayas along the
+                          convergence of Ganga and Chandrabhaga River, Rishikesh
+                          is a small town in the Dehradun district, located
+                          close to Haridwar in Uttarakhand. Rishikesh (also
+                          called as Hrishikesh) is known for its adventure
+                          activities, ancient temples, popular cafes and as the
+                          "Yoga Capital of the World". Rishikesh is divided into
+                          two main areas - the downtown area known as Rishikesh
+                          town which is where the popular Triveni Ghat is
+                          situated. 2 km upstream from the popular Ram Jhula and
+                          Lakshman Jhula is the other side of Rishikesh where
+                          most of the popular ashrams, cafes, accommodation and
+                          tourists can be found.
                         </p>
+                        <hr class="dropdown-divider" />
+                        <h6>Suraksha Score: </h6>
+                        <h6>Swachhata Ratings: ⭐⭐ </h6>
                         <p>
                           <button
                             type="button"
-                            className="btn btn-primary"
+                            className="btn btn-primary mt-2"
                             data-bs-toggle="modal"
                             data-bs-target="#staticBackdrop43"
                           >
@@ -518,13 +687,24 @@ export default function Home() {
                       />
                       <div className="card-body">
                         <h5 className="card-title">Darjeeling</h5>
-                        <p className="card-text">
-                          A beautiful place in Kolkata, West Bengal.
+                        <p className="card-text text-truncate">
+                          Darjeeling is one of the most sought after hill
+                          stations in India located in West Bengal. This scenic
+                          hill station is the perfect getaway for a Vacation.
+                          Nestled amidst acres of tea plantations and exciting
+                          toy train ride Darjeeling stands at the height of
+                          2,050 meters above sea level, thus boasting a cool
+                          climate all year round. The third highest peak in the
+                          world and the highest in India, the Kanchenjunga peak,
+                          is visible from here.
                         </p>
+                        <hr class="dropdown-divider" />
+                        <h6>Suraksha Score: </h6>
+                        <h6>Swachhata Ratings: ⭐⭐ </h6>
                         <p>
                           <button
                             type="button"
-                            className="btn btn-primary"
+                            className="btn btn-primary mt-2"
                             data-bs-toggle="modal"
                             data-bs-target="#staticBackdrop51"
                           >
@@ -547,13 +727,21 @@ export default function Home() {
                       />
                       <div className="card-body">
                         <h5 className="card-title">Digha</h5>
-                        <p className="card-text">
-                          A beautiful place in Kolkata, West Bengal.
+                        <p className="card-text text-truncate">
+                          Beach town situated on the shores of Bay of Bengal,
+                          Digha is a popular tourist destination known for its
+                          untouched beaches and scenic views, especially among
+                          people in West Bengal. Digha is a one-stop destination
+                          for families looking forward to spend a pleasurable
+                          weekend.
                         </p>
+                        <hr class="dropdown-divider" />
+                        <h6>Suraksha Score: </h6>
+                        <h6>Swachhata Ratings: ⭐⭐ </h6>
                         <p>
                           <button
                             type="button"
-                            className="btn btn-primary"
+                            className="btn btn-primary mt-2"
                             data-bs-toggle="modal"
                             data-bs-target="#staticBackdrop52"
                           >
@@ -579,13 +767,25 @@ export default function Home() {
                       />
                       <div className="card-body">
                         <h5 className="card-title">Kolkata</h5>
-                        <p className="card-text">
-                          A beautiful place in Kolkata, West Bengal.
+                        <p className="card-text text-truncate">
+                          Kolkata, India's second biggest city, is a perpetually
+                          ongoing festival of human existence, concurrently
+                          luxurious and squalid, refined and frantic, pointedly
+                          futuristic, while beautifully in decay. It has the
+                          glorious Victoria Memorial, holy Ganges, Vidyasagar
+                          Setu, Princep Ghat, Kolkata Museum in its tourist spot
+                          bucket list. Kolkata's streets are artistic, filled
+                          with creativity and liveliness. It's the best place if
+                          you want to experience the beauty of creativity and
+                          art.
                         </p>
+                        <hr class="dropdown-divider" />
+                        <h6>Suraksha Score: </h6>
+                        <h6>Swachhata Ratings: ⭐⭐ </h6>
                         <p>
                           <button
                             type="button"
-                            className="btn btn-primary"
+                            className="btn btn-primary mt-2"
                             data-bs-toggle="modal"
                             data-bs-target="#staticBackdrop53"
                           >
@@ -637,12 +837,36 @@ export default function Home() {
                 className="modalimg mb-3"
               />
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet
-                eveniet quos earum accusantium deserunt! Magnam pariatur enim ab
-                commodi rem earum laboriosam fugit, nesciunt accusantium nulla
-                dolore distinctio. Dicta, consectetur? Lorem ipsum dolor sit
-                amet consectetur adipisicing elit.
+                <h4 className="text-center mb-3">
+                  Baga Beach - "The Home of Nightlife"
+                </h4>
+                <p className="just">
+                  One of the most popular beaches in North Goa, Baga Beach is
+                  located close to Calangute beach, around 30 Km North of
+                  Panjim. Baga is the perfect destination to witness the
+                  dazzling nightlife of Goa as signature places such as
+                  Britto's, Tito's and Mambos are located in the vicinity. Being
+                  one of the most visited beaches in the North, Baga also offers
+                  a vast range of water sports. Lined with an array of tattoo
+                  parlours, tarot shops, palmistry shops, spas, sun decks and
+                  some legendary shacks, it gives you a chance to live out your
+                  perfect beach holiday.
+                </p>
               </p>
+              <hr class="dropdown-divider" />
+              <div className="div row">
+                <div className="div col">
+                  <p>🔴 Overcharging</p>
+                  <p>🟠 Scam</p>
+                  <p>🟡 Tease</p>
+                  <p>🟢 Safety</p>
+                </div>
+
+                <div className="div col">
+                  <h6>Suraksha Score: </h6>
+                  <h6>Swachhata Ratings: ⭐⭐ </h6>
+                </div>
+              </div>
             </div>
             <div className="modal-footer d-flex justify-content-between">
               <p className="text-muted">Updated 2 days ago</p>
@@ -703,12 +927,37 @@ export default function Home() {
                 className="modalimg mb-3"
               />
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet
-                eveniet quos earum accusantium deserunt! Magnam pariatur enim ab
-                commodi rem earum laboriosam fugit, nesciunt accusantium nulla
-                dolore distinctio. Dicta, consectetur? Lorem ipsum dolor sit
-                amet consectetur adipisicing elit.
+                <h4 className="text-center mb-3">Margao</h4>
+                <p className="just">
+                  There are a number of temples and churches in Margao city The
+                  famous churches in Margao are the Holy Spirit Church, the
+                  Grace Church, The St Sebastian Church in Aquem (The Old St.
+                  Sebastian Chapel, popularly known as the Pandava Copel still
+                  stands next to the modern St. Sebastian Church) and the Monte
+                  Hill Chapel. The famous temples are the 'Damodar Temple'
+                  (Saal), the 'Hari Mandir', the 'Maruti Mandir' at Davorlim the
+                  'Saibaba Temple' at Davorlim, the 'Shiv Temple' (Ling) at
+                  Fatorda near Nehru Stadium (which is the original Temple of
+                  Damodara). Pandava Caves Located in Aquem Behind St. Sebestian
+                  Church. There are two mosques in Margao, one in the Malbhat
+                  area and one on the Monte hill. There is also a Jain temple
+                  and a Jama'at Khana for the Khoja faith in Pajifond.
+                </p>
               </p>
+              <hr class="dropdown-divider" />
+              <div className="div row">
+                <div className="div col">
+                  <p>🔴 Overcharging</p>
+                  <p>🟠 Scam</p>
+                  <p>🟡 Tease</p>
+                  <p>🟢 Safety</p>
+                </div>
+
+                <div className="div col">
+                  <h6>Suraksha Score: </h6>
+                  <h6>Swachhata Ratings: ⭐⭐ </h6>
+                </div>
+              </div>
             </div>
             <div className="modal-footer d-flex justify-content-between">
               <p className="text-muted">Updated 2 days ago</p>
@@ -769,12 +1018,40 @@ export default function Home() {
                 className="modalimg mb-3"
               />
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet
-                eveniet quos earum accusantium deserunt! Magnam pariatur enim ab
-                commodi rem earum laboriosam fugit, nesciunt accusantium nulla
-                dolore distinctio. Dicta, consectetur? Lorem ipsum dolor sit
-                amet consectetur adipisicing elit.
+                <h4 className="text-center mb-3">Panaji</h4>
+                <p className="just">
+                  This is the capital of Goa, and the North Goa district. It is
+                  situated on the banks of the river “Mandovi”. It is connected
+                  to the mainland by bridges.Typical of a Goan town, Panaji is
+                  built around a church facing a prominent square. The town has
+                  some beautiful Portuguese Baroque style buildings and
+                  enchanting old villas. The riverside, speckled with brightly
+                  whitewashed houses with wrought iron balconies, offers a fine
+                  view.There are some fine government buildings along the
+                  riverside boulevard, and the Passport Office is especially
+                  noteworthy. In the 16th century, the edifice was the palace of
+                  Adil Shah (the Sultan of Bijapur). The Portuguese took over
+                  the palace and constructed the Viceregal Lodge in 1615.The
+                  Church Square is a fine illustration of the awesome Portuguese
+                  Baroque style. The Church of the Immaculate Conception is
+                  easily one of the most elegant and picturesque monuments in
+                  Goa.{" "}
+                </p>
               </p>
+              <hr class="dropdown-divider" />
+              <div className="div row">
+                <div className="div col">
+                  <p>🔴 Overcharging</p>
+                  <p>🟠 Scam</p>
+                  <p>🟡 Tease</p>
+                  <p>🟢 Safety</p>
+                </div>
+
+                <div className="div col">
+                  <h6>Suraksha Score: </h6>
+                  <h6>Swachhata Ratings: ⭐⭐ </h6>
+                </div>
+              </div>
             </div>
             <div className="modal-footer d-flex justify-content-between">
               <p className="text-muted">Updated 2 days ago</p>
@@ -833,12 +1110,35 @@ export default function Home() {
                 className="modalimg mb-3"
               />
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet
-                eveniet quos earum accusantium deserunt! Magnam pariatur enim ab
-                commodi rem earum laboriosam fugit, nesciunt accusantium nulla
-                dolore distinctio. Dicta, consectetur? Lorem ipsum dolor sit
-                amet consectetur adipisicing elit.
+                <h4 className="text-center mb-3">
+                  Bhubaneswar - "Temple City of India"
+                </h4>
+                <p className="just">
+                  Bhubaneswar, the temple city of India, once known for its
+                  architecture and grand temples, is presently a thriving centre
+                  for commerce and business.Bhubaneshwar is an ancient city
+                  replete with beautiful historic temples which attract pilgrims
+                  and tourists from all over the country. Bhubaneshwar being the
+                  centre for religious tourism has a number of majestic temples
+                  built centuries ago which have still retained their original
+                  over all these years. Among them the Lingaraj temple and the
+                  Parasurameswara temple are must-visits.
+                </p>
               </p>
+              <hr class="dropdown-divider" />
+              <div className="div row">
+                <div className="div col">
+                  <p>🔴 Overcharging</p>
+                  <p>🟠 Scam</p>
+                  <p>🟡 Tease</p>
+                  <p>🟢 Safety</p>
+                </div>
+
+                <div className="div col">
+                  <h6>Suraksha Score: </h6>
+                  <h6>Swachhata Ratings: ⭐⭐ </h6>
+                </div>
+              </div>
             </div>
             <div className="modal-footer d-flex justify-content-between">
               <p className="text-muted">Updated 2 days ago</p>
@@ -897,12 +1197,33 @@ export default function Home() {
                 className="modalimg mb-3"
               />
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet
-                eveniet quos earum accusantium deserunt! Magnam pariatur enim ab
-                commodi rem earum laboriosam fugit, nesciunt accusantium nulla
-                dolore distinctio. Dicta, consectetur? Lorem ipsum dolor sit
-                amet consectetur adipisicing elit.
+                <h4 className="text-center mb-3">
+                  Konark - "The city of the Sun Temple"
+                </h4>
+                <p className="just">
+                  Konark, in the state of Orissa is renowned world over for the
+                  Sun Temple which is also a UNESCO World Heritage Site, the
+                  Annual dance festival and its beautiful sandy beaches.
+                  Konark's Sun Temple is an architectural marvel and is one of
+                  the most beautiful monuments of India. Konark sun temple is
+                  the must visit place in your travel bucket list if you love to
+                  explore the ancient histories.
+                </p>
               </p>
+              <hr class="dropdown-divider" />
+              <div className="div row">
+                <div className="div col">
+                  <p>🔴 Overcharging</p>
+                  <p>🟠 Scam</p>
+                  <p>🟡 Tease</p>
+                  <p>🟢 Safety</p>
+                </div>
+
+                <div className="div col">
+                  <h6>Suraksha Score: </h6>
+                  <h6>Swachhata Ratings: ⭐⭐ </h6>
+                </div>
+              </div>
             </div>
             <div className="modal-footer d-flex justify-content-between">
               <p className="text-muted">Updated 2 days ago</p>
@@ -961,12 +1282,37 @@ export default function Home() {
                 className="modalimg mb-3"
               />
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet
-                eveniet quos earum accusantium deserunt! Magnam pariatur enim ab
-                commodi rem earum laboriosam fugit, nesciunt accusantium nulla
-                dolore distinctio. Dicta, consectetur? Lorem ipsum dolor sit
-                amet consectetur adipisicing elit.
+                <h4 className="text-center mb-3">
+                  Puri - "Rath Yatra and the Beaches"
+                </h4>
+                <p className="just">
+                  Puri in Odisha is one of the four must-visit pilgrimage sites
+                  for Hindus because of Jagannath Temple that forms the part of
+                  Char Dham in India. Puri is a beach city located on the coast
+                  of Bay of Bengal. Known as the resting place of Lord Shiva,
+                  the majestic history and heritage of Puri date back to the 3rd
+                  century B. C. Puri, Konark and Bhubaneshwar complete the
+                  Golden Triangle of Orissa, with their religious significance
+                  and cultural heritage. There are a lot of places near Puri
+                  that one must visit, like the Chilika lake, Dhabal Giri, Uday
+                  Giri, Khanda Giri, Lingaraj Temple, Raghurajpur - the artistic
+                  village.
+                </p>
               </p>
+              <hr class="dropdown-divider" />
+              <div className="div row">
+                <div className="div col">
+                  <p>🔴 Overcharging</p>
+                  <p>🟠 Scam</p>
+                  <p>🟡 Tease</p>
+                  <p>🟢 Safety</p>
+                </div>
+
+                <div className="div col">
+                  <h6>Suraksha Score: </h6>
+                  <h6>Swachhata Ratings: ⭐⭐ </h6>
+                </div>
+              </div>
             </div>
             <div className="modal-footer d-flex justify-content-between">
               <p className="text-muted">Updated 2 days ago</p>
@@ -1025,12 +1371,35 @@ export default function Home() {
                 className="modalimg mb-3"
               />
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet
-                eveniet quos earum accusantium deserunt! Magnam pariatur enim ab
-                commodi rem earum laboriosam fugit, nesciunt accusantium nulla
-                dolore distinctio. Dicta, consectetur? Lorem ipsum dolor sit
-                amet consectetur adipisicing elit.
+                <h4 className="text-center mb-3">
+                  Agra - "The city of Taj Mahal, the monument of eternal love"
+                </h4>
+                <p className="just">
+                  Located on the banks of River Yamuna in Uttar Pradesh, Agra is
+                  a popular tourist destination as it is home to one of the 7
+                  wonders of the world, the Taj Mahal. It is a sneak peek into
+                  the architectural history and legacy of the Mughal empire with
+                  other amazing historical tourists spots Agra Fort, Fatehpur
+                  Sikri, Akbar Tomb, Jama Masjid Agra, Mehtab Bagh, Anguri Bagh,
+                  Taj Museum. History, architecture, romance all together create
+                  the magic of Agra, and makes it a must-visit for anyone living
+                  in or visiting India.
+                </p>
               </p>
+              <hr class="dropdown-divider" />
+              <div className="div row">
+                <div className="div col">
+                  <p>🔴 Overcharging</p>
+                  <p>🟠 Scam</p>
+                  <p>🟡 Tease</p>
+                  <p>🟢 Safety</p>
+                </div>
+
+                <div className="div col">
+                  <h6>Suraksha Score: </h6>
+                  <h6>Swachhata Ratings: ⭐⭐ </h6>
+                </div>
+              </div>
             </div>
             <div className="modal-footer d-flex justify-content-between">
               <p className="text-muted">Updated 2 days ago</p>
@@ -1089,12 +1458,38 @@ export default function Home() {
                 className="modalimg mb-3"
               />
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet
-                eveniet quos earum accusantium deserunt! Magnam pariatur enim ab
-                commodi rem earum laboriosam fugit, nesciunt accusantium nulla
-                dolore distinctio. Dicta, consectetur? Lorem ipsum dolor sit
-                amet consectetur adipisicing elit.
+                <h4 className="text-center mb-3">
+                  Mathura - "The hometown of Lord Krishna"
+                </h4>
+                <p className="just">
+                  One of Hinduism's seven sacred cities, Mathura is the
+                  birthplace of the very beloved Lord Krishna. Located in the
+                  state of Uttar Pradesh, Mathura and Vrindavan are often
+                  considered twin cities (located only 10km away from each
+                  other). Mathura is a small town dotted with temples from
+                  various ages and attracts a horde of pilgrims from all over
+                  the world. One side of Mathura is stretched across the Yamuna
+                  River, lined with 25 ghats. Shri Krishna Janmabhumi is the
+                  most famous tourist attraction in Mathura, as this place is
+                  believed to the be the exact place where Lord Krishna was
+                  born, and the prison where he was born is now on display for
+                  tourists to see.
+                </p>
               </p>
+              <hr class="dropdown-divider" />
+              <div className="div row">
+                <div className="div col">
+                  <p>🔴 Overcharging</p>
+                  <p>🟠 Scam</p>
+                  <p>🟡 Tease</p>
+                  <p>🟢 Safety</p>
+                </div>
+
+                <div className="div col">
+                  <h6>Suraksha Score: </h6>
+                  <h6>Swachhata Ratings: ⭐⭐ </h6>
+                </div>
+              </div>
             </div>
             <div className="modal-footer d-flex justify-content-between">
               <p className="text-muted">Updated 2 days ago</p>
@@ -1153,12 +1548,35 @@ export default function Home() {
                 className="modalimg mb-3"
               />
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet
-                eveniet quos earum accusantium deserunt! Magnam pariatur enim ab
-                commodi rem earum laboriosam fugit, nesciunt accusantium nulla
-                dolore distinctio. Dicta, consectetur? Lorem ipsum dolor sit
-                amet consectetur adipisicing elit.
+                <h4 className="text-center mb-3">
+                  Varanasi - "The Spiritual Capital of India"
+                </h4>
+                <p className="just">
+                  World's oldest living city, Varanasi - also known as Kashi
+                  (City of Life) and Benaras, is the spiritual capital of India.
+                  It is one of Hinduism's seven holy cities. The old city of
+                  Varanasi lies along the western banks of the Ganges, spread
+                  across a labyrinth of narrow galis. There's a lot templates to
+                  visit but the Kashi Vishwanath Temple is the most visited
+                  temple in Varanasi. This divine city is also an important
+                  destination for Buddhists. Gautam Buddha preached his first
+                  sermon in Benaras, a part which is now in Sarnath.
+                </p>
               </p>
+              <hr class="dropdown-divider" />
+              <div className="div row">
+                <div className="div col">
+                  <p>🔴 Overcharging</p>
+                  <p>🟠 Scam</p>
+                  <p>🟡 Tease</p>
+                  <p>🟢 Safety</p>
+                </div>
+
+                <div className="div col">
+                  <h6>Suraksha Score: </h6>
+                  <h6>Swachhata Ratings: ⭐⭐ </h6>
+                </div>
+              </div>
             </div>
             <div className="modal-footer d-flex justify-content-between">
               <p className="text-muted">Updated 2 days ago</p>
@@ -1217,12 +1635,35 @@ export default function Home() {
                 className="modalimg mb-3"
               />
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet
-                eveniet quos earum accusantium deserunt! Magnam pariatur enim ab
-                commodi rem earum laboriosam fugit, nesciunt accusantium nulla
-                dolore distinctio. Dicta, consectetur? Lorem ipsum dolor sit
-                amet consectetur adipisicing elit.
+                <h4 className="text-center mb-3">
+                  Haridwar - "Gateway to God"
+                </h4>
+                <p className="just">
+                  Haridwar is one of the seven holiest cities in India, situated
+                  in Uttarakhand. It is located where the sacred river Ganga
+                  enters the Indo-Gangetic plains for the first time. Dotted
+                  with temples, ashrams and narrow lanes across the city,
+                  Haridwar is a famous Hindu temple town where millions of
+                  devotees come to take a dip in the holy Ganges. It's believed
+                  that taking a dip in the sacred Har Ki Pauri relieves one of
+                  all the sins. The highlight of Haridwar is the famous Ganga
+                  Aarti held at the Har ki Pauri Ghat every evening.
+                </p>
               </p>
+              <hr class="dropdown-divider" />
+              <div className="div row">
+                <div className="div col">
+                  <p>🔴 Overcharging</p>
+                  <p>🟠 Scam</p>
+                  <p>🟡 Tease</p>
+                  <p>🟢 Safety</p>
+                </div>
+
+                <div className="div col">
+                  <h6>Suraksha Score: </h6>
+                  <h6>Swachhata Ratings: ⭐⭐ </h6>
+                </div>
+              </div>
             </div>
             <div className="modal-footer d-flex justify-content-between">
               <p className="text-muted">Updated 2 days ago</p>
@@ -1281,12 +1722,37 @@ export default function Home() {
                 className="modalimg mb-3"
               />
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet
-                eveniet quos earum accusantium deserunt! Magnam pariatur enim ab
-                commodi rem earum laboriosam fugit, nesciunt accusantium nulla
-                dolore distinctio. Dicta, consectetur? Lorem ipsum dolor sit
-                amet consectetur adipisicing elit.
+                <h4 className="text-center mb-3">
+                  Mussoorie - "The queen of hill-stations"
+                </h4>
+                <p className="just">
+                  Mussoorie is one of the most popular hill stations located at
+                  a distance of 290 km from Delhi in the Dehradun district of
+                  Uttarakhand. With a backdrop of the Shivalik range of
+                  Himalayas and doon valley, Mussoorie, also known as Queen of
+                  The Hills, stands at an altitude of 7000 feet above sea level.
+                  With a cool and pleasant climate throughout the year. The
+                  British remnants can be seen in the city in the archaic
+                  architecture of the hotels and churches. One of the most
+                  popular tourist attractions in Mussoorie is The Mall (also
+                  known as the Mall Road). Another major highlight of Mussoorie
+                  is the Ropeway to Gun Hill.
+                </p>
               </p>
+              <hr class="dropdown-divider" />
+              <div className="div row">
+                <div className="div col">
+                  <p>🔴 Overcharging</p>
+                  <p>🟠 Scam</p>
+                  <p>🟡 Tease</p>
+                  <p>🟢 Safety</p>
+                </div>
+
+                <div className="div col">
+                  <h6>Suraksha Score: </h6>
+                  <h6>Swachhata Ratings: ⭐⭐ </h6>
+                </div>
+              </div>
             </div>
             <div className="modal-footer d-flex justify-content-between">
               <p className="text-muted">Updated 2 days ago</p>
@@ -1345,12 +1811,37 @@ export default function Home() {
                 className="modalimg mb-3"
               />
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet
-                eveniet quos earum accusantium deserunt! Magnam pariatur enim ab
-                commodi rem earum laboriosam fugit, nesciunt accusantium nulla
-                dolore distinctio. Dicta, consectetur? Lorem ipsum dolor sit
-                amet consectetur adipisicing elit.
+                <h4 className="text-center mb-3">
+                  Rishikesh - "Yoga Capital of the World"
+                </h4>
+                <p className="just">
+                  Located in the foothills of the Himalayas along the
+                  convergence of Ganga and Chandrabhaga River, Rishikesh is a
+                  small town in the Dehradun district, located close to Haridwar
+                  in Uttarakhand. Rishikesh (also called as Hrishikesh) is known
+                  for its adventure activities, ancient temples, popular cafes
+                  and as the "Yoga Capital of the World". Rishikesh is divided
+                  into two main areas - the downtown area known as Rishikesh
+                  town which is where the popular Triveni Ghat is situated. 2 km
+                  upstream from the popular Ram Jhula and Lakshman Jhula is the
+                  other side of Rishikesh where most of the popular ashrams,
+                  cafes, accommodation and tourists can be found.
+                </p>
               </p>
+              <hr class="dropdown-divider" />
+              <div className="div row">
+                <div className="div col">
+                  <p>🔴 Overcharging</p>
+                  <p>🟠 Scam</p>
+                  <p>🟡 Tease</p>
+                  <p>🟢 Safety</p>
+                </div>
+
+                <div className="div col">
+                  <h6>Suraksha Score: </h6>
+                  <h6>Swachhata Ratings: ⭐⭐ </h6>
+                </div>
+              </div>
             </div>
             <div className="modal-footer d-flex justify-content-between">
               <p className="text-muted">Updated 2 days ago</p>
@@ -1409,12 +1900,34 @@ export default function Home() {
                 className="modalimg mb-3"
               />
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet
-                eveniet quos earum accusantium deserunt! Magnam pariatur enim ab
-                commodi rem earum laboriosam fugit, nesciunt accusantium nulla
-                dolore distinctio. Dicta, consectetur? Lorem ipsum dolor sit
-                amet consectetur adipisicing elit.
+                <h4 className="text-center mb-3">
+                  Darjeeling - "Queen of The Himalayas"
+                </h4>
+                <p className="just">
+                  Darjeeling is one of the most sought after hill stations in
+                  India located in West Bengal. This scenic hill station is the
+                  perfect getaway for a Vacation. Nestled amidst acres of tea
+                  plantations and exciting toy train ride Darjeeling stands at
+                  the height of 2,050 meters above sea level, thus boasting a
+                  cool climate all year round. The third highest peak in the
+                  world and the highest in India, the Kanchenjunga peak, is
+                  visible from here.
+                </p>
               </p>
+              <hr class="dropdown-divider" />
+              <div className="div row">
+                <div className="div col">
+                  <p>🔴 Overcharging</p>
+                  <p>🟠 Scam</p>
+                  <p>🟡 Tease</p>
+                  <p>🟢 Safety</p>
+                </div>
+
+                <div className="div col">
+                  <h6>Suraksha Score: </h6>
+                  <h6>Swachhata Ratings: ⭐⭐ </h6>
+                </div>
+              </div>
             </div>
             <div className="modal-footer d-flex justify-content-between">
               <p className="text-muted">Updated 2 days ago</p>
@@ -1473,12 +1986,31 @@ export default function Home() {
                 className="modalimg mb-3"
               />
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet
-                eveniet quos earum accusantium deserunt! Magnam pariatur enim ab
-                commodi rem earum laboriosam fugit, nesciunt accusantium nulla
-                dolore distinctio. Dicta, consectetur? Lorem ipsum dolor sit
-                amet consectetur adipisicing elit.
+                <h4 className="text-center mb-3">
+                  Digha - "A blissful and untouched beach town"
+                </h4>
+                <p className="just">
+                  Beach town situated on the shores of Bay of Bengal, Digha is a
+                  popular tourist destination known for its untouched beaches
+                  and scenic views, especially among people in West Bengal.
+                  Digha is a one-stop destination for families looking forward
+                  to spend a pleasurable weekend.
+                </p>
               </p>
+              <hr class="dropdown-divider" />
+              <div className="div row">
+                <div className="div col">
+                  <p>🔴 Overcharging</p>
+                  <p>🟠 Scam</p>
+                  <p>🟡 Tease</p>
+                  <p>🟢 Safety</p>
+                </div>
+
+                <div className="div col">
+                  <h6>Suraksha Score: </h6>
+                  <h6>Swachhata Ratings: ⭐⭐ </h6>
+                </div>
+              </div>
             </div>
             <div className="modal-footer d-flex justify-content-between">
               <p className="text-muted">Updated 2 days ago</p>
@@ -1537,12 +2069,34 @@ export default function Home() {
                 className="modalimg mb-3"
               />
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet
-                eveniet quos earum accusantium deserunt! Magnam pariatur enim ab
-                commodi rem earum laboriosam fugit, nesciunt accusantium nulla
-                dolore distinctio. Dicta, consectetur? Lorem ipsum dolor sit
-                amet consectetur adipisicing elit.
+                <h4 className="text-center mb-3">
+                  Kolkata - "The City of Joy"
+                </h4>
+                <p className="just">
+                  Kolkata, India's second biggest city, is a perpetually ongoing
+                  festival of human existence, concurrently luxurious and
+                  squalid, refined and frantic, pointedly futuristic, while
+                  beautifully in decay. It has the glorious Victoria Memorial,
+                  holy Ganges, Vidyasagar Setu, Princep Ghat, Kolkata Museum in
+                  its tourist spot bucket list. Kolkata's streets are artistic,
+                  filled with creativity and liveliness. It's the best place if
+                  you want to experience the beauty of creativity and art.
+                </p>
               </p>
+              <hr class="dropdown-divider" />
+              <div className="div row">
+                <div className="div col">
+                  <p>🔴 Overcharging</p>
+                  <p>🟠 Scam</p>
+                  <p>🟡 Tease</p>
+                  <p>🟢 Safety</p>
+                </div>
+
+                <div className="div col">
+                  <h6>Suraksha Score: </h6>
+                  <h6>Swachhata Ratings: ⭐⭐ </h6>
+                </div>
+              </div>
             </div>
             <div className="modal-footer d-flex justify-content-between">
               <p className="text-muted">Updated 2 days ago</p>

@@ -23,53 +23,80 @@ export default function Navbar() {
           </button>
 
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul className="navbar-nav mr-auto ">
+            <ul className="navbar-nav  nav justify-content-left mr-auto ">
               <li className="nav-item active">
                 <Link className="nav-link" aria-current="page" to="/">
-                  Home
+                  <p className="text-center">
+                    Home
+                    <br />
+                    मुख पृष्ठ
+                  </p>
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="about">
+                  <p className="text-center">
+                    About Us
+                    <br />
+                    हमारे बारे में
+                  </p>
                 </Link>
               </li>
               <li className="nav-item">
                 <Link className="nav-link" to="updates">
-                  Updates
+                  <p className="text-center">
+                    Latest News
+                    <br />
+                    नवीनतम
+                  </p>
                 </Link>
               </li>
 
               <li className="nav-item">
                 <Link className="nav-link" to="contribute">
-                  Contribute
+                  <p className="text-center">
+                    Travelogue
+                    <br />
+                    सफ़रनामा
+                  </p>
                 </Link>
               </li>
-            </ul>
+              <li className="nav-item">
+                <Link className="nav-link" to="/">
+                  <p
+                    className="text-center"
+                    data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasWithBothOptions"
+                    aria-controls="offcanvasWithBothOptions"
+                  >
+                    Helpline
+                    <br />
+                    हेल्पलाइन
+                  </p>
+                </Link>
+              </li>
 
-            <form className="form-inline my-2 my-lg-0 d-flex justify-content-between col-md-4">
-              <input
-                className="form-control mr-sm-2 mx-2"
-                type="search"
-                placeholder="Search"
-                aria-label="Search"
-              />
-              <button
-                className="btn btn-outline-primary my-2 my-sm-0"
-                type="submit"
-              >
-                Search
-              </button>
-            </form>
-            <li className="nav-item">
-              <button
-                className="btn btn-primary"
-                type="button"
-                data-bs-toggle="offcanvas"
-                data-bs-target="#offcanvasWithBothOptions"
-                aria-controls="offcanvasWithBothOptions"
-              >
-                <i className="fa-solid fa-hand-holding-hand"></i> &nbsp;Helpline
-              </button>
-            </li>
+              <li className="nav-item searchbar">
+                <form className="form-inline my-2 my-lg-0 d-flex justify-content-between col-md-4">
+                  <input
+                    className="form-control mr-sm-2 mx-2 search"
+                    type="search"
+                    placeholder="Search"
+                    aria-label="Search"
+                  />
+                  <button
+                    className="btn btn-outline-primary my-2 my-sm-0"
+                    type="submit"
+                  >
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                  </button>
+                </form>
+              </li>
+            </ul>
           </div>
         </div>
       </nav>
+
       {/* Start */}
 
       <div

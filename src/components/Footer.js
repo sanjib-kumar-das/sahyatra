@@ -43,7 +43,7 @@ export default function Footer() {
           <div className="container text-center text-md-start mt-4">
             <div className="row mt-4">
               <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4 mt-4">
-                <h6 className="text-uppercase fw-bold">SAHyatra</h6>
+                <h6 className=" fw-bold">SAHyatra</h6>
                 <hr className="mb-4 mt-0 d-inline-block mx-auto hr1" />
                 <p className="text-dark">
                   Security Application for Hassle-free travel
