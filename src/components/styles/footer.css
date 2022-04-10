@@ -18,7 +18,7 @@ footer {
 } */
 
 .hr1 {
-  width: 85px;
+  width: 80px;
   /* background-color: #48c54e; */
   height: 2px;
 }
@@ -39,4 +39,28 @@ footer {
 }
 .fab {
   --fa-animation-duration: 3s;
+  border-radius: 50%;
+}
+
+.fa-facebook {
+  color: #3b5998;
+  background: white;
+}
+
+.fa-twitter {
+  color: #1d9bf0;
+}
+
+.fa-linkedin {
+  color: #0a66c2;
+  background: white;
+}
+
+.fa-youtube {
+  color: #ff0000;
+  background: white;
+}
+
+.just {
+  text-align: justify;
 }

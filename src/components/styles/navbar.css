@@ -18,3 +18,32 @@ Link {
 a {
   text-decoration: none;
 }
+.hlp {
+  margin-top: 1.4rem;
+  cursor: pointer;
+}
+
+.search {
+  width: 17rem;
+}
+
+.searchbar {
+  margin-top: 1.7rem;
+}
+
+.nav-item {
+  padding-left: 0.3rem;
+}
+
+li {
+  margin-top: 0.7rem;
+}
+
+.navbar-brand {
+  margin: 0;
+  padding: 0;
+}
+
+.fab1 {
+  --fa-animation-duration: 2s;
+}

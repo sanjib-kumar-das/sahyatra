@@ -2,8 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./styles/footer.css";
 import "./Home";
-import "./Updates";
-import "./Contribute";
+import "./LatestNews";
+import "./Travelogue";
 
 export default function Footer() {
   return (
@@ -11,29 +11,49 @@ export default function Footer() {
       <footer className="text-center text-lg-start text-dark">
         <section className="d-flex justify-content-between p-4 bg-light text-dark">
           <div className="me-5">
-            <span>Around social media platforms:</span>
+            <span>Be our SAHyatri </span>
           </div>
 
           <div>
-            <a href="/" className="text-dark me-4">
-              <i className="fab fa-facebook-f fa-flip"></i>
+            <a
+              href="https://www.facebook.com/SAHyatra-101525415857068"
+              target="_blank"
+              rel="noreferrer"
+              className="text-dark me-4"
+            >
+              <i className="fab fa-facebook fa-flip"></i>
             </a>
-            <a href="/" className="text-dark me-4">
+            <a
+              href="https://twitter.com/SAH_yatra"
+              target="_blank"
+              rel="noreferrer"
+              className="text-dark me-4"
+            >
               <i className="fab fa-twitter fa-flip"></i>
             </a>
-            <a href="/" className="text-dark me-4">
-              <i className="fab fa-google fa-flip"></i>
-            </a>
-            <a href="/" className="text-dark me-4">
-              <i className="fab fa-instagram fa-flip"></i>
-            </a>
-            <a href="/" className="text-dark me-4">
+
+            <a
+              href="https://bit.ly/3tEtatE"
+              target="_blank"
+              rel="noreferrer"
+              className="text-dark me-4"
+            >
               <i className="fab fa-linkedin fa-flip"></i>
             </a>
-            <a href="/" className="text-dark me-4">
+            <a
+              href="https://bit.ly/3iFCffm"
+              target="_blank"
+              rel="noreferrer"
+              className="text-dark me-4"
+            >
               <i className="fab fa-github fa-flip"></i>
             </a>
-            <a href="/" className="text-dark me-4">
+            <a
+              href="https://bit.ly/3qFvDlv"
+              target="_blank"
+              rel="noreferrer"
+              className="text-dark me-4"
+            >
               <i className="fab fa-youtube fa-flip"></i>
             </a>
           </div>
@@ -46,7 +66,24 @@ export default function Footer() {
                 <h6 className=" fw-bold">SAHyatra</h6>
                 <hr className="mb-4 mt-0 d-inline-block mx-auto hr1" />
                 <p className="text-dark">
-                  Security Application for Hassle-free travel
+                  <p className="just">
+                    SAHyatra: Security Application for Hassle-free Travel, aims
+                    to revolutionize the tourism industry by earmarking the
+                    safety and security standards of tourist destinations and
+                    meets two-fold objectives:
+                  </p>
+                  <ul>
+                    <li>Travel Recommendation System</li>
+                    <li>Grievance Monitoring System</li>
+                  </ul>
+                  <p className="just">
+                    Three crucial performance metrics include:
+                  </p>
+                  <ul>
+                    <li>Suraksha Score</li>
+                    <li>Swachhta Ratings</li>
+                    <li>Savdhaan Meter</li>
+                  </ul>
                 </p>
               </div>
 
@@ -68,7 +105,7 @@ export default function Footer() {
                     href="https://www.linkedin.com/in/barna-debnath-5655b0205/"
                     target="_blank"
                     rel="noreferrer"
-                    className="text-dark"
+                    className="text-dark "
                   >
                     Barna Debnath
                   </a>
@@ -130,18 +167,42 @@ export default function Footer() {
                 <hr className="mb-4 mt-0 d-inline-block mx-auto hr3" />
                 <p>
                   <Link to="/" className="text-dark">
-                    Home
+                    Home / मुख पृष्ठ
                   </Link>
                 </p>
                 <p>
-                  <Link to="/updates" className="text-dark">
-                    Updates
+                  <Link to="/about" className="text-dark">
+                    About Us / हमारे बारे में
                   </Link>
                 </p>
                 <p>
-                  <Link to="/contribute" className="text-dark">
-                    Contribute
+                  <Link to="/latestnews" className="text-dark">
+                    Latest News / नवीनतम
                   </Link>
+                </p>
+                <p>
+                  <Link to="/travelogue" className="text-dark">
+                    Travelogue / सफ़रनामा
+                  </Link>
+                </p>
+                <p>
+                  <Link
+                    to="?"
+                    className="text-dark"
+                    data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasWithBothOptions"
+                    aria-controls="offcanvasWithBothOptions"
+                  >
+                    Helpline / हेल्पलाइन
+                  </Link>
+                </p>
+                {/* Chatbot */}
+                <h6 className="fw-bold mt-4">YatraMon</h6>
+                <hr className="mb-4 mt-0 d-inline-block mx-auto hr2" />
+                <p className="just">
+                  YatraMon - Your Safe and Secure Travel AI Assistance to guide
+                  you through any kind of doubts and assistance you need during
+                  your journey.
                 </p>
               </div>
 
@@ -204,7 +265,7 @@ export default function Footer() {
         <div className="text-center p-3 bg-muted text-muted">
           © 2022 Copyright: &nbsp;
           <a className="text-muted" href="/">
-            Team UDVABAN
+            UDVABAN
           </a>
         </div>
       </footer>

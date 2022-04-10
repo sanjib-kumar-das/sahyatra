@@ -1,4 +1,4 @@
-import "./styles/contribute.css";
+import "./styles/travelogue.css";
 import React from "react";
 
 export default function Chatbot() {

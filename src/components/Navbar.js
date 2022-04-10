@@ -1,13 +1,15 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./styles/navbar.css";
+import navpic from "./images/SAH_Logo.png";
 
 export default function Navbar() {
   return (
     <>
       <nav className="navbar navbar-expand-lg navbar-dark bg-gradient bg-dark ">
         <div className="container-fluid">
-          <Link className="navbar-brand col-md-2 text-center" to="/">
+          <img src={navpic} alt="" height="80" width="80" />
+          <Link className="navbar-brand col-md-1 mx-3 text-center" to="/">
             SAHyatra
           </Link>
           <button
@@ -23,7 +25,7 @@ export default function Navbar() {
           </button>
 
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul className="navbar-nav  nav justify-content-left mr-auto ">
+            <ul className="navbar-nav  nav justify-content-left mr-auto mx-2 ">
               <li className="nav-item active">
                 <Link className="nav-link" aria-current="page" to="/">
                   <p className="text-center">
@@ -43,7 +45,7 @@ export default function Navbar() {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="updates">
+                <Link className="nav-link" to="latestnews">
                   <p className="text-center">
                     Latest News
                     <br />
@@ -53,7 +55,7 @@ export default function Navbar() {
               </li>
 
               <li className="nav-item">
-                <Link className="nav-link" to="contribute">
+                <Link className="nav-link" to="travelogue">
                   <p className="text-center">
                     Travelogue
                     <br />
@@ -62,9 +64,9 @@ export default function Navbar() {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/">
+                <Link className="nav-link" to="?">
                   <p
-                    className="text-center"
+                    className="text-center fa-beat text-warning fab1"
                     data-bs-toggle="offcanvas"
                     data-bs-target="#offcanvasWithBothOptions"
                     aria-controls="offcanvasWithBothOptions"
@@ -88,7 +90,7 @@ export default function Navbar() {
                     className="btn btn-outline-primary my-2 my-sm-0"
                     type="submit"
                   >
-                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <i className="fa-solid fa-magnifying-glass"></i>
                   </button>
                 </form>
               </li>

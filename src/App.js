@@ -3,8 +3,8 @@ import ScrollToTop from "./components/ScrollToTop";
 import Navbar from "./components/Navbar";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./components/Home";
-import Contribute from "./components/Contribute";
-import Updates from "./components/Updates";
+import Travelogue from "./components/Travelogue";
+import LatestNews from "./components/LatestNews";
 import Chatbot from "./components/Chatbot";
 import Footer from "./components/Footer";
 import Error from "./components/Error";
@@ -22,13 +22,13 @@ function App() {
           <Route exact path="about" element={<About key="about" />}></Route>
           <Route
             exact
-            path="updates"
-            element={<Updates key="updates" />}
+            path="latestnews"
+            element={<LatestNews key="latestnews" />}
           ></Route>
           <Route
             exact
-            path="contribute"
-            element={<Contribute key="contribute" />}
+            path="travelogue"
+            element={<Travelogue key="travelogue" />}
           ></Route>
           <Route path="*" element={<Error />}></Route>
         </Routes>

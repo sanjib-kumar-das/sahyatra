@@ -64,9 +64,9 @@ export default function Home() {
                           legendary shacks, it gives you a chance to live out
                           your perfect beach holiday.
                         </p>
-                        <hr class="dropdown-divider" />
-                        <h6>Suraksha Score: </h6>
-                        <h6>Swachhata Ratings: ⭐⭐ </h6>
+                        <hr className="dropdown-divider" />
+                        <h6>Suraksha Score: 4.6 / 5</h6>
+                        <h6>Swachhta Ratings: ⭐⭐⭐⭐ </h6>
                         <p>
                           <button
                             type="button"
@@ -112,9 +112,9 @@ export default function Home() {
                           hill. There is also a Jain temple and a Jama'at Khana
                           for the Khoja faith in Pajifond.
                         </p>
-                        <hr class="dropdown-divider" />
-                        <h6>Suraksha Score: </h6>
-                        <h6>Swachhata Ratings: ⭐⭐ </h6>
+                        <hr className="dropdown-divider" />
+                        <h6>Suraksha Score: 4.5 / 6</h6>
+                        <h6>Swachhta Ratings: ⭐⭐⭐ </h6>
 
                         <p>
                           <button
@@ -165,9 +165,9 @@ export default function Home() {
                           Immaculate Conception is easily one of the most
                           elegant and picturesque monuments in Goa.
                         </p>
-                        <hr class="dropdown-divider" />
-                        <h6>Suraksha Score: </h6>
-                        <h6>Swachhata Ratings: ⭐⭐ </h6>
+                        <hr className="dropdown-divider" />
+                        <h6>Suraksha Score: 4.7 / 5</h6>
+                        <h6>Swachhta Ratings: ⭐⭐⭐⭐ </h6>
                         <p>
                           <button
                             type="button"
@@ -233,9 +233,9 @@ export default function Home() {
                           original over all these years. Among them the Lingaraj
                           temple and the Parasurameswara temple are must-visits.
                         </p>
-                        <hr class="dropdown-divider" />
-                        <h6>Suraksha Score: </h6>
-                        <h6>Swachhata Ratings: ⭐⭐ </h6>
+                        <hr className="dropdown-divider" />
+                        <h6>Suraksha Score: 4.25 / 5</h6>
+                        <h6>Swachhta Ratings: ⭐⭐⭐⭐ </h6>
                         <p>
                           <button
                             type="button"
@@ -274,9 +274,9 @@ export default function Home() {
                           visit place in your travel bucket list if you love to
                           explore the ancient histories.
                         </p>
-                        <hr class="dropdown-divider" />
-                        <h6>Suraksha Score: </h6>
-                        <h6>Swachhata Ratings: ⭐⭐ </h6>
+                        <hr className="dropdown-divider" />
+                        <h6>Suraksha Score: 3.8 / 5</h6>
+                        <h6>Swachhta Ratings: ⭐⭐⭐ </h6>
                         <p>
                           <button
                             type="button"
@@ -320,9 +320,9 @@ export default function Home() {
                           lake, Dhabal Giri, Uday Giri, Khanda Giri, Lingaraj
                           Temple, Raghurajpur - the artistic village.
                         </p>
-                        <hr class="dropdown-divider" />
-                        <h6>Suraksha Score: </h6>
-                        <h6>Swachhata Ratings: ⭐⭐ </h6>
+                        <hr className="dropdown-divider" />
+                        <h6>Suraksha Score: 4 / 5</h6>
+                        <h6>Swachhta Ratings: ⭐⭐⭐ </h6>
                         <p>
                           <button
                             type="button"
@@ -389,9 +389,9 @@ export default function Home() {
                           together create the magic of Agra, and makes it a
                           must-visit for anyone living in or visiting India.
                         </p>
-                        <hr class="dropdown-divider" />
-                        <h6>Suraksha Score: </h6>
-                        <h6>Swachhata Ratings: ⭐⭐ </h6>
+                        <hr className="dropdown-divider" />
+                        <h6>Suraksha Score: 3.5 / 5</h6>
+                        <h6>Swachhta Ratings: ⭐⭐⭐ </h6>
                         <p>
                           <button
                             type="button"
@@ -435,9 +435,9 @@ export default function Home() {
                           was born, and the prison where he was born is now on
                           display for tourists to see.
                         </p>
-                        <hr class="dropdown-divider" />
-                        <h6>Suraksha Score: </h6>
-                        <h6>Swachhata Ratings: ⭐⭐ </h6>
+                        <hr className="dropdown-divider" />
+                        <h6>Suraksha Score: 3.2 / 5</h6>
+                        <h6>Swachhta Ratings: ⭐⭐⭐⭐ </h6>
                         <p>
                           <button
                             type="button"
@@ -477,9 +477,9 @@ export default function Home() {
                           first sermon in Benaras, a part which is now in
                           Sarnath.
                         </p>
-                        <hr class="dropdown-divider" />
-                        <h6>Suraksha Score: </h6>
-                        <h6>Swachhata Ratings: ⭐⭐ </h6>
+                        <hr className="dropdown-divider" />
+                        <h6>Suraksha Score: 3 / 5</h6>
+                        <h6>Swachhta Ratings: ⭐⭐ </h6>
                         <p>
                           <button
                             type="button"
@@ -545,9 +545,9 @@ export default function Home() {
                           famous Ganga Aarti held at the Har ki Pauri Ghat every
                           evening.
                         </p>
-                        <hr class="dropdown-divider" />
-                        <h6>Suraksha Score: </h6>
-                        <h6>Swachhata Ratings: ⭐⭐ </h6>
+                        <hr className="dropdown-divider" />
+                        <h6>Suraksha Score: 4 / 5</h6>
+                        <h6>Swachhta Ratings: ⭐⭐⭐ </h6>
                         <p>
                           <button
                             type="button"
@@ -588,9 +588,9 @@ export default function Home() {
                           Mall (also known as the Mall Road). Another major
                           highlight of Mussoorie is the Ropeway to Gun Hill.
                         </p>
-                        <hr class="dropdown-divider" />
-                        <h6>Suraksha Score: </h6>
-                        <h6>Swachhata Ratings: ⭐⭐ </h6>
+                        <hr className="dropdown-divider" />
+                        <h6>Suraksha Score: 4.75 / 5</h6>
+                        <h6>Swachhta Ratings: ⭐⭐⭐⭐ </h6>
                         <p>
                           <button
                             type="button"
@@ -633,9 +633,9 @@ export default function Home() {
                           most of the popular ashrams, cafes, accommodation and
                           tourists can be found.
                         </p>
-                        <hr class="dropdown-divider" />
-                        <h6>Suraksha Score: </h6>
-                        <h6>Swachhata Ratings: ⭐⭐ </h6>
+                        <hr className="dropdown-divider" />
+                        <h6>Suraksha Score: 4.1 / 5</h6>
+                        <h6>Swachhta Ratings: ⭐⭐⭐⭐ </h6>
                         <p>
                           <button
                             type="button"
@@ -698,9 +698,9 @@ export default function Home() {
                           world and the highest in India, the Kanchenjunga peak,
                           is visible from here.
                         </p>
-                        <hr class="dropdown-divider" />
-                        <h6>Suraksha Score: </h6>
-                        <h6>Swachhata Ratings: ⭐⭐ </h6>
+                        <hr className="dropdown-divider" />
+                        <h6>Suraksha Score: 4.6 / 5</h6>
+                        <h6>Swachhta Ratings: ⭐⭐⭐⭐ </h6>
                         <p>
                           <button
                             type="button"
@@ -735,9 +735,9 @@ export default function Home() {
                           for families looking forward to spend a pleasurable
                           weekend.
                         </p>
-                        <hr class="dropdown-divider" />
-                        <h6>Suraksha Score: </h6>
-                        <h6>Swachhata Ratings: ⭐⭐ </h6>
+                        <hr className="dropdown-divider" />
+                        <h6>Suraksha Score: 4 / 5</h6>
+                        <h6>Swachhta Ratings: ⭐⭐⭐⭐ </h6>
                         <p>
                           <button
                             type="button"
@@ -779,9 +779,9 @@ export default function Home() {
                           you want to experience the beauty of creativity and
                           art.
                         </p>
-                        <hr class="dropdown-divider" />
-                        <h6>Suraksha Score: </h6>
-                        <h6>Swachhata Ratings: ⭐⭐ </h6>
+                        <hr className="dropdown-divider" />
+                        <h6>Suraksha Score: 4.5 / 5</h6>
+                        <h6>Swachhta Ratings: ⭐⭐⭐ </h6>
                         <p>
                           <button
                             type="button"
@@ -853,9 +853,10 @@ export default function Home() {
                   perfect beach holiday.
                 </p>
               </p>
-              <hr class="dropdown-divider" />
+              <hr className="dropdown-divider" />
               <div className="div row">
                 <div className="div col">
+                  <h6>Savdhaan Meter: </h6>
                   <p>🔴 Overcharging</p>
                   <p>🟠 Scam</p>
                   <p>🟡 Tease</p>
@@ -863,8 +864,13 @@ export default function Home() {
                 </div>
 
                 <div className="div col">
-                  <h6>Suraksha Score: </h6>
-                  <h6>Swachhata Ratings: ⭐⭐ </h6>
+                  <h6>
+                    Suraksha Score: <br /> 4.6 / 5
+                  </h6>
+                  <p className="gap"></p>
+                  <h6>
+                    Swachhta Ratings: <br /> ⭐⭐⭐⭐
+                  </h6>
                 </div>
               </div>
             </div>
@@ -873,21 +879,26 @@ export default function Home() {
               <div className="div">
                 <button
                   type="button"
-                  className="btn btn-primary"
+                  className="btn btn-primary position-relative"
                   onClick={() => setCounter1((prevCount) => prevCount + 1)}
                 >
                   <i className="fa-solid fa-thumbs-up"></i>
+                  <span className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                    {counter1}
+                  </span>
                 </button>
-                &nbsp;{counter1}
-                &nbsp;&nbsp;
+                &nbsp; &nbsp;&nbsp;
                 <button
                   type="button"
-                  className="btn btn-secondary"
+                  className="btn btn-secondary position-relative"
                   onClick={() => setCounter2((prevCount) => prevCount + 1)}
                 >
                   <i className="fa-solid fa-thumbs-down"></i>
+                  <span className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                    {counter2}
+                  </span>
                 </button>
-                &nbsp;{counter2}
+                &nbsp;
               </div>
             </div>
           </div>
@@ -944,9 +955,10 @@ export default function Home() {
                   and a Jama'at Khana for the Khoja faith in Pajifond.
                 </p>
               </p>
-              <hr class="dropdown-divider" />
+              <hr className="dropdown-divider" />
               <div className="div row">
                 <div className="div col">
+                  <h6>Savdhaan Meter:</h6>
                   <p>🔴 Overcharging</p>
                   <p>🟠 Scam</p>
                   <p>🟡 Tease</p>
@@ -954,8 +966,15 @@ export default function Home() {
                 </div>
 
                 <div className="div col">
-                  <h6>Suraksha Score: </h6>
-                  <h6>Swachhata Ratings: ⭐⭐ </h6>
+                  <h6>
+                    Suraksha Score:
+                    <br /> 4.5 / 5{" "}
+                  </h6>
+                  <p className="gap"></p>
+                  <h6>
+                    Swachhta Ratings:
+                    <br /> ⭐⭐⭐{" "}
+                  </h6>
                 </div>
               </div>
             </div>
@@ -964,21 +983,26 @@ export default function Home() {
               <div className="div">
                 <button
                   type="button"
-                  className="btn btn-primary"
+                  className="btn btn-primary position-relative"
                   onClick={() => setCounter1((prevCount) => prevCount + 1)}
                 >
                   <i className="fa-solid fa-thumbs-up"></i>
+                  <span className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                    {counter1}
+                  </span>
                 </button>
-                &nbsp;{counter1}
-                &nbsp;&nbsp;
+                &nbsp; &nbsp;&nbsp;
                 <button
                   type="button"
-                  className="btn btn-secondary"
+                  className="btn btn-secondary position-relative"
                   onClick={() => setCounter2((prevCount) => prevCount + 1)}
                 >
                   <i className="fa-solid fa-thumbs-down"></i>
+                  <span className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                    {counter2}
+                  </span>
                 </button>
-                &nbsp;{counter2}
+                &nbsp;
               </div>
             </div>
           </div>
@@ -1038,9 +1062,10 @@ export default function Home() {
                   Goa.{" "}
                 </p>
               </p>
-              <hr class="dropdown-divider" />
+              <hr className="dropdown-divider" />
               <div className="div row">
                 <div className="div col">
+                  <h6>Savdhaan Meter: </h6>
                   <p>🔴 Overcharging</p>
                   <p>🟠 Scam</p>
                   <p>🟡 Tease</p>
@@ -1048,8 +1073,15 @@ export default function Home() {
                 </div>
 
                 <div className="div col">
-                  <h6>Suraksha Score: </h6>
-                  <h6>Swachhata Ratings: ⭐⭐ </h6>
+                  <h6>
+                    Suraksha Score:
+                    <br /> 4.7 / 5{" "}
+                  </h6>
+                  <p className="gap"></p>
+                  <h6>
+                    Swachhta Ratings:
+                    <br /> ⭐⭐⭐⭐{" "}
+                  </h6>
                 </div>
               </div>
             </div>
@@ -1058,21 +1090,26 @@ export default function Home() {
               <div className="div">
                 <button
                   type="button"
-                  className="btn btn-primary"
+                  className="btn btn-primary position-relative"
                   onClick={() => setCounter1((prevCount) => prevCount + 1)}
                 >
                   <i className="fa-solid fa-thumbs-up"></i>
+                  <span className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                    {counter1}
+                  </span>
                 </button>
-                &nbsp;{counter1}
-                &nbsp;&nbsp;
+                &nbsp; &nbsp;&nbsp;
                 <button
                   type="button"
-                  className="btn btn-secondary"
+                  className="btn btn-secondary position-relative"
                   onClick={() => setCounter2((prevCount) => prevCount + 1)}
                 >
                   <i className="fa-solid fa-thumbs-down"></i>
+                  <span className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                    {counter2}
+                  </span>
                 </button>
-                &nbsp;{counter2}
+                &nbsp;
               </div>
             </div>
           </div>
@@ -1125,9 +1162,10 @@ export default function Home() {
                   Parasurameswara temple are must-visits.
                 </p>
               </p>
-              <hr class="dropdown-divider" />
+              <hr className="dropdown-divider" />
               <div className="div row">
                 <div className="div col">
+                  <h6>Savdhaan Meter: </h6>
                   <p>🔴 Overcharging</p>
                   <p>🟠 Scam</p>
                   <p>🟡 Tease</p>
@@ -1135,8 +1173,15 @@ export default function Home() {
                 </div>
 
                 <div className="div col">
-                  <h6>Suraksha Score: </h6>
-                  <h6>Swachhata Ratings: ⭐⭐ </h6>
+                  <h6>
+                    Suraksha Score:
+                    <br /> 4.25 / 5{" "}
+                  </h6>
+                  <p className="gap"></p>
+                  <h6>
+                    Swachhta Ratings:
+                    <br /> ⭐⭐⭐⭐{" "}
+                  </h6>
                 </div>
               </div>
             </div>
@@ -1145,21 +1190,26 @@ export default function Home() {
               <div className="div">
                 <button
                   type="button"
-                  className="btn btn-primary"
+                  className="btn btn-primary position-relative"
                   onClick={() => setCounter1((prevCount) => prevCount + 1)}
                 >
                   <i className="fa-solid fa-thumbs-up"></i>
+                  <span className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                    {counter1}
+                  </span>
                 </button>
-                &nbsp;{counter1}
-                &nbsp;&nbsp;
+                &nbsp; &nbsp;&nbsp;
                 <button
                   type="button"
-                  className="btn btn-secondary"
+                  className="btn btn-secondary position-relative"
                   onClick={() => setCounter2((prevCount) => prevCount + 1)}
                 >
                   <i className="fa-solid fa-thumbs-down"></i>
+                  <span className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                    {counter2}
+                  </span>
                 </button>
-                &nbsp;{counter2}
+                &nbsp;
               </div>
             </div>
           </div>
@@ -1210,9 +1260,10 @@ export default function Home() {
                   explore the ancient histories.
                 </p>
               </p>
-              <hr class="dropdown-divider" />
+              <hr className="dropdown-divider" />
               <div className="div row">
                 <div className="div col">
+                  <h6>Savdhaan Meter: </h6>
                   <p>🔴 Overcharging</p>
                   <p>🟠 Scam</p>
                   <p>🟡 Tease</p>
@@ -1220,8 +1271,15 @@ export default function Home() {
                 </div>
 
                 <div className="div col">
-                  <h6>Suraksha Score: </h6>
-                  <h6>Swachhata Ratings: ⭐⭐ </h6>
+                  <h6>
+                    Suraksha Score:
+                    <br /> 3.8 / 5{" "}
+                  </h6>
+                  <p className="gap"></p>
+                  <h6>
+                    Swachhta Ratings:
+                    <br /> ⭐⭐⭐{" "}
+                  </h6>
                 </div>
               </div>
             </div>
@@ -1230,21 +1288,26 @@ export default function Home() {
               <div className="div">
                 <button
                   type="button"
-                  className="btn btn-primary"
+                  className="btn btn-primary position-relative"
                   onClick={() => setCounter1((prevCount) => prevCount + 1)}
                 >
                   <i className="fa-solid fa-thumbs-up"></i>
+                  <span className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                    {counter1}
+                  </span>
                 </button>
-                &nbsp;{counter1}
-                &nbsp;&nbsp;
+                &nbsp; &nbsp;&nbsp;
                 <button
                   type="button"
-                  className="btn btn-secondary"
+                  className="btn btn-secondary position-relative"
                   onClick={() => setCounter2((prevCount) => prevCount + 1)}
                 >
                   <i className="fa-solid fa-thumbs-down"></i>
+                  <span className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                    {counter2}
+                  </span>
                 </button>
-                &nbsp;{counter2}
+                &nbsp;
               </div>
             </div>
           </div>
@@ -1299,9 +1362,10 @@ export default function Home() {
                   village.
                 </p>
               </p>
-              <hr class="dropdown-divider" />
+              <hr className="dropdown-divider" />
               <div className="div row">
                 <div className="div col">
+                  <h6>Savdhaan Meter: </h6>
                   <p>🔴 Overcharging</p>
                   <p>🟠 Scam</p>
                   <p>🟡 Tease</p>
@@ -1309,8 +1373,15 @@ export default function Home() {
                 </div>
 
                 <div className="div col">
-                  <h6>Suraksha Score: </h6>
-                  <h6>Swachhata Ratings: ⭐⭐ </h6>
+                  <h6>
+                    Suraksha Score:
+                    <br /> 4 / 5{" "}
+                  </h6>
+                  <p className="gap"></p>
+                  <h6>
+                    Swachhta Ratings:
+                    <br /> ⭐⭐⭐{" "}
+                  </h6>
                 </div>
               </div>
             </div>
@@ -1319,21 +1390,26 @@ export default function Home() {
               <div className="div">
                 <button
                   type="button"
-                  className="btn btn-primary"
+                  className="btn btn-primary position-relative"
                   onClick={() => setCounter1((prevCount) => prevCount + 1)}
                 >
                   <i className="fa-solid fa-thumbs-up"></i>
+                  <span className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                    {counter1}
+                  </span>
                 </button>
-                &nbsp;{counter1}
-                &nbsp;&nbsp;
+                &nbsp; &nbsp;&nbsp;
                 <button
                   type="button"
-                  className="btn btn-secondary"
+                  className="btn btn-secondary position-relative"
                   onClick={() => setCounter2((prevCount) => prevCount + 1)}
                 >
                   <i className="fa-solid fa-thumbs-down"></i>
+                  <span className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                    {counter2}
+                  </span>
                 </button>
-                &nbsp;{counter2}
+                &nbsp;
               </div>
             </div>
           </div>
@@ -1386,9 +1462,10 @@ export default function Home() {
                   in or visiting India.
                 </p>
               </p>
-              <hr class="dropdown-divider" />
+              <hr className="dropdown-divider" />
               <div className="div row">
                 <div className="div col">
+                  <h6>Savdhaan Meter: </h6>
                   <p>🔴 Overcharging</p>
                   <p>🟠 Scam</p>
                   <p>🟡 Tease</p>
@@ -1396,8 +1473,15 @@ export default function Home() {
                 </div>
 
                 <div className="div col">
-                  <h6>Suraksha Score: </h6>
-                  <h6>Swachhata Ratings: ⭐⭐ </h6>
+                  <h6>
+                    Suraksha Score:
+                    <br /> 3.5 / 5
+                  </h6>
+                  <p className="gap"></p>
+                  <h6>
+                    Swachhta Ratings:
+                    <br /> ⭐⭐⭐{" "}
+                  </h6>
                 </div>
               </div>
             </div>
@@ -1406,21 +1490,26 @@ export default function Home() {
               <div className="div">
                 <button
                   type="button"
-                  className="btn btn-primary"
+                  className="btn btn-primary position-relative"
                   onClick={() => setCounter1((prevCount) => prevCount + 1)}
                 >
                   <i className="fa-solid fa-thumbs-up"></i>
+                  <span className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                    {counter1}
+                  </span>
                 </button>
-                &nbsp;{counter1}
-                &nbsp;&nbsp;
+                &nbsp; &nbsp;&nbsp;
                 <button
                   type="button"
-                  className="btn btn-secondary"
+                  className="btn btn-secondary position-relative"
                   onClick={() => setCounter2((prevCount) => prevCount + 1)}
                 >
                   <i className="fa-solid fa-thumbs-down"></i>
+                  <span className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                    {counter2}
+                  </span>
                 </button>
-                &nbsp;{counter2}
+                &nbsp;
               </div>
             </div>
           </div>
@@ -1476,9 +1565,10 @@ export default function Home() {
                   tourists to see.
                 </p>
               </p>
-              <hr class="dropdown-divider" />
+              <hr className="dropdown-divider" />
               <div className="div row">
                 <div className="div col">
+                  <h6>Savdhaan Meter: </h6>
                   <p>🔴 Overcharging</p>
                   <p>🟠 Scam</p>
                   <p>🟡 Tease</p>
@@ -1486,8 +1576,15 @@ export default function Home() {
                 </div>
 
                 <div className="div col">
-                  <h6>Suraksha Score: </h6>
-                  <h6>Swachhata Ratings: ⭐⭐ </h6>
+                  <h6>
+                    Suraksha Score:
+                    <br /> 3.2 / 5
+                  </h6>
+                  <p className="gap"></p>
+                  <h6>
+                    Swachhta Ratings:
+                    <br /> ⭐⭐⭐⭐{" "}
+                  </h6>
                 </div>
               </div>
             </div>
@@ -1496,21 +1593,26 @@ export default function Home() {
               <div className="div">
                 <button
                   type="button"
-                  className="btn btn-primary"
+                  className="btn btn-primary position-relative"
                   onClick={() => setCounter1((prevCount) => prevCount + 1)}
                 >
                   <i className="fa-solid fa-thumbs-up"></i>
+                  <span className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                    {counter1}
+                  </span>
                 </button>
-                &nbsp;{counter1}
-                &nbsp;&nbsp;
+                &nbsp; &nbsp;&nbsp;
                 <button
                   type="button"
-                  className="btn btn-secondary"
+                  className="btn btn-secondary position-relative"
                   onClick={() => setCounter2((prevCount) => prevCount + 1)}
                 >
                   <i className="fa-solid fa-thumbs-down"></i>
+                  <span className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                    {counter2}
+                  </span>
                 </button>
-                &nbsp;{counter2}
+                &nbsp;
               </div>
             </div>
           </div>
@@ -1563,9 +1665,10 @@ export default function Home() {
                   sermon in Benaras, a part which is now in Sarnath.
                 </p>
               </p>
-              <hr class="dropdown-divider" />
+              <hr className="dropdown-divider" />
               <div className="div row">
                 <div className="div col">
+                  <h6>Savdhaan Meter: </h6>
                   <p>🔴 Overcharging</p>
                   <p>🟠 Scam</p>
                   <p>🟡 Tease</p>
@@ -1573,8 +1676,15 @@ export default function Home() {
                 </div>
 
                 <div className="div col">
-                  <h6>Suraksha Score: </h6>
-                  <h6>Swachhata Ratings: ⭐⭐ </h6>
+                  <h6>
+                    Suraksha Score:
+                    <br /> 3 / 5
+                  </h6>
+                  <p className="gap"></p>
+                  <h6>
+                    Swachhta Ratings:
+                    <br /> ⭐⭐{" "}
+                  </h6>
                 </div>
               </div>
             </div>
@@ -1583,21 +1693,26 @@ export default function Home() {
               <div className="div">
                 <button
                   type="button"
-                  className="btn btn-primary"
+                  className="btn btn-primary position-relative"
                   onClick={() => setCounter1((prevCount) => prevCount + 1)}
                 >
                   <i className="fa-solid fa-thumbs-up"></i>
+                  <span className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                    {counter1}
+                  </span>
                 </button>
-                &nbsp;{counter1}
-                &nbsp;&nbsp;
+                &nbsp; &nbsp;&nbsp;
                 <button
                   type="button"
-                  className="btn btn-secondary"
+                  className="btn btn-secondary position-relative"
                   onClick={() => setCounter2((prevCount) => prevCount + 1)}
                 >
                   <i className="fa-solid fa-thumbs-down"></i>
+                  <span className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                    {counter2}
+                  </span>
                 </button>
-                &nbsp;{counter2}
+                &nbsp;
               </div>
             </div>
           </div>
@@ -1650,9 +1765,10 @@ export default function Home() {
                   Aarti held at the Har ki Pauri Ghat every evening.
                 </p>
               </p>
-              <hr class="dropdown-divider" />
+              <hr className="dropdown-divider" />
               <div className="div row">
                 <div className="div col">
+                  <h6>Savdhaan Meter: </h6>
                   <p>🔴 Overcharging</p>
                   <p>🟠 Scam</p>
                   <p>🟡 Tease</p>
@@ -1660,8 +1776,15 @@ export default function Home() {
                 </div>
 
                 <div className="div col">
-                  <h6>Suraksha Score: </h6>
-                  <h6>Swachhata Ratings: ⭐⭐ </h6>
+                  <h6>
+                    Suraksha Score:
+                    <br /> 4 / 5
+                  </h6>
+                  <p className="gap"></p>
+                  <h6>
+                    Swachhta Ratings:
+                    <br /> ⭐⭐⭐{" "}
+                  </h6>
                 </div>
               </div>
             </div>
@@ -1670,21 +1793,26 @@ export default function Home() {
               <div className="div">
                 <button
                   type="button"
-                  className="btn btn-primary"
+                  className="btn btn-primary position-relative"
                   onClick={() => setCounter1((prevCount) => prevCount + 1)}
                 >
                   <i className="fa-solid fa-thumbs-up"></i>
+                  <span className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                    {counter1}
+                  </span>
                 </button>
-                &nbsp;{counter1}
-                &nbsp;&nbsp;
+                &nbsp; &nbsp;&nbsp;
                 <button
                   type="button"
-                  className="btn btn-secondary"
+                  className="btn btn-secondary position-relative"
                   onClick={() => setCounter2((prevCount) => prevCount + 1)}
                 >
                   <i className="fa-solid fa-thumbs-down"></i>
+                  <span className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                    {counter2}
+                  </span>
                 </button>
-                &nbsp;{counter2}
+                &nbsp;
               </div>
             </div>
           </div>
@@ -1739,9 +1867,10 @@ export default function Home() {
                   is the Ropeway to Gun Hill.
                 </p>
               </p>
-              <hr class="dropdown-divider" />
+              <hr className="dropdown-divider" />
               <div className="div row">
                 <div className="div col">
+                  <h6>Savdhaan Meter: </h6>
                   <p>🔴 Overcharging</p>
                   <p>🟠 Scam</p>
                   <p>🟡 Tease</p>
@@ -1749,8 +1878,15 @@ export default function Home() {
                 </div>
 
                 <div className="div col">
-                  <h6>Suraksha Score: </h6>
-                  <h6>Swachhata Ratings: ⭐⭐ </h6>
+                  <h6>
+                    Suraksha Score:
+                    <br /> 4.75 / 5
+                  </h6>
+                  <p className="gap"></p>
+                  <h6>
+                    Swachhta Ratings:
+                    <br /> ⭐⭐⭐⭐{" "}
+                  </h6>
                 </div>
               </div>
             </div>
@@ -1759,21 +1895,26 @@ export default function Home() {
               <div className="div">
                 <button
                   type="button"
-                  className="btn btn-primary"
+                  className="btn btn-primary position-relative"
                   onClick={() => setCounter1((prevCount) => prevCount + 1)}
                 >
                   <i className="fa-solid fa-thumbs-up"></i>
+                  <span className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                    {counter1}
+                  </span>
                 </button>
-                &nbsp;{counter1}
-                &nbsp;&nbsp;
+                &nbsp; &nbsp;&nbsp;
                 <button
                   type="button"
-                  className="btn btn-secondary"
+                  className="btn btn-secondary position-relative"
                   onClick={() => setCounter2((prevCount) => prevCount + 1)}
                 >
                   <i className="fa-solid fa-thumbs-down"></i>
+                  <span className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                    {counter2}
+                  </span>
                 </button>
-                &nbsp;{counter2}
+                &nbsp;
               </div>
             </div>
           </div>
@@ -1828,9 +1969,10 @@ export default function Home() {
                   cafes, accommodation and tourists can be found.
                 </p>
               </p>
-              <hr class="dropdown-divider" />
+              <hr className="dropdown-divider" />
               <div className="div row">
                 <div className="div col">
+                  <h6>Savdhaan Meter: </h6>
                   <p>🔴 Overcharging</p>
                   <p>🟠 Scam</p>
                   <p>🟡 Tease</p>
@@ -1838,8 +1980,15 @@ export default function Home() {
                 </div>
 
                 <div className="div col">
-                  <h6>Suraksha Score: </h6>
-                  <h6>Swachhata Ratings: ⭐⭐ </h6>
+                  <h6>
+                    Suraksha Score:
+                    <br /> 4.1 / 5
+                  </h6>
+                  <p className="gap"></p>
+                  <h6>
+                    Swachhta Ratings:
+                    <br /> ⭐⭐⭐⭐{" "}
+                  </h6>
                 </div>
               </div>
             </div>
@@ -1848,21 +1997,26 @@ export default function Home() {
               <div className="div">
                 <button
                   type="button"
-                  className="btn btn-primary"
+                  className="btn btn-primary position-relative"
                   onClick={() => setCounter1((prevCount) => prevCount + 1)}
                 >
                   <i className="fa-solid fa-thumbs-up"></i>
+                  <span className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                    {counter1}
+                  </span>
                 </button>
-                &nbsp;{counter1}
-                &nbsp;&nbsp;
+                &nbsp; &nbsp;&nbsp;
                 <button
                   type="button"
-                  className="btn btn-secondary"
+                  className="btn btn-secondary position-relative"
                   onClick={() => setCounter2((prevCount) => prevCount + 1)}
                 >
                   <i className="fa-solid fa-thumbs-down"></i>
+                  <span className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                    {counter2}
+                  </span>
                 </button>
-                &nbsp;{counter2}
+                &nbsp;
               </div>
             </div>
           </div>
@@ -1914,9 +2068,10 @@ export default function Home() {
                   visible from here.
                 </p>
               </p>
-              <hr class="dropdown-divider" />
+              <hr className="dropdown-divider" />
               <div className="div row">
                 <div className="div col">
+                  <h6>Savdhaan Meter: </h6>
                   <p>🔴 Overcharging</p>
                   <p>🟠 Scam</p>
                   <p>🟡 Tease</p>
@@ -1924,8 +2079,15 @@ export default function Home() {
                 </div>
 
                 <div className="div col">
-                  <h6>Suraksha Score: </h6>
-                  <h6>Swachhata Ratings: ⭐⭐ </h6>
+                  <h6>
+                    Suraksha Score:
+                    <br /> 4.6 / 5
+                  </h6>
+                  <p className="gap"></p>
+                  <h6>
+                    Swachhta Ratings:
+                    <br /> ⭐⭐⭐⭐{" "}
+                  </h6>
                 </div>
               </div>
             </div>
@@ -1934,21 +2096,26 @@ export default function Home() {
               <div className="div">
                 <button
                   type="button"
-                  className="btn btn-primary"
+                  className="btn btn-primary position-relative"
                   onClick={() => setCounter1((prevCount) => prevCount + 1)}
                 >
                   <i className="fa-solid fa-thumbs-up"></i>
+                  <span className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                    {counter1}
+                  </span>
                 </button>
-                &nbsp;{counter1}
-                &nbsp;&nbsp;
+                &nbsp; &nbsp;&nbsp;
                 <button
                   type="button"
-                  className="btn btn-secondary"
+                  className="btn btn-secondary position-relative"
                   onClick={() => setCounter2((prevCount) => prevCount + 1)}
                 >
                   <i className="fa-solid fa-thumbs-down"></i>
+                  <span className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                    {counter2}
+                  </span>
                 </button>
-                &nbsp;{counter2}
+                &nbsp;
               </div>
             </div>
           </div>
@@ -1997,9 +2164,10 @@ export default function Home() {
                   to spend a pleasurable weekend.
                 </p>
               </p>
-              <hr class="dropdown-divider" />
+              <hr className="dropdown-divider" />
               <div className="div row">
                 <div className="div col">
+                  <h6>Savdhaan Meter: </h6>
                   <p>🔴 Overcharging</p>
                   <p>🟠 Scam</p>
                   <p>🟡 Tease</p>
@@ -2007,8 +2175,15 @@ export default function Home() {
                 </div>
 
                 <div className="div col">
-                  <h6>Suraksha Score: </h6>
-                  <h6>Swachhata Ratings: ⭐⭐ </h6>
+                  <h6>
+                    Suraksha Score:
+                    <br /> 4 / 5
+                  </h6>
+                  <p className="gap"></p>
+                  <h6>
+                    Swachhta Ratings:
+                    <br /> ⭐⭐⭐⭐{" "}
+                  </h6>
                 </div>
               </div>
             </div>
@@ -2017,21 +2192,26 @@ export default function Home() {
               <div className="div">
                 <button
                   type="button"
-                  className="btn btn-primary"
+                  className="btn btn-primary position-relative"
                   onClick={() => setCounter1((prevCount) => prevCount + 1)}
                 >
                   <i className="fa-solid fa-thumbs-up"></i>
+                  <span className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                    {counter1}
+                  </span>
                 </button>
-                &nbsp;{counter1}
-                &nbsp;&nbsp;
+                &nbsp; &nbsp;&nbsp;
                 <button
                   type="button"
-                  className="btn btn-secondary"
+                  className="btn btn-secondary position-relative"
                   onClick={() => setCounter2((prevCount) => prevCount + 1)}
                 >
                   <i className="fa-solid fa-thumbs-down"></i>
+                  <span className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                    {counter2}
+                  </span>
                 </button>
-                &nbsp;{counter2}
+                &nbsp;
               </div>
             </div>
           </div>
@@ -2083,9 +2263,10 @@ export default function Home() {
                   you want to experience the beauty of creativity and art.
                 </p>
               </p>
-              <hr class="dropdown-divider" />
+              <hr className="dropdown-divider" />
               <div className="div row">
                 <div className="div col">
+                  <h6>Savdhaan Meter: </h6>
                   <p>🔴 Overcharging</p>
                   <p>🟠 Scam</p>
                   <p>🟡 Tease</p>
@@ -2093,8 +2274,15 @@ export default function Home() {
                 </div>
 
                 <div className="div col">
-                  <h6>Suraksha Score: </h6>
-                  <h6>Swachhata Ratings: ⭐⭐ </h6>
+                  <h6>
+                    Suraksha Score:
+                    <br /> 4.5 / 5
+                  </h6>
+                  <p className="gap"></p>
+                  <h6>
+                    Swachhta Ratings:
+                    <br /> ⭐⭐⭐{" "}
+                  </h6>
                 </div>
               </div>
             </div>
@@ -2103,21 +2291,26 @@ export default function Home() {
               <div className="div">
                 <button
                   type="button"
-                  className="btn btn-primary"
+                  className="btn btn-primary position-relative"
                   onClick={() => setCounter1((prevCount) => prevCount + 1)}
                 >
                   <i className="fa-solid fa-thumbs-up"></i>
+                  <span className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                    {counter1}
+                  </span>
                 </button>
-                &nbsp;{counter1}
-                &nbsp;&nbsp;
+                &nbsp; &nbsp;&nbsp;
                 <button
                   type="button"
-                  className="btn btn-secondary"
+                  className="btn btn-secondary position-relative"
                   onClick={() => setCounter2((prevCount) => prevCount + 1)}
                 >
                   <i className="fa-solid fa-thumbs-down"></i>
+                  <span className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                    {counter2}
+                  </span>
                 </button>
-                &nbsp;{counter2}
+                &nbsp;
               </div>
             </div>
           </div>
