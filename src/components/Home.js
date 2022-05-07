@@ -1,5 +1,5 @@
 import React from "react";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import "./styles/home.css";
 
 import Fade from "react-reveal/Fade";
@@ -9,6 +9,29 @@ export default function Home() {
 
   const [counter1, setCounter1] = useState(0);
   const [counter2, setCounter2] = useState(0);
+  const [data, setData] = useState([]);
+  var url = "./jsons/homedata.json";
+
+  useEffect(() => {
+    const fetchData = async () => {
+      await fetch(url, {
+        method: "GET",
+        headers: {
+          "Content-type": "application/json",
+        },
+      })
+        .then((res) => {
+          res.json().then((json) => {
+            console.log(json);
+            setData(json);
+          });
+        })
+        .catch((error) => {
+          console.log(error);
+        });
+    };
+    fetchData();
+  }, [url]);
   return (
     <>
       <div className="container mb-3">
@@ -44,29 +67,17 @@ export default function Home() {
                       <img
                         className="card-img-top"
                         height={"100%"}
-                        src={
-                          "https://t4.ftcdn.net/jpg/04/89/84/21/240_F_489842188_KQ5JsZ7hS2BXou7Hn0vQ9Qoyd7uHlGhn.jpg"
-                        }
+                        src={data[0]?.img}
                         alt="Baga Beach"
                       />
                       <div className="card-body">
-                        <h5 className="card-title">Baga Beach</h5>
+                        <h5 className="card-title">{data[0]?.name}</h5>
                         <p className="card-text text-truncate">
-                          One of the most popular beaches in North Goa, Baga
-                          Beach is located close to Calangute beach, around 30
-                          Km North of Panjim. Baga is the perfect destination to
-                          witness the dazzling nightlife of Goa as signature
-                          places such as Britto's, Tito's and Mambos are located
-                          in the vicinity. Being one of the most visited beaches
-                          in the North, Baga also offers a vast range of water
-                          sports. Lined with an array of tattoo parlours, tarot
-                          shops, palmistry shops, spas, sun decks and some
-                          legendary shacks, it gives you a chance to live out
-                          your perfect beach holiday.
+                          {data[0]?.description}
                         </p>
                         <hr className="dropdown-divider" />
-                        <h6>Suraksha Score: 4.6 / 5</h6>
-                        <h6>Swachhta Ratings: ⭐⭐⭐⭐ </h6>
+                        <h6>Suraksha Score: {data[0]?.ss} / 5</h6>
+                        <h6>Swachhta Ratings: {data[0]?.sr} </h6>
                         <p>
                           <button
                             type="button"
@@ -88,33 +99,17 @@ export default function Home() {
                     <div className="card" style={{ width: "18rem" }}>
                       <img
                         className="card-img-top"
-                        src={
-                          "https://t4.ftcdn.net/jpg/04/04/87/75/240_F_404877562_gx8uXjf7kynGIQ7AP3crvNzXzZ2Sl2gH.jpg"
-                        }
+                        src={data[1]?.img}
                         alt="Madgaon"
                       />
                       <div className="card-body">
-                        <h5 className="card-title">Madgaon</h5>
+                        <h5 className="card-title">{data[1]?.name}</h5>
                         <p className="card-text text-truncate">
-                          There are a number of temples and churches in Margao
-                          city The famous churches in Margao are the Holy Spirit
-                          Church, the Grace Church, The St Sebastian Church in
-                          Aquem (The Old St. Sebastian Chapel, popularly known
-                          as the Pandava Copel still stands next to the modern
-                          St. Sebastian Church) and the Monte Hill Chapel. The
-                          famous temples are the 'Damodar Temple' (Saal), the
-                          'Hari Mandir', the 'Maruti Mandir' at Davorlim the
-                          'Saibaba Temple' at Davorlim, the 'Shiv Temple' (Ling)
-                          at Fatorda near Nehru Stadium (which is the original
-                          Temple of Damodara). Pandava Caves Located in Aquem
-                          Behind St. Sebestian Church. There are two mosques in
-                          Margao, one in the Malbhat area and one on the Monte
-                          hill. There is also a Jain temple and a Jama'at Khana
-                          for the Khoja faith in Pajifond.
+                          {data[1]?.description}
                         </p>
                         <hr className="dropdown-divider" />
-                        <h6>Suraksha Score: 4.5 / 6</h6>
-                        <h6>Swachhta Ratings: ⭐⭐⭐ </h6>
+                        <h6>Suraksha Score: {data[1]?.ss} / 5</h6>
+                        <h6>Swachhta Ratings: {data[1]?.sr} </h6>
 
                         <p>
                           <button
@@ -137,37 +132,18 @@ export default function Home() {
                     <div className="card" style={{ width: "18rem" }}>
                       <img
                         className="card-img-top"
-                        src={
-                          "https://t4.ftcdn.net/jpg/03/33/95/99/240_F_333959940_RlovicM5b593e2Z94DzZMdPMoOoIiIa0.jpg"
-                        }
+                        src={data[2]?.img}
                         height={"100%"}
                         alt="Panaji"
                       />
                       <div className="card-body">
-                        <h5 className="card-title">Panaji</h5>
+                        <h5 className="card-title">{data[2]?.name}</h5>
                         <p className="card-text text-truncate">
-                          This is the capital of Goa, and the North Goa
-                          district. It is situated on the banks of the river
-                          “Mandovi”. It is connected to the mainland by
-                          bridges.Typical of a Goan town, Panaji is built around
-                          a church facing a prominent square. The town has some
-                          beautiful Portuguese Baroque style buildings and
-                          enchanting old villas. The riverside, speckled with
-                          brightly whitewashed houses with wrought iron
-                          balconies, offers a fine view.There are some fine
-                          government buildings along the riverside boulevard,
-                          and the Passport Office is especially noteworthy. In
-                          the 16th century, the edifice was the palace of Adil
-                          Shah (the Sultan of Bijapur). The Portuguese took over
-                          the palace and constructed the Viceregal Lodge in
-                          1615.The Church Square is a fine illustration of the
-                          awesome Portuguese Baroque style. The Church of the
-                          Immaculate Conception is easily one of the most
-                          elegant and picturesque monuments in Goa.
+                          {data[2]?.description}
                         </p>
                         <hr className="dropdown-divider" />
-                        <h6>Suraksha Score: 4.7 / 5</h6>
-                        <h6>Swachhta Ratings: ⭐⭐⭐⭐ </h6>
+                        <h6>Suraksha Score: {data[2]?.ss} / 5</h6>
+                        <h6>Swachhta Ratings: {data[2]?.sr} </h6>
                         <p>
                           <button
                             type="button"
@@ -214,28 +190,17 @@ export default function Home() {
                     <div className="card" style={{ width: "18rem" }}>
                       <img
                         className="card-img-top"
-                        src={
-                          "https://t4.ftcdn.net/jpg/02/94/90/97/240_F_294909747_BaFKNTF7G5j0h9nEU2UjPixUXf1Xj8Qk.jpg"
-                        }
+                        src={data[3]?.img}
                         alt="Bhubaneshwar"
                       />
                       <div className="card-body">
-                        <h5 className="card-title">Bhubaneshwar</h5>
+                        <h5 className="card-title">{data[3]?.name}</h5>
                         <p className="card-text text-truncate">
-                          Bhubaneswar, the temple city of India, once known for
-                          its architecture and grand temples, is presently a
-                          thriving centre for commerce and business.Bhubaneshwar
-                          is an ancient city replete with beautiful historic
-                          temples which attract pilgrims and tourists from all
-                          over the country. Bhubaneshwar being the centre for
-                          religious tourism has a number of majestic temples
-                          built centuries ago which have still retained their
-                          original over all these years. Among them the Lingaraj
-                          temple and the Parasurameswara temple are must-visits.
+                          {data[3]?.description}
                         </p>
                         <hr className="dropdown-divider" />
-                        <h6>Suraksha Score: 4.25 / 5</h6>
-                        <h6>Swachhta Ratings: ⭐⭐⭐⭐ </h6>
+                        <h6>Suraksha Score: {data[3]?.ss} / 5</h6>
+                        <h6>Swachhta Ratings: {data[3]?.sr} </h6>
                         <p>
                           <button
                             type="button"
@@ -257,26 +222,17 @@ export default function Home() {
                     <div className="card" style={{ width: "18rem" }}>
                       <img
                         className="card-img-top"
-                        src={
-                          "https://c4.wallpaperflare.com/wallpaper/423/223/714/photography-india-temple-sun-wallpaper-preview.jpg"
-                        }
+                        src={data[4]?.img}
                         alt="Konark"
                       />
                       <div className="card-body">
-                        <h5 className="card-title">Konark</h5>
+                        <h5 className="card-title">{data[4]?.name}</h5>
                         <p className="card-text text-truncate">
-                          Konark, in the state of Orissa is renowned world over
-                          for the Sun Temple which is also a UNESCO World
-                          Heritage Site, the Annual dance festival and its
-                          beautiful sandy beaches. Konark's Sun Temple is an
-                          architectural marvel and is one of the most beautiful
-                          monuments of India. Konark sun temple is the must
-                          visit place in your travel bucket list if you love to
-                          explore the ancient histories.
+                          {data[4]?.description}
                         </p>
                         <hr className="dropdown-divider" />
-                        <h6>Suraksha Score: 3.8 / 5</h6>
-                        <h6>Swachhta Ratings: ⭐⭐⭐ </h6>
+                        <h6>Suraksha Score: {data[4]?.ss} / 5</h6>
+                        <h6>Swachhta Ratings: {data[4]?.sr} </h6>
                         <p>
                           <button
                             type="button"
@@ -298,31 +254,18 @@ export default function Home() {
                     <div className="card" style={{ width: "18rem" }}>
                       <img
                         className="card-img-top"
-                        src={
-                          "https://t4.ftcdn.net/jpg/02/82/59/49/240_F_282594919_CouepmmPcYq10g5MjRBXswsAtPaTNXOQ.jpg"
-                        }
+                        src={data[5]?.img}
                         height={"100%"}
                         alt="Puri"
                       />
                       <div className="card-body">
-                        <h5 className="card-title">Puri</h5>
+                        <h5 className="card-title">{data[5]?.name}</h5>
                         <p className="card-text text-truncate">
-                          Puri in Odisha is one of the four must-visit
-                          pilgrimage sites for Hindus because of Jagannath
-                          Temple that forms the part of Char Dham in India. Puri
-                          is a beach city located on the coast of Bay of Bengal.
-                          Known as the resting place of Lord Shiva, the majestic
-                          history and heritage of Puri date back to the 3rd
-                          century B. C. Puri, Konark and Bhubaneshwar complete
-                          the Golden Triangle of Orissa, with their religious
-                          significance and cultural heritage. There are a lot of
-                          places near Puri that one must visit, like the Chilika
-                          lake, Dhabal Giri, Uday Giri, Khanda Giri, Lingaraj
-                          Temple, Raghurajpur - the artistic village.
+                          {data[5]?.description}
                         </p>
                         <hr className="dropdown-divider" />
-                        <h6>Suraksha Score: 4 / 5</h6>
-                        <h6>Swachhta Ratings: ⭐⭐⭐ </h6>
+                        <h6>Suraksha Score: {data[5]?.ss} / 5</h6>
+                        <h6>Swachhta Ratings: {data[5]?.sr} </h6>
                         <p>
                           <button
                             type="button"
@@ -369,29 +312,18 @@ export default function Home() {
                     <div className="card" style={{ width: "18rem" }}>
                       <img
                         className="card-img-top"
-                        src={
-                          "https://t4.ftcdn.net/jpg/01/97/72/79/240_F_197727967_MSfGDL0XvgFDjsWnjM03pInQ2h3zu9C7.jpg"
-                        }
+                        src={data[6]?.img}
                         height={"100%"}
                         alt="Agra"
                       />
                       <div className="card-body">
-                        <h5 className="card-title">Agra</h5>
+                        <h5 className="card-title">{data[6]?.name}</h5>
                         <p className="card-text text-truncate">
-                          Located on the banks of River Yamuna in Uttar Pradesh,
-                          Agra is a popular tourist destination as it is home to
-                          one of the 7 wonders of the world, the Taj Mahal. It
-                          is a sneak peek into the architectural history and
-                          legacy of the Mughal empire with other amazing
-                          historical tourists spots Agra Fort, Fatehpur Sikri,
-                          Akbar Tomb, Jama Masjid Agra, Mehtab Bagh, Anguri
-                          Bagh, Taj Museum. History, architecture, romance all
-                          together create the magic of Agra, and makes it a
-                          must-visit for anyone living in or visiting India.
+                          {data[6]?.description}
                         </p>
                         <hr className="dropdown-divider" />
-                        <h6>Suraksha Score: 3.5 / 5</h6>
-                        <h6>Swachhta Ratings: ⭐⭐⭐ </h6>
+                        <h6>Suraksha Score: {data[6]?.ss} / 5</h6>
+                        <h6>Swachhta Ratings: {data[6]?.sr} </h6>
                         <p>
                           <button
                             type="button"
@@ -413,31 +345,17 @@ export default function Home() {
                     <div className="card" style={{ width: "18rem" }}>
                       <img
                         className="card-img-top"
-                        src={
-                          "https://t3.ftcdn.net/jpg/04/89/19/60/240_F_489196024_mJbRZY4nHswsl94fhCnIMjEHOaWMRENK.jpg"
-                        }
+                        src={data[7]?.img}
                         alt="Mathura"
                       />
                       <div className="card-body">
-                        <h5 className="card-title">Mathura</h5>
+                        <h5 className="card-title">{data[7]?.name}</h5>
                         <p className="card-text text-truncate">
-                          One of Hinduism's seven sacred cities, Mathura is the
-                          birthplace of the very beloved Lord Krishna. Located
-                          in the state of Uttar Pradesh, Mathura and Vrindavan
-                          are often considered twin cities (located only 10km
-                          away from each other). Mathura is a small town dotted
-                          with temples from various ages and attracts a horde of
-                          pilgrims from all over the world. One side of Mathura
-                          is stretched across the Yamuna River, lined with 25
-                          ghats. Shri Krishna Janmabhumi is the most famous
-                          tourist attraction in Mathura, as this place is
-                          believed to the be the exact place where Lord Krishna
-                          was born, and the prison where he was born is now on
-                          display for tourists to see.
+                          {data[7]?.description}
                         </p>
                         <hr className="dropdown-divider" />
-                        <h6>Suraksha Score: 3.2 / 5</h6>
-                        <h6>Swachhta Ratings: ⭐⭐⭐⭐ </h6>
+                        <h6>Suraksha Score: {data[7]?.ss} / 5</h6>
+                        <h6>Swachhta Ratings: {data[7]?.sr} </h6>
                         <p>
                           <button
                             type="button"
@@ -459,27 +377,17 @@ export default function Home() {
                     <div className="card" style={{ width: "18rem" }}>
                       <img
                         className="card-img-top"
-                        src={"https://i.postimg.cc/4d9v9SdH/Varanasi.jpg"}
+                        src={data[8]?.img}
                         alt="Varanasi"
                       />
                       <div className="card-body">
-                        <h5 className="card-title">Varanasi</h5>
+                        <h5 className="card-title">{data[8]?.name}</h5>
                         <p className="card-text text-truncate">
-                          World's oldest living city, Varanasi - also known as
-                          Kashi (City of Life) and Benaras, is the spiritual
-                          capital of India. It is one of Hinduism's seven holy
-                          cities. The old city of Varanasi lies along the
-                          western banks of the Ganges, spread across a labyrinth
-                          of narrow galis. There's a lot templates to visit but
-                          the Kashi Vishwanath Temple is the most visited temple
-                          in Varanasi. This divine city is also an important
-                          destination for Buddhists. Gautam Buddha preached his
-                          first sermon in Benaras, a part which is now in
-                          Sarnath.
+                          {data[8]?.description}
                         </p>
                         <hr className="dropdown-divider" />
-                        <h6>Suraksha Score: 3 / 5</h6>
-                        <h6>Swachhta Ratings: ⭐⭐ </h6>
+                        <h6>Suraksha Score: {data[8]?.ss} / 5</h6>
+                        <h6>Swachhta Ratings: {data[8]?.sr} </h6>
                         <p>
                           <button
                             type="button"
@@ -526,28 +434,18 @@ export default function Home() {
                     <div className="card" style={{ width: "18rem" }}>
                       <img
                         className="card-img-top"
-                        src={"https://i.postimg.cc/wxF8rfFd/Haridwar.jpg"}
+                        src={data[9]?.img}
                         height={"100%"}
                         alt="Haridwar"
                       />
                       <div className="card-body">
-                        <h5 className="card-title">Haridwar</h5>
+                        <h5 className="card-title">{data[9]?.name}</h5>
                         <p className="card-text text-truncate">
-                          Haridwar is one of the seven holiest cities in India,
-                          situated in Uttarakhand. It is located where the
-                          sacred river Ganga enters the Indo-Gangetic plains for
-                          the first time. Dotted with temples, ashrams and
-                          narrow lanes across the city, Haridwar is a famous
-                          Hindu temple town where millions of devotees come to
-                          take a dip in the holy Ganges. It's believed that
-                          taking a dip in the sacred Har Ki Pauri relieves one
-                          of all the sins. The highlight of Haridwar is the
-                          famous Ganga Aarti held at the Har ki Pauri Ghat every
-                          evening.
+                          {data[9]?.description}
                         </p>
                         <hr className="dropdown-divider" />
-                        <h6>Suraksha Score: 4 / 5</h6>
-                        <h6>Swachhta Ratings: ⭐⭐⭐ </h6>
+                        <h6>Suraksha Score: {data[9]?.ss} / 5</h6>
+                        <h6>Swachhta Ratings: {data[9]?.sr} </h6>
                         <p>
                           <button
                             type="button"
@@ -569,28 +467,17 @@ export default function Home() {
                     <div className="card" style={{ width: "18rem" }}>
                       <img
                         className="card-img-top"
-                        src={"https://i.postimg.cc/DZy54gGq/Mussoorie.jpg"}
+                        src={data[10]?.img}
                         alt="Mussoorie"
                       />
                       <div className="card-body">
-                        <h5 className="card-title">Mussoorie</h5>
+                        <h5 className="card-title">{data[10]?.name}</h5>
                         <p className="card-text text-truncate">
-                          Mussoorie is one of the most popular hill stations
-                          located at a distance of 290 km from Delhi in the
-                          Dehradun district of Uttarakhand. With a backdrop of
-                          the Shivalik range of Himalayas and doon valley,
-                          Mussoorie, also known as Queen of The Hills, stands at
-                          an altitude of 7000 feet above sea level. With a cool
-                          and pleasant climate throughout the year. The British
-                          remnants can be seen in the city in the archaic
-                          architecture of the hotels and churches. One of the
-                          most popular tourist attractions in Mussoorie is The
-                          Mall (also known as the Mall Road). Another major
-                          highlight of Mussoorie is the Ropeway to Gun Hill.
+                          {data[10]?.description}
                         </p>
                         <hr className="dropdown-divider" />
-                        <h6>Suraksha Score: 4.75 / 5</h6>
-                        <h6>Swachhta Ratings: ⭐⭐⭐⭐ </h6>
+                        <h6>Suraksha Score: {data[10]?.ss} / 5</h6>
+                        <h6>Swachhta Ratings: {data[10]?.sr} </h6>
                         <p>
                           <button
                             type="button"
@@ -612,30 +499,18 @@ export default function Home() {
                     <div className="card" style={{ width: "18rem" }}>
                       <img
                         className="card-img-top"
-                        src={"https://i.postimg.cc/sDVfQGH3/rishikesh.jpg"}
+                        src={data[11]?.img}
                         alt="Rishikesh"
                         height={"100%"}
                       />
                       <div className="card-body">
-                        <h5 className="card-title">Rishikesh</h5>
+                        <h5 className="card-title">{data[11]?.name}</h5>
                         <p className="card-text text-truncate">
-                          Located in the foothills of the Himalayas along the
-                          convergence of Ganga and Chandrabhaga River, Rishikesh
-                          is a small town in the Dehradun district, located
-                          close to Haridwar in Uttarakhand. Rishikesh (also
-                          called as Hrishikesh) is known for its adventure
-                          activities, ancient temples, popular cafes and as the
-                          "Yoga Capital of the World". Rishikesh is divided into
-                          two main areas - the downtown area known as Rishikesh
-                          town which is where the popular Triveni Ghat is
-                          situated. 2 km upstream from the popular Ram Jhula and
-                          Lakshman Jhula is the other side of Rishikesh where
-                          most of the popular ashrams, cafes, accommodation and
-                          tourists can be found.
+                          {data[11]?.description}
                         </p>
                         <hr className="dropdown-divider" />
-                        <h6>Suraksha Score: 4.1 / 5</h6>
-                        <h6>Swachhta Ratings: ⭐⭐⭐⭐ </h6>
+                        <h6>Suraksha Score: {data[11]?.ss} / 5</h6>
+                        <h6>Swachhta Ratings: {data[11]?.sr} </h6>
                         <p>
                           <button
                             type="button"
@@ -682,25 +557,17 @@ export default function Home() {
                     <div className="card" style={{ width: "18rem" }}>
                       <img
                         className="card-img-top"
-                        src={"https://i.postimg.cc/rpYxPmKk/darjeeling.jpg"}
+                        src={data[12]?.img}
                         alt="Darjeeling"
                       />
                       <div className="card-body">
-                        <h5 className="card-title">Darjeeling</h5>
+                        <h5 className="card-title">{data[12]?.name}</h5>
                         <p className="card-text text-truncate">
-                          Darjeeling is one of the most sought after hill
-                          stations in India located in West Bengal. This scenic
-                          hill station is the perfect getaway for a Vacation.
-                          Nestled amidst acres of tea plantations and exciting
-                          toy train ride Darjeeling stands at the height of
-                          2,050 meters above sea level, thus boasting a cool
-                          climate all year round. The third highest peak in the
-                          world and the highest in India, the Kanchenjunga peak,
-                          is visible from here.
+                          {data[12]?.description}
                         </p>
                         <hr className="dropdown-divider" />
-                        <h6>Suraksha Score: 4.6 / 5</h6>
-                        <h6>Swachhta Ratings: ⭐⭐⭐⭐ </h6>
+                        <h6>Suraksha Score: {data[12]?.ss} / 5</h6>
+                        <h6>Swachhta Ratings: {data[12]?.sr} </h6>
                         <p>
                           <button
                             type="button"
@@ -722,22 +589,17 @@ export default function Home() {
                     <div className="card" style={{ width: "18rem" }}>
                       <img
                         className="card-img-top"
-                        src={"https://i.postimg.cc/hj1gGJTF/Digha.jpg"}
+                        src={data[13]?.img}
                         alt="Digha"
                       />
                       <div className="card-body">
-                        <h5 className="card-title">Digha</h5>
+                        <h5 className="card-title">{data[13]?.name}</h5>
                         <p className="card-text text-truncate">
-                          Beach town situated on the shores of Bay of Bengal,
-                          Digha is a popular tourist destination known for its
-                          untouched beaches and scenic views, especially among
-                          people in West Bengal. Digha is a one-stop destination
-                          for families looking forward to spend a pleasurable
-                          weekend.
+                          {data[13]?.description}
                         </p>
                         <hr className="dropdown-divider" />
-                        <h6>Suraksha Score: 4 / 5</h6>
-                        <h6>Swachhta Ratings: ⭐⭐⭐⭐ </h6>
+                        <h6>Suraksha Score: {data[13]?.ss} / 5</h6>
+                        <h6>Swachhta Ratings: {data[13]?.sr} </h6>
                         <p>
                           <button
                             type="button"
@@ -759,29 +621,18 @@ export default function Home() {
                     <div className="card" style={{ width: "18rem" }}>
                       <img
                         className="card-img-top"
-                        src={
-                          "https://c4.wallpaperflare.com/wallpaper/1022/798/409/lights-india-west-bengal-kolkata-wallpaper-preview.jpg"
-                        }
+                        src={data[14]?.img}
                         height={"100%"}
                         alt="Kolkata"
                       />
                       <div className="card-body">
-                        <h5 className="card-title">Kolkata</h5>
+                        <h5 className="card-title">{data[14]?.name}</h5>
                         <p className="card-text text-truncate">
-                          Kolkata, India's second biggest city, is a perpetually
-                          ongoing festival of human existence, concurrently
-                          luxurious and squalid, refined and frantic, pointedly
-                          futuristic, while beautifully in decay. It has the
-                          glorious Victoria Memorial, holy Ganges, Vidyasagar
-                          Setu, Princep Ghat, Kolkata Museum in its tourist spot
-                          bucket list. Kolkata's streets are artistic, filled
-                          with creativity and liveliness. It's the best place if
-                          you want to experience the beauty of creativity and
-                          art.
+                          {data[14]?.description}
                         </p>
                         <hr className="dropdown-divider" />
-                        <h6>Suraksha Score: 4.5 / 5</h6>
-                        <h6>Swachhta Ratings: ⭐⭐⭐ </h6>
+                        <h6>Suraksha Score: {data[14]?.ss} / 5</h6>
+                        <h6>Swachhta Ratings: {data[14]?.sr} </h6>
                         <p>
                           <button
                             type="button"

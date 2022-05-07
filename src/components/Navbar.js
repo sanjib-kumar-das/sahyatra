@@ -28,7 +28,7 @@ export default function Navbar() {
             <ul className="navbar-nav  nav justify-content-left mr-auto mx-2 ">
               <li className="nav-item active">
                 <Link className="nav-link" aria-current="page" to="/">
-                  <p className="text-center">
+                  <p className="text-center demo">
                     Home
                     <br />
                     मुख पृष्ठ
