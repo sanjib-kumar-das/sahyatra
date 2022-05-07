@@ -9,7 +9,7 @@ export default function Navbar() {
       <nav className="navbar navbar-expand-lg navbar-dark bg-gradient bg-dark ">
         <div className="container-fluid">
           <img src={navpic} alt="" height="80" width="80" />
-          <Link className="navbar-brand col-md-1 mx-3 text-center" to="/">
+          <Link className="navbar-brand col-md-1 mx-5 text-center" to="/">
             SAHyatra
           </Link>
           <button
@@ -25,7 +25,7 @@ export default function Navbar() {
           </button>
 
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul className="navbar-nav  nav justify-content-left mr-auto mx-2 ">
+            <ul className="navbar-nav  nav justify-content-left mr-auto mx-2 d-flex justify-content-center">
               <li className="nav-item active">
                 <Link className="nav-link" aria-current="page" to="/">
                   <p className="text-center demo">
@@ -63,6 +63,27 @@ export default function Navbar() {
                   </p>
                 </Link>
               </li>
+
+              <li className="nav-item">
+                <Link className="nav-link" to="latestnews">
+                  <p className="text-center">
+                    Good graph
+                    <br />
+                    hindi
+                  </p>
+                </Link>
+              </li>
+
+              <li className="nav-item">
+                <Link className="nav-link" to="latestnews">
+                  <p className="text-center">
+                    Bad graph
+                    <br />
+                    hindi
+                  </p>
+                </Link>
+              </li>
+
               <li className="nav-item">
                 <Link className="nav-link" to="?">
                   <p
@@ -78,7 +99,7 @@ export default function Navbar() {
                 </Link>
               </li>
 
-              <li className="nav-item searchbar">
+              {/* <li className="nav-item searchbar">
                 <form className="form-inline my-2 my-lg-0 d-flex justify-content-between col-md-4">
                   <input
                     className="form-control mr-sm-2 mx-2 search"
@@ -93,7 +114,7 @@ export default function Navbar() {
                     <i className="fa-solid fa-magnifying-glass"></i>
                   </button>
                 </form>
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>
