@@ -23,7 +23,6 @@ export default function Home({ date }) {
       })
         .then((res) => {
           res.json().then((json) => {
-            console.log(json);
             setData(json);
           });
         })
@@ -39,14 +38,14 @@ export default function Home({ date }) {
       <div className="container mb-3">
         {/* searchbar start */}
 
-        <div className="div justify-content-center d-flex container mt-4">
-          <form className="form-inline my-2 my-lg-0 d-flex justify-content-between col-md-4 search">
+        <div className="div justify-content-end d-flex containe mt-4">
+          <form className="form-inline my-2 my-lg-0 d-flex justify-content-end col-md-4 search">
             <input
               className="form-control mr-sm-2 mx-2 search rounded-pill"
               type="search"
               placeholder="Search by Place Names"
               aria-label="Search"
-              size={30}
+              size={10}
             />
             <button
               className="btn btn-outline-primary my-2 my-sm-0"
