@@ -157,7 +157,7 @@ export default function Footer() {
                     href="https://www.linkedin.com/in/sumit-gupta-sgp-168109151/"
                     className="text-dark"
                   >
-                    Mr. Sumit Gupta (Mentor)
+                    Prof. Sumit Gupta (Mentor)
                   </a>
                 </p>
               </div>

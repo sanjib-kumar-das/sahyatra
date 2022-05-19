@@ -1,0 +1,182 @@
+[
+  {
+    "name": "Andhra Pradesh",
+    "code": "AD",
+    "val": 300
+  },
+  {
+    "name": "Arunachal Pradesh",
+    "code": "AR",
+    "val": 300
+  },
+  {
+    "name": "Assam",
+    "code": "AS",
+    "val": 300
+  },
+  {
+    "name": "Bihar",
+    "code": "BR",
+    "val": 300
+  },
+  {
+    "name": "Chhattisgarh",
+    "code": "CG",
+    "val": 300
+  },
+  {
+    "name": "Goa",
+    "code": "GA",
+    "val": 300
+  },
+  {
+    "name": "Gujarat",
+    "code": "GJ",
+    "val": 300
+  },
+  {
+    "name": "Haryana",
+    "code": "HR",
+    "val": 300
+  },
+  {
+    "name": "Himachal Pradesh",
+    "code": "HP",
+    "val": 300
+  },
+  {
+    "name": "Jharkhand",
+    "code": "JH",
+    "val": 300
+  },
+  {
+    "name": "Karnataka",
+    "code": "KA",
+    "val": 300
+  },
+  {
+    "name": "Kerala",
+    "code": "KL",
+    "val": 300
+  },
+  {
+    "name": "Madhya Pradesh",
+    "code": "MP",
+    "val": 300
+  },
+  {
+    "name": "Maharashtra",
+    "code": "MH",
+    "val": 300
+  },
+  {
+    "name": "Manipur",
+    "code": "MN",
+    "val": 300
+  },
+  {
+    "name": "Meghalaya",
+    "code": "ML",
+    "val": 300
+  },
+  {
+    "name": "Mizoram",
+    "code": "MZ",
+    "val": 300
+  },
+  {
+    "name": "Nagaland",
+    "code": "NL",
+    "val": 300
+  },
+  {
+    "name": "Odisha",
+    "code": "OD",
+    "val": 300
+  },
+  {
+    "name": "Punjab",
+    "code": "PB",
+    "val": 300
+  },
+  {
+    "name": "Rajasthan",
+    "code": "RJ",
+    "val": 300
+  },
+  {
+    "name": "Sikkim",
+    "code": "SK",
+    "val": 300
+  },
+  {
+    "name": "Tamil Nadu",
+    "code": "TN",
+    "val": 300
+  },
+  {
+    "name": "Telangana",
+    "code": "TS",
+    "val": 300
+  },
+  {
+    "name": "Tripura",
+    "code": "TR",
+    "val": 300
+  },
+  {
+    "name": "Uttarakhand",
+    "code": "UK",
+    "val": 300
+  },
+  {
+    "name": "Uttar Pradesh",
+    "code": "UP",
+    "val": 300
+  },
+  {
+    "name": "West Bengal",
+    "code": "WB",
+    "val": 300
+  },
+  {
+    "name": "Andaman & Nicobar Islands",
+    "code": "AN",
+    "val": 300
+  },
+  {
+    "name": "Chandigarh",
+    "code": "CH",
+    "val": 300
+  },
+  {
+    "name": "Dadra & Nagar Haveli and Daman 7 Diu",
+    "code": "DNHDD",
+    "val": 300
+  },
+  {
+    "name": "NCT of Delhi",
+    "code": "DL",
+    "val": 300
+  },
+  {
+    "name": "Jammu & Kashmir",
+    "code": "JK",
+    "val": 300
+  },
+  {
+    "name": "Ladakh",
+    "code": "LA",
+    "val": 300
+  },
+  {
+    "name": "Lakshadweep",
+    "code": "LD",
+    "val": 300
+  },
+  {
+    "name": "Puducherry",
+    "code": "PY",
+    "val": 300
+  }
+]

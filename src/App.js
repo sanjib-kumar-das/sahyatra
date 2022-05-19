@@ -9,6 +9,7 @@ import Chatbot from "./components/Chatbot";
 import Footer from "./components/Footer";
 import Error from "./components/Error";
 import About from "./components/About";
+import Goodgraph from "./components/Goodgraph";
 
 function App() {
   return (
@@ -29,6 +30,11 @@ function App() {
             exact
             path="travelogue"
             element={<Travelogue key="travelogue" />}
+          ></Route>
+          <Route
+            exact
+            path="goodgraph"
+            element={<Goodgraph key="goodgraph" />}
           ></Route>
           <Route path="*" element={<Error />}></Route>
         </Routes>
