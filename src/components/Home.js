@@ -1,9 +1,30 @@
 import React from "react";
-import { useState, useEffect } from "react";
-
 import "./styles/home.css";
-
 import Fade from "react-reveal/Fade";
+import { useState, useEffect } from "react";
+import {
+  Chart as ChartJS,
+  Tooltip,
+  Title,
+  Legend,
+  BarElement,
+  LineElement,
+  CategoryScale,
+  LinearScale,
+  PointElement,
+} from "chart.js";
+import { Line, Bar } from "react-chartjs-2";
+
+ChartJS.register(
+  BarElement,
+  LineElement,
+  PointElement,
+  CategoryScale,
+  LinearScale,
+  Title,
+  Tooltip,
+  Legend
+);
 
 export default function Home({ date }) {
   // Counter
@@ -32,6 +53,70 @@ export default function Home({ date }) {
     };
     fetchData();
   }, [url]);
+
+  // Graph
+  var labels = ["2016", "2017", "2018", "2019", "2020", "2021", "2022"];
+  var mydata = {
+    labels,
+    datasets: [
+      {
+        label: "Crime",
+        data: [
+          "11.42857",
+          "0",
+          "7.14286",
+          "0",
+          "19.04762",
+          "14.28571",
+          "14.28571",
+        ],
+
+        backgroundColor: ["rgba(255, 99, 132, 0.2)"],
+        borderColor: ["rgba(255, 99, 132, 1)"],
+        borderWidth: 1,
+      },
+      {
+        label: "clean",
+        data: [
+          "1.42857",
+          "0.1",
+          "17.14286",
+          "10",
+          "9.04762",
+          "4.28571",
+          "14.28571",
+        ],
+
+        backgroundColor: ["rgba(25, 9, 102, 0.2)"],
+        borderColor: ["rgba(25, 9, 102, 1)"],
+        borderWidth: 1,
+      },
+    ],
+  };
+
+  var myoptions = {
+    indexAxis: "y",
+    responsive: true,
+    plugins: {
+      legend: {
+        position: "bottom",
+      },
+      title: {
+        display: true,
+        text: "Safety Chart of Agra (2017-2021)",
+      },
+    },
+    maintainAspectRatio: false,
+    scales: {
+      y: {
+        beginAtZero: true,
+      },
+    },
+
+    tooltips: {
+      enabled: true,
+    },
+  };
 
   return (
     <>
@@ -172,6 +257,130 @@ export default function Home({ date }) {
                             className="btn btn-primary mt-2"
                             data-bs-toggle="modal"
                             data-bs-target="#staticBackdrop13"
+                          >
+                            Read More
+                          </button>
+                        </p>
+                      </div>
+                      {/* btn */}
+                    </div>
+                  </div>
+                </Fade>
+              </div>
+            </div>
+          </div>
+          <div className="accordion-item">
+            <h2 className="accordion-header" id="headingK">
+              <button
+                className="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseK"
+                aria-expanded="false"
+                aria-controls="collapseK"
+              >
+                <span>
+                  #2
+                  <strong>&nbsp; Kerala</strong>
+                </span>
+              </button>
+            </h2>
+            <div
+              id="collapseK"
+              className="accordion-collapse collapse"
+              aria-labelledby="headingOne"
+              data-bs-parent="#accordionExample"
+            >
+              <div className="row mt-2 mb-2">
+                <Fade delay={200} bottom>
+                  <div className="col-md-4 d-flex justify-content-around">
+                    <div className="card" style={{ width: "18rem" }}>
+                      <img
+                        className="card-img-top"
+                        height={"100%"}
+                        src={data[15]?.img}
+                        alt="Baga Beach"
+                      />
+                      <div className="card-body">
+                        <h5 className="card-title">{data[15]?.name}</h5>
+                        <p className="card-text text-truncate">
+                          {data[15]?.description}
+                        </p>
+                        <hr className="dropdown-divider" />
+                        <h6>Suraksha Score: {data[15]?.ss} / 5</h6>
+                        <h6>Swachhta Ratings: {data[15]?.sr} </h6>
+                        <p>
+                          <button
+                            type="button"
+                            className="btn btn-primary mt-2"
+                            data-bs-toggle="modal"
+                            data-bs-target="#staticBackdrop101"
+                          >
+                            Read More
+                          </button>
+                        </p>
+                      </div>
+                      {/* btn */}
+                    </div>
+                  </div>
+                </Fade>
+                {/* 2 */}
+                <Fade delay={500} bottom>
+                  <div className="col-md-4 d-flex justify-content-around">
+                    <div className="card" style={{ width: "18rem" }}>
+                      <img
+                        className="card-img-top"
+                        src={data[16]?.img}
+                        alt="Madgaon"
+                      />
+                      <div className="card-body">
+                        <h5 className="card-title">{data[16]?.name}</h5>
+                        <p className="card-text text-truncate">
+                          {data[16]?.description}
+                        </p>
+                        <hr className="dropdown-divider" />
+                        <h6>Suraksha Score: {data[16]?.ss} / 5</h6>
+                        <h6>Swachhta Ratings: {data[16]?.sr} </h6>
+
+                        <p>
+                          <button
+                            type="button"
+                            className="btn btn-primary mt-2"
+                            data-bs-toggle="modal"
+                            data-bs-target="#staticBackdrop102"
+                          >
+                            Read More
+                          </button>
+                        </p>
+                      </div>
+                      {/* btn */}
+                    </div>
+                  </div>
+                </Fade>
+                {/* 3 */}
+                <Fade delay={800} bottom>
+                  <div className="col-md-4 d-flex justify-content-around">
+                    <div className="card" style={{ width: "18rem" }}>
+                      <img
+                        className="card-img-top"
+                        src={data[17]?.img}
+                        height={"100%"}
+                        alt="Panaji"
+                      />
+                      <div className="card-body">
+                        <h5 className="card-title">{data[17]?.name}</h5>
+                        <p className="card-text text-truncate">
+                          {data[17]?.description}
+                        </p>
+                        <hr className="dropdown-divider" />
+                        <h6>Suraksha Score: {data[17]?.ss} / 5</h6>
+                        <h6>Swachhta Ratings: {data[17]?.sr} </h6>
+                        <p>
+                          <button
+                            type="button"
+                            className="btn btn-primary mt-2"
+                            data-bs-toggle="modal"
+                            data-bs-target="#staticBackdrop103"
                           >
                             Read More
                           </button>
@@ -736,9 +945,11 @@ export default function Home({ date }) {
                   </h6>
                 </div>
               </div>
+              <hr className="dropdown-divider" />
+              <Bar data={mydata} options={myoptions} height={350} width={200} />
             </div>
             <div className="modal-footer d-flex justify-content-between">
-              <p className="text-muted">Updated on {data[15]?.update}</p>
+              <p className="text-muted">Updated on 21st May, 2022</p>
               <div className="div">
                 <button
                   type="button"
@@ -826,9 +1037,11 @@ export default function Home({ date }) {
                   </h6>
                 </div>
               </div>
+              <hr className="dropdown-divider" />
+              <Bar data={mydata} options={myoptions} height={350} width={200} />
             </div>
             <div className="modal-footer d-flex justify-content-between">
-              <p className="text-muted">Updated on {data[15]?.update}</p>
+              <p className="text-muted">Updated on 21st May, 2022</p>
               <div className="div">
                 <button
                   type="button"
@@ -916,9 +1129,282 @@ export default function Home({ date }) {
                   </h6>
                 </div>
               </div>
+              <hr className="dropdown-divider" />
+              <Bar data={mydata} options={myoptions} height={350} width={200} />
             </div>
             <div className="modal-footer d-flex justify-content-between">
-              <p className="text-muted">Updated on {data[15]?.update}</p>
+              <p className="text-muted">Updated on 21st May, 2022</p>
+              <div className="div">
+                <button
+                  type="button"
+                  className="btn btn-primary position-relative"
+                  onClick={() => setCounter1((prevCount) => prevCount + 1)}
+                >
+                  <i className="fa-solid fa-thumbs-up"></i>
+                  <span className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                    {counter1}
+                  </span>
+                </button>
+                &nbsp; &nbsp;&nbsp;
+                <button
+                  type="button"
+                  className="btn btn-secondary position-relative"
+                  onClick={() => setCounter2((prevCount) => prevCount + 1)}
+                >
+                  <i className="fa-solid fa-thumbs-down"></i>
+                  <span className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                    {counter2}
+                  </span>
+                </button>
+                &nbsp;
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Alappuzha */}
+      <div
+        className="modal fade"
+        id="staticBackdrop101"
+        data-bs-backdrop="static"
+        data-bs-keyboard="false"
+        tabIndex="-1"
+        aria-labelledby="staticBackdropLabel"
+        aria-hidden="true"
+      >
+        <div className="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+          <div className="modal-content">
+            <div className="modal-header">
+              <h5 className="modal-title" id="staticBackdropLabel">
+                {data[15]?.name}
+              </h5>
+              <button
+                type="button"
+                className="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div className="modal-body">
+              <img
+                src={data[15]?.img}
+                alt=""
+                width={"100%"}
+                height="263px"
+                className="modalimg mb-3"
+              />
+              <p>
+                <h4 className="text-center mb-3">{data[15]?.name}</h4>
+                <p className="just">{data[15]?.description}</p>
+              </p>
+              <hr className="dropdown-divider" />
+              <div className="div row">
+                <div className="div col">
+                  <h6>Savdhaan Meter: </h6>
+                  <p>{data[2]?.sm1}</p>
+                  <p>{data[2]?.sm2}</p>
+                  <p>{data[2]?.sm3}</p>
+                  <p>{data[2]?.sm4}</p>
+                </div>
+
+                <div className="div col">
+                  <h6>
+                    Suraksha Score:
+                    <br /> {data[2]?.ss} / 5{" "}
+                  </h6>
+                  <p className="gap"></p>
+                  <h6>
+                    Swachhta Ratings:
+                    <br /> {data[2]?.sr}{" "}
+                  </h6>
+                </div>
+              </div>
+              <hr className="dropdown-divider" />
+              <Bar data={mydata} options={myoptions} height={350} width={200} />
+            </div>
+            <div className="modal-footer d-flex justify-content-between">
+              <p className="text-muted">Updated on 21st May, 2022</p>
+              <div className="div">
+                <button
+                  type="button"
+                  className="btn btn-primary position-relative"
+                  onClick={() => setCounter1((prevCount) => prevCount + 1)}
+                >
+                  <i className="fa-solid fa-thumbs-up"></i>
+                  <span className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                    {counter1}
+                  </span>
+                </button>
+                &nbsp; &nbsp;&nbsp;
+                <button
+                  type="button"
+                  className="btn btn-secondary position-relative"
+                  onClick={() => setCounter2((prevCount) => prevCount + 1)}
+                >
+                  <i className="fa-solid fa-thumbs-down"></i>
+                  <span className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                    {counter2}
+                  </span>
+                </button>
+                &nbsp;
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* Munnar */}
+      <div
+        className="modal fade"
+        id="staticBackdrop102"
+        data-bs-backdrop="static"
+        data-bs-keyboard="false"
+        tabIndex="-1"
+        aria-labelledby="staticBackdropLabel"
+        aria-hidden="true"
+      >
+        <div className="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+          <div className="modal-content">
+            <div className="modal-header">
+              <h5 className="modal-title" id="staticBackdropLabel">
+                {data[16]?.name}
+              </h5>
+              <button
+                type="button"
+                className="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div className="modal-body">
+              <img
+                src={data[16]?.img}
+                alt=""
+                width={"100%"}
+                height="263px"
+                className="modalimg mb-3"
+              />
+              <p>
+                <h4 className="text-center mb-3">{data[16]?.name}</h4>
+                <p className="just">{data[16]?.description}</p>
+              </p>
+              <hr className="dropdown-divider" />
+              <div className="div row">
+                <div className="div col">
+                  <h6>Savdhaan Meter: </h6>
+                  <p>{data[16]?.sm1}</p>
+                  <p>{data[16]?.sm2}</p>
+                  <p>{data[16]?.sm3}</p>
+                  <p>{data[16]?.sm4}</p>
+                </div>
+
+                <div className="div col">
+                  <h6>
+                    Suraksha Score:
+                    <br /> {data[16]?.ss} / 5{" "}
+                  </h6>
+                  <p className="gap"></p>
+                  <h6>
+                    Swachhta Ratings:
+                    <br /> {data[16]?.sr}{" "}
+                  </h6>
+                </div>
+              </div>
+              <hr className="dropdown-divider" />
+              <Bar data={mydata} options={myoptions} height={350} width={200} />
+            </div>
+            <div className="modal-footer d-flex justify-content-between">
+              <p className="text-muted">Updated on 21st May, 2022</p>
+              <div className="div">
+                <button
+                  type="button"
+                  className="btn btn-primary position-relative"
+                  onClick={() => setCounter1((prevCount) => prevCount + 1)}
+                >
+                  <i className="fa-solid fa-thumbs-up"></i>
+                  <span className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                    {counter1}
+                  </span>
+                </button>
+                &nbsp; &nbsp;&nbsp;
+                <button
+                  type="button"
+                  className="btn btn-secondary position-relative"
+                  onClick={() => setCounter2((prevCount) => prevCount + 1)}
+                >
+                  <i className="fa-solid fa-thumbs-down"></i>
+                  <span className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                    {counter2}
+                  </span>
+                </button>
+                &nbsp;
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* Munnar */}
+      <div
+        className="modal fade"
+        id="staticBackdrop103"
+        data-bs-backdrop="static"
+        data-bs-keyboard="false"
+        tabIndex="-1"
+        aria-labelledby="staticBackdropLabel"
+        aria-hidden="true"
+      >
+        <div className="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+          <div className="modal-content">
+            <div className="modal-header">
+              <h5 className="modal-title" id="staticBackdropLabel">
+                {data[17]?.name}
+              </h5>
+              <button
+                type="button"
+                className="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div className="modal-body">
+              <img
+                src={data[17]?.img}
+                alt=""
+                width={"100%"}
+                height="263px"
+                className="modalimg mb-3"
+              />
+              <p>
+                <h4 className="text-center mb-3">{data[17]?.name}</h4>
+                <p className="just">{data[17]?.description}</p>
+              </p>
+              <hr className="dropdown-divider" />
+              <div className="div row">
+                <div className="div col">
+                  <h6>Savdhaan Meter: </h6>
+                  <p>{data[17]?.sm1}</p>
+                  <p>{data[17]?.sm2}</p>
+                  <p>{data[17]?.sm3}</p>
+                  <p>{data[17]?.sm4}</p>
+                </div>
+
+                <div className="div col">
+                  <h6>
+                    Suraksha Score:
+                    <br /> {data[17]?.ss} / 5{" "}
+                  </h6>
+                  <p className="gap"></p>
+                  <h6>
+                    Swachhta Ratings:
+                    <br /> {data[17]?.sr}{" "}
+                  </h6>
+                </div>
+              </div>
+              <hr className="dropdown-divider" />
+              <Bar data={mydata} options={myoptions} height={350} width={200} />
+            </div>
+            <div className="modal-footer d-flex justify-content-between">
+              <p className="text-muted">Updated on 21st May, 2022</p>
               <div className="div">
                 <button
                   type="button"
@@ -1006,9 +1492,11 @@ export default function Home({ date }) {
                   </h6>
                 </div>
               </div>
+              <hr className="dropdown-divider" />
+              <Bar data={mydata} options={myoptions} height={350} width={200} />
             </div>
             <div className="modal-footer d-flex justify-content-between">
-              <p className="text-muted">Updated on {data[15]?.update}</p>
+              <p className="text-muted">Updated on 21st May, 2022</p>
               <div className="div">
                 <button
                   type="button"
@@ -1104,9 +1592,11 @@ export default function Home({ date }) {
                   </h6>
                 </div>
               </div>
+              <hr className="dropdown-divider" />
+              <Bar data={mydata} options={myoptions} height={350} width={200} />
             </div>
             <div className="modal-footer d-flex justify-content-between">
-              <p className="text-muted">Updated on {data[15]?.update}</p>
+              <p className="text-muted">Updated on 21st May, 2022</p>
               <div className="div">
                 <button
                   type="button"
@@ -1194,9 +1684,11 @@ export default function Home({ date }) {
                   </h6>
                 </div>
               </div>
+              <hr className="dropdown-divider" />
+              <Bar data={mydata} options={myoptions} height={350} width={200} />
             </div>
             <div className="modal-footer d-flex justify-content-between">
-              <p className="text-muted">Updated on {data[15]?.update}</p>
+              <p className="text-muted">Updated on 21st May, 2022</p>
               <div className="div">
                 <button
                   type="button"
@@ -1285,9 +1777,11 @@ export default function Home({ date }) {
                   </h6>
                 </div>
               </div>
+              <hr className="dropdown-divider" />
+              <Bar data={mydata} options={myoptions} height={350} width={200} />
             </div>
             <div className="modal-footer d-flex justify-content-between">
-              <p className="text-muted">Updated on {data[15]?.update}</p>
+              <p className="text-muted">Updated on 21st May, 2022</p>
               <div className="div">
                 <button
                   type="button"
@@ -1375,9 +1869,11 @@ export default function Home({ date }) {
                   </h6>
                 </div>
               </div>
+              <hr className="dropdown-divider" />
+              <Bar data={mydata} options={myoptions} height={350} width={200} />
             </div>
             <div className="modal-footer d-flex justify-content-between">
-              <p className="text-muted">Updated on {data[15]?.update}</p>
+              <p className="text-muted">Updated on 21st May, 2022</p>
               <div className="div">
                 <button
                   type="button"
@@ -1465,9 +1961,11 @@ export default function Home({ date }) {
                   </h6>
                 </div>
               </div>
+              <hr className="dropdown-divider" />
+              <Bar data={mydata} options={myoptions} height={350} width={200} />
             </div>
             <div className="modal-footer d-flex justify-content-between">
-              <p className="text-muted">Updated on {data[15]?.update}</p>
+              <p className="text-muted">Updated on 21st May, 2022</p>
               <div className="div">
                 <button
                   type="button"
@@ -1555,9 +2053,11 @@ export default function Home({ date }) {
                   </h6>
                 </div>
               </div>
+              <hr className="dropdown-divider" />
+              <Bar data={mydata} options={myoptions} height={350} width={200} />
             </div>
             <div className="modal-footer d-flex justify-content-between">
-              <p className="text-muted">Updated on {data[15]?.update}</p>
+              <p className="text-muted">Updated on 21st May, 2022</p>
               <div className="div">
                 <button
                   type="button"
@@ -1645,9 +2145,11 @@ export default function Home({ date }) {
                   </h6>
                 </div>
               </div>
+              <hr className="dropdown-divider" />
+              <Bar data={mydata} options={myoptions} height={350} width={200} />
             </div>
             <div className="modal-footer d-flex justify-content-between">
-              <p className="text-muted">Updated on {data[15]?.update}</p>
+              <p className="text-muted">Updated on 21st May, 2022</p>
               <div className="div">
                 <button
                   type="button"
@@ -1735,9 +2237,11 @@ export default function Home({ date }) {
                   </h6>
                 </div>
               </div>
+              <hr className="dropdown-divider" />
+              <Bar data={mydata} options={myoptions} height={350} width={200} />
             </div>
             <div className="modal-footer d-flex justify-content-between">
-              <p className="text-muted">Updated on {data[15]?.update}</p>
+              <p className="text-muted">Updated on 21st May, 2022</p>
               <div className="div">
                 <button
                   type="button"
@@ -1825,9 +2329,11 @@ export default function Home({ date }) {
                   </h6>
                 </div>
               </div>
+              <hr className="dropdown-divider" />
+              <Bar data={mydata} options={myoptions} height={350} width={200} />
             </div>
             <div className="modal-footer d-flex justify-content-between">
-              <p className="text-muted">Updated on {data[15]?.update}</p>
+              <p className="text-muted">Updated on 21st May, 2022</p>
               <div className="div">
                 <button
                   type="button"
@@ -1921,9 +2427,11 @@ export default function Home({ date }) {
                   </h6>
                 </div>
               </div>
+              <hr className="dropdown-divider" />
+              <Bar data={mydata} options={myoptions} height={350} width={200} />
             </div>
             <div className="modal-footer d-flex justify-content-between">
-              <p className="text-muted">Updated on {data[15]?.update}</p>
+              <p className="text-muted">Updated on 21st May, 2022</p>
               <div className="div">
                 <button
                   type="button"
@@ -2011,9 +2519,11 @@ export default function Home({ date }) {
                   </h6>
                 </div>
               </div>
+              <hr className="dropdown-divider" />
+              <Bar data={mydata} options={myoptions} height={350} width={200} />
             </div>
             <div className="modal-footer d-flex justify-content-between">
-              <p className="text-muted">Updated on {data[15]?.update}</p>
+              <p className="text-muted">Updated on 21st May, 2022</p>
               <div className="div">
                 <button
                   type="button"

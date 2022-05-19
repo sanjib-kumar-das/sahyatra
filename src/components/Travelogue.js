@@ -55,7 +55,7 @@ const Travelogue = () => {
 
     setData({ ...data, [name]: value });
   };
-
+  const [load, setLoad] = useState(false);
   const handleSubmit = async (e) => {
     e.preventDefault();
     const {
@@ -104,6 +104,7 @@ const Travelogue = () => {
       comment,
       check,
     } = data;
+    setLoad(true);
     await fetch(
       "https://crowdsourcing-udvaban-default-rtdb.firebaseio.com/response-data.json",
       {
@@ -161,9 +162,11 @@ const Travelogue = () => {
         }),
       }
     );
+    setLoad(false);
     alert("Form Submitted Successfully !!");
     window.location.reload(false);
   };
+
   // Return function
   return (
     <>
@@ -2925,8 +2928,17 @@ const Travelogue = () => {
               <button
                 type="submit"
                 className="btn btn-warning text-dark btn-lg mb-4 mt-3"
+                // onClick={spin}
+                disabled={load}
               >
-                Submit
+                {load && (
+                  <span
+                    class="spinner-border spinner-border-sm"
+                    role="status"
+                    aria-hidden="true"
+                  ></span>
+                )}
+                &nbsp; Submit
               </button>
             </div>
           </div>

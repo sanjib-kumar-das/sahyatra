@@ -204,6 +204,127 @@ export default function LatestNews() {
           </div>
         </Fade>
       </div>
+
+      <hr className="horizontal-line container mt-5" />
+      <h2 className="offbeat text-center">Offbeats</h2>
+      {/* Offbeat Destination */}
+      <div class="container my-5" id="featured">
+        <div class="row">
+          <div class="col-6 ">
+            <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+              <div class="col p-4 d-flex flex-column position-static">
+                <strong class="d-inline-block mb-2 text-danger">
+                  #CheckThisOut
+                </strong>
+                <h4 class="mb-0">Oriental Magpie Robin</h4>
+                <div class="mb-1 text-muted">Nov 12</div>
+                <p class="card-text mb-auto">
+                  This is a wider card with supporting text below as a natural
+                  lead-in to additional content.
+                </p>
+                <a href="#" class="stretched-link">
+                  View Post
+                </a>
+              </div>
+              <div class="col-auto d-none d-lg-block">
+                <img
+                  src="./img/1.jpg"
+                  class=" bd-placeholder-img img-fluid my-5 rounded"
+                  width="200"
+                  height="250"
+                  alt="..."
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="col-6 ">
+            <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+              <div class="col p-4 d-flex flex-column position-static">
+                <strong class="d-inline-block mb-2 text-primary">
+                  #CheckThisOut
+                </strong>
+                <h4 class="mb-0">Black Rumped Flameback</h4>
+                <div class="mb-1 text-muted">Nov 12</div>
+                <p class="card-text mb-auto">
+                  This is a wider card with supporting text below as a natural
+                  lead-in to additional content.
+                </p>
+                <a href="#" class="stretched-link">
+                  View Post
+                </a>
+              </div>
+              <div class="col-auto d-none d-lg-block">
+                <img
+                  src="./img/6.png"
+                  class=" bd-placeholder-img img-fluid my-5 rounded"
+                  width="200"
+                  height="250"
+                  alt="..."
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-6 ">
+            <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+              <div class="col p-4 d-flex flex-column position-static">
+                <strong class="d-inline-block mb-2 text-warning">
+                  #CheckThisOut
+                </strong>
+                <h4 class="mb-0">Orange Headed Thrush</h4>
+                <div class="mb-1 text-muted">Nov 12</div>
+                <p class="card-text mb-auto">
+                  This is a wider card with supporting text below as a natural
+                  lead-in to additional content.
+                </p>
+                <a href="#" class="stretched-link">
+                  View Post
+                </a>
+              </div>
+              <div class="col-auto d-none d-lg-block">
+                <img
+                  src="./img/11.png"
+                  class=" bd-placeholder-img img-fluid my-5 rounded"
+                  width="200"
+                  height="250"
+                  alt="..."
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="col-6 ">
+            <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+              <div class="col p-4 d-flex flex-column position-static">
+                <strong class="d-inline-block mb-2 text-success">
+                  #CheckThisOut
+                </strong>
+                <h4 class="mb-0">Puple Sunbird</h4>
+                <div class="mb-1 text-muted">Nov 12</div>
+                <p class="card-text mb-auto">
+                  This is a wider card with supporting text below as a natural
+                  lead-in to additional content.
+                </p>
+                <a href="#" class="stretched-link">
+                  View Post
+                </a>
+              </div>
+              <div class="col-auto d-none d-lg-block">
+                <img
+                  src="./img/12.png"
+                  class=" bd-placeholder-img img-fluid my-5 rounded"
+                  width="200"
+                  height="250"
+                  alt="..."
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </>
   );
 }
