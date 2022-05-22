@@ -97,7 +97,7 @@ export default function LatestNews() {
                           </a>
                         </div>
                         <span class="position-absolute top-0 start-99 translate-middle badge rounded-pill bg-danger">
-                          Times of India
+                          Hindustan Times
                           <span class="visually-hidden">unread messages</span>
                         </span>
                       </p>
@@ -145,7 +145,7 @@ export default function LatestNews() {
                           </a>
                         </div>
                         <span class="position-absolute top-0 start-99 translate-middle badge rounded-pill bg-danger">
-                          Times of India
+                          Zee News
                           <span class="visually-hidden">unread messages</span>
                         </span>
                       </p>
@@ -206,7 +206,7 @@ export default function LatestNews() {
       </div>
 
       <hr className="horizontal-line container mt-5" />
-      <h2 className="offbeat text-center">Offbeats</h2>
+      <h2 className="offbeat text-center">Top Offbeat Destinations</h2>
       {/* Offbeat Destination */}
       <div class="container my-5" id="featured">
         <div class="row">
@@ -214,21 +214,21 @@ export default function LatestNews() {
             <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
               <div class="col p-4 d-flex flex-column position-static">
                 <strong class="d-inline-block mb-2 text-danger">
-                  #CheckThisOut
+                  #waterfalls
                 </strong>
-                <h4 class="mb-0">Oriental Magpie Robin</h4>
+                <h4 class="mb-0">Gokak Falls</h4>
                 <div class="mb-1 text-muted">Nov 12</div>
                 <p class="card-text mb-auto">
-                  This is a wider card with supporting text below as a natural
-                  lead-in to additional content.
+                  The Gokak Falls, popularly known as "the Niagara of India," is
+                  one of the country's prettiest waterfalls.
                 </p>
                 <a href="#" class="stretched-link">
-                  View Post
+                  Details
                 </a>
               </div>
               <div class="col-auto d-none d-lg-block">
                 <img
-                  src="./img/1.jpg"
+                  src="https://c1.wallpaperflare.com/preview/322/712/42/waterfall-falls-ghataprabha-river.jpg"
                   class=" bd-placeholder-img img-fluid my-5 rounded"
                   width="200"
                   height="250"
@@ -242,21 +242,21 @@ export default function LatestNews() {
             <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
               <div class="col p-4 d-flex flex-column position-static">
                 <strong class="d-inline-block mb-2 text-primary">
-                  #CheckThisOut
+                  #indian_mountains
                 </strong>
-                <h4 class="mb-0">Black Rumped Flameback</h4>
+                <h4 class="mb-0">Abott Mount</h4>
                 <div class="mb-1 text-muted">Nov 12</div>
                 <p class="card-text mb-auto">
-                  This is a wider card with supporting text below as a natural
-                  lead-in to additional content.
+                  Abbott Mount is an unsung hillside which has managed to retain
+                  its natural charm and splendor for over a century.
                 </p>
                 <a href="#" class="stretched-link">
-                  View Post
+                  Details
                 </a>
               </div>
               <div class="col-auto d-none d-lg-block">
                 <img
-                  src="./img/6.png"
+                  src="https://t4.ftcdn.net/jpg/03/66/16/59/240_F_366165950_xzKotRGoqwh0QeB4wz3RjV8SsRKGp88d.jpg"
                   class=" bd-placeholder-img img-fluid my-5 rounded"
                   width="200"
                   height="250"
@@ -272,21 +272,22 @@ export default function LatestNews() {
             <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
               <div class="col p-4 d-flex flex-column position-static">
                 <strong class="d-inline-block mb-2 text-warning">
-                  #CheckThisOut
+                  #heaven_on_earth
                 </strong>
-                <h4 class="mb-0">Orange Headed Thrush</h4>
+                <h4 class="mb-0">Baramulla</h4>
                 <div class="mb-1 text-muted">Nov 12</div>
                 <p class="card-text mb-auto">
-                  This is a wider card with supporting text below as a natural
-                  lead-in to additional content.
+                  Baramulla, also known as Varmul, is a city and a municipality
+                  in the Baramulla district in the Indian union territory of
+                  Jammu and Kashmir.
                 </p>
                 <a href="#" class="stretched-link">
-                  View Post
+                  Details
                 </a>
               </div>
               <div class="col-auto d-none d-lg-block">
                 <img
-                  src="./img/11.png"
+                  src="https://t3.ftcdn.net/jpg/04/38/05/04/240_F_438050449_NgURkK0kcx4MCVr7g8EPs5oEWZFcQ1Ad.jpg"
                   class=" bd-placeholder-img img-fluid my-5 rounded"
                   width="200"
                   height="250"
@@ -300,21 +301,21 @@ export default function LatestNews() {
             <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
               <div class="col p-4 d-flex flex-column position-static">
                 <strong class="d-inline-block mb-2 text-success">
-                  #CheckThisOut
+                  #queen_of_northeast
                 </strong>
-                <h4 class="mb-0">Puple Sunbird</h4>
+                <h4 class="mb-0">Tawang</h4>
                 <div class="mb-1 text-muted">Nov 12</div>
                 <p class="card-text mb-auto">
-                  This is a wider card with supporting text below as a natural
-                  lead-in to additional content.
+                  Tawang is situated 448 km north-west of state capital Itanagar
+                  at an elevation of approximately 3,048 metres (10,000 ft).
                 </p>
                 <a href="#" class="stretched-link">
-                  View Post
+                  Details
                 </a>
               </div>
               <div class="col-auto d-none d-lg-block">
                 <img
-                  src="./img/12.png"
+                  src="https://t3.ftcdn.net/jpg/03/64/00/30/240_F_364003001_kD5vKvijzZcRLD0kPKqQuP7CFrWDQxP1.jpg"
                   class=" bd-placeholder-img img-fluid my-5 rounded"
                   width="200"
                   height="250"

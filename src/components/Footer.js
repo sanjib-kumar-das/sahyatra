@@ -49,7 +49,8 @@ export default function Footer() {
               <i className="fab fa-github fa-flip"></i>
             </a>
             <a
-              href="https://bit.ly/3qFvDlv"
+              // href="https://bit.ly/3qFvDlv"
+              href="https://www.youtube.com/"
               target="_blank"
               rel="noreferrer"
               className="text-dark me-4"
@@ -92,6 +93,16 @@ export default function Footer() {
                 <hr className="mb-4 mt-0 d-inline-block mx-auto hr2" />
                 <p>
                   <a
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://www.linkedin.com/in/sanjibkumardas-webdev/"
+                    className="text-dark"
+                  >
+                    Sanjib Kumar Das
+                  </a>
+                </p>
+                <p>
+                  <a
                     href="https://www.linkedin.com/in/amrit-dhandharia-0766791b6/"
                     target="_blank"
                     rel="noreferrer"
@@ -130,16 +141,7 @@ export default function Footer() {
                     Kamal Singh
                   </a>
                 </p>
-                <p>
-                  <a
-                    target="_blank"
-                    rel="noreferrer"
-                    href="https://www.linkedin.com/in/sanjibkumardas-webdev/"
-                    className="text-dark"
-                  >
-                    Sanjib Kumar Das
-                  </a>
-                </p>
+
                 <p>
                   <a
                     target="_blank"
@@ -219,7 +221,7 @@ export default function Footer() {
                 </p>
                 <p>
                   <i className="fas fa-phone mr-3"></i>{" "}
-                  <a href="tel: 6289181751">+91 1234 567 890</a>
+                  <a href="tel: 6290374022">1800 111 363</a>
                 </p>
                 <div className="div">
                   <p>

@@ -103,7 +103,7 @@ export default function Home({ date }) {
       },
       title: {
         display: true,
-        text: "Safety Chart of Agra (2017-2021)",
+        text: "Safety Chart(2017-2021)",
       },
     },
     maintainAspectRatio: false,
@@ -325,40 +325,9 @@ export default function Home({ date }) {
                   </div>
                 </Fade>
                 {/* 2 */}
-                <Fade delay={500} bottom>
-                  <div className="col-md-4 d-flex justify-content-around">
-                    <div className="card" style={{ width: "18rem" }}>
-                      <img
-                        className="card-img-top"
-                        src={data[16]?.img}
-                        alt="Madgaon"
-                      />
-                      <div className="card-body">
-                        <h5 className="card-title">{data[16]?.name}</h5>
-                        <p className="card-text text-truncate">
-                          {data[16]?.description}
-                        </p>
-                        <hr className="dropdown-divider" />
-                        <h6>Suraksha Score: {data[16]?.ss} / 5</h6>
-                        <h6>Swachhta Ratings: {data[16]?.sr} </h6>
 
-                        <p>
-                          <button
-                            type="button"
-                            className="btn btn-primary mt-2"
-                            data-bs-toggle="modal"
-                            data-bs-target="#staticBackdrop102"
-                          >
-                            Read More
-                          </button>
-                        </p>
-                      </div>
-                      {/* btn */}
-                    </div>
-                  </div>
-                </Fade>
                 {/* 3 */}
-                <Fade delay={800} bottom>
+                <Fade delay={500} bottom>
                   <div className="col-md-4 d-flex justify-content-around">
                     <div className="card" style={{ width: "18rem" }}>
                       <img
@@ -390,6 +359,38 @@ export default function Home({ date }) {
                     </div>
                   </div>
                 </Fade>
+                <Fade delay={800} bottom>
+                  <div className="col-md-4 d-flex justify-content-around">
+                    <div className="card" style={{ width: "18rem" }}>
+                      <img
+                        className="card-img-top"
+                        src={data[16]?.img}
+                        alt="Madgaon"
+                      />
+                      <div className="card-body">
+                        <h5 className="card-title">{data[16]?.name}</h5>
+                        <p className="card-text text-truncate">
+                          {data[16]?.description}
+                        </p>
+                        <hr className="dropdown-divider" />
+                        <h6>Suraksha Score: {data[16]?.ss} / 5</h6>
+                        <h6>Swachhta Ratings: {data[16]?.sr} </h6>
+
+                        <p>
+                          <button
+                            type="button"
+                            className="btn btn-primary mt-2"
+                            data-bs-toggle="modal"
+                            data-bs-target="#staticBackdrop102"
+                          >
+                            Read More
+                          </button>
+                        </p>
+                      </div>
+                      {/* btn */}
+                    </div>
+                  </div>
+                </Fade>
               </div>
             </div>
           </div>
@@ -404,7 +405,7 @@ export default function Home({ date }) {
                 aria-controls="collapse2"
               >
                 <span>
-                  #2
+                  #3
                   <strong>&nbsp; Odisha</strong>
                 </span>
               </button>
@@ -527,7 +528,7 @@ export default function Home({ date }) {
                 aria-controls="collapse3"
               >
                 <span>
-                  #3
+                  #4
                   <strong>&nbsp; Uttar Pradesh</strong>
                 </span>
               </button>
@@ -649,7 +650,7 @@ export default function Home({ date }) {
                 aria-controls="collapse4"
               >
                 <span>
-                  #4
+                  #5
                   <strong>&nbsp; Uttarakhand</strong>
                 </span>
               </button>
@@ -772,7 +773,7 @@ export default function Home({ date }) {
                 aria-controls="collapse5"
               >
                 <span>
-                  #5
+                  #6
                   <strong>&nbsp; West Bengal</strong>
                 </span>
               </button>
