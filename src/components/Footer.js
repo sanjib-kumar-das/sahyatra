@@ -9,7 +9,7 @@ export default function Footer() {
   return (
     <div className="mt-5">
       <footer className="text-center text-lg-start text-dark">
-        <section className="d-flex justify-content-between p-4 bg-light text-dark">
+        <section className="d-flex justify-content-between p-4 bg-light text-dark shadow">
           <div className="me-5">
             <span>Be our SAHyatri </span>
           </div>
@@ -60,7 +60,7 @@ export default function Footer() {
           </div>
         </section>
 
-        <section className="bg-light">
+        <section className="bg-light shadow ">
           <div className="container text-center text-md-start mt-4">
             <div className="row mt-4">
               <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4 mt-4">

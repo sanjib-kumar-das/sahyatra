@@ -12,6 +12,7 @@ export default function Chatbot() {
           data-bs-target="#offcanvasRight"
           aria-controls="offcanvasRight"
         > */}
+
         <div
           className="div"
           data-bs-toggle="tooltip"
@@ -19,8 +20,9 @@ export default function Chatbot() {
           title="YatraMon"
         >
           <img
-            className="botimg position-fixed bottom-0 end-0 chatbtn fixed-sm-bottom mx-4 my-4 fab fa-shake"
-            src="https://i.postimg.cc/k5VfR72p/Beige-and-Black-Simple-Circular-Wedding-Event-Logo-removebg-preview.png"
+            className="botimg position-fixed bottom-0 end-0 chatbtn fixed-sm-bottom mx-4 my-4 fab fa-shake "
+            // src="https://i.postimg.cc/k5VfR72p/Beige-and-Black-Simple-Circular-Wedding-Event-Logo-removebg-preview.png"
+            src="./yatramon.png"
             alt="bot"
             style={{
               height: "4em",

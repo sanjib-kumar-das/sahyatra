@@ -45,7 +45,7 @@ export default function About() {
           Savdhaan Meter: This represents the intensity of particular criminal
           activities using the concept of flagging. Four different color-coded
           flags have been utilized: 🟢Green represents 0 - 10%, 🟡Yellow
-          represents 10 – 20% 🟠Orange represents 20 – 30% 🔴Red represents 30 –
+          represents 11 – 20% 🟠Orange represents 21 – 30% 🔴Red represents 31 –
           100% of average crime rate.
         </li>
       </p>

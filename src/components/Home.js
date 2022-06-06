@@ -1,4 +1,5 @@
 import React from "react";
+
 import "./styles/home.css";
 import Fade from "react-reveal/Fade";
 import { useState, useEffect } from "react";
@@ -34,6 +35,7 @@ export default function Home({ date }) {
   const [data, setData] = useState([]);
   var url = "./jsons/homedata.json";
 
+  // API call
   useEffect(() => {
     const fetchData = async () => {
       await fetch(url, {
@@ -120,6 +122,8 @@ export default function Home({ date }) {
 
   return (
     <>
+      {/* Spinner */}
+
       <div className="container mb-3">
         {/* searchbar start */}
 
@@ -133,7 +137,7 @@ export default function Home({ date }) {
               size={10}
             />
             <button
-              className="btn btn-outline-primary my-2 my-sm-0"
+              className="btn shadow btn-outline-primary my-2 my-sm-0"
               type="submit"
             >
               <i className="fa-solid fa-magnifying-glass"></i>
@@ -142,7 +146,8 @@ export default function Home({ date }) {
         </div>
 
         {/* searchbar end */}
-        <div className="accordion" id="accordionExample">
+
+        <div className="accordion shadow" id="accordionExample">
           {/* <h2 className="heading my-4">Home</h2> */}
 
           <div className="accordion-item">
@@ -163,16 +168,16 @@ export default function Home({ date }) {
             </h2>
             <div
               id="collapse1"
-              className="accordion-collapse collapse show"
+              className="accordion-collapse collapse show mb-5 mt-5"
               aria-labelledby="headingOne"
               data-bs-parent="#accordionExample"
             >
               <div className="row mt-2 mb-2">
                 <Fade delay={200} bottom>
                   <div className="col-md-4 d-flex justify-content-around">
-                    <div className="card" style={{ width: "18rem" }}>
+                    <div className="card shadow" style={{ width: "18rem" }}>
                       <img
-                        className="card-img-top"
+                        className="card-img-top skeleton"
                         height={"100%"}
                         src={data[0]?.img}
                         alt="Baga Beach"
@@ -188,7 +193,7 @@ export default function Home({ date }) {
                         <p>
                           <button
                             type="button"
-                            className="btn btn-primary mt-2"
+                            className="btn btn-primary mt-2 shadow"
                             data-bs-toggle="modal"
                             data-bs-target="#staticBackdrop11"
                           >
@@ -202,10 +207,10 @@ export default function Home({ date }) {
                 </Fade>
                 {/* 2 */}
                 <Fade delay={500} bottom>
-                  <div className="col-md-4 d-flex justify-content-around">
-                    <div className="card" style={{ width: "18rem" }}>
+                  <div className="col-md-4 d-flex justify-content-around ">
+                    <div className="card shadow" style={{ width: "18rem" }}>
                       <img
-                        className="card-img-top"
+                        className="card-img-top skeleton"
                         src={data[1]?.img}
                         alt="Madgaon"
                       />
@@ -221,7 +226,7 @@ export default function Home({ date }) {
                         <p>
                           <button
                             type="button"
-                            className="btn btn-primary mt-2"
+                            className="btn btn-primary mt-2 shadow"
                             data-bs-toggle="modal"
                             data-bs-target="#staticBackdrop12"
                           >
@@ -236,9 +241,9 @@ export default function Home({ date }) {
                 {/* 3 */}
                 <Fade delay={800} bottom>
                   <div className="col-md-4 d-flex justify-content-around">
-                    <div className="card" style={{ width: "18rem" }}>
+                    <div className="card shadow" style={{ width: "18rem" }}>
                       <img
-                        className="card-img-top"
+                        className="card-img-top skeleton"
                         src={data[2]?.img}
                         height={"100%"}
                         alt="Panaji"
@@ -254,7 +259,7 @@ export default function Home({ date }) {
                         <p>
                           <button
                             type="button"
-                            className="btn btn-primary mt-2"
+                            className="btn btn-primary mt-2 shadow"
                             data-bs-toggle="modal"
                             data-bs-target="#staticBackdrop13"
                           >
@@ -287,16 +292,16 @@ export default function Home({ date }) {
             </h2>
             <div
               id="collapseK"
-              className="accordion-collapse collapse"
+              className="accordion-collapse collapse mb-5 mt-5"
               aria-labelledby="headingOne"
               data-bs-parent="#accordionExample"
             >
               <div className="row mt-2 mb-2">
                 <Fade delay={200} bottom>
                   <div className="col-md-4 d-flex justify-content-around">
-                    <div className="card" style={{ width: "18rem" }}>
+                    <div className="card shadow" style={{ width: "18rem" }}>
                       <img
-                        className="card-img-top"
+                        className="card-img-top skeleton"
                         height={"100%"}
                         src={data[15]?.img}
                         alt="Baga Beach"
@@ -312,7 +317,7 @@ export default function Home({ date }) {
                         <p>
                           <button
                             type="button"
-                            className="btn btn-primary mt-2"
+                            className="btn btn-primary mt-2 shadow"
                             data-bs-toggle="modal"
                             data-bs-target="#staticBackdrop101"
                           >
@@ -329,9 +334,9 @@ export default function Home({ date }) {
                 {/* 3 */}
                 <Fade delay={500} bottom>
                   <div className="col-md-4 d-flex justify-content-around">
-                    <div className="card" style={{ width: "18rem" }}>
+                    <div className="card shadow" style={{ width: "18rem" }}>
                       <img
-                        className="card-img-top"
+                        className="card-img-top skeleton"
                         src={data[17]?.img}
                         height={"100%"}
                         alt="Panaji"
@@ -347,7 +352,7 @@ export default function Home({ date }) {
                         <p>
                           <button
                             type="button"
-                            className="btn btn-primary mt-2"
+                            className="btn btn-primary mt-2 shadow"
                             data-bs-toggle="modal"
                             data-bs-target="#staticBackdrop103"
                           >
@@ -361,9 +366,9 @@ export default function Home({ date }) {
                 </Fade>
                 <Fade delay={800} bottom>
                   <div className="col-md-4 d-flex justify-content-around">
-                    <div className="card" style={{ width: "18rem" }}>
+                    <div className="card shadow" style={{ width: "18rem" }}>
                       <img
-                        className="card-img-top"
+                        className="card-img-top skeleton"
                         src={data[16]?.img}
                         alt="Madgaon"
                       />
@@ -379,7 +384,7 @@ export default function Home({ date }) {
                         <p>
                           <button
                             type="button"
-                            className="btn btn-primary mt-2"
+                            className="btn btn-primary mt-2 shadow"
                             data-bs-toggle="modal"
                             data-bs-target="#staticBackdrop102"
                           >
@@ -413,16 +418,16 @@ export default function Home({ date }) {
 
             <div
               id="collapse2"
-              className="accordion-collapse collapse"
+              className="accordion-collapse collapse mb-5 mt-5"
               aria-labelledby="headingTwo"
               data-bs-parent="#accordionExample"
             >
               <div className="row mt-2 mb-2">
                 <Fade delay={200} bottom>
                   <div className="col-md-4 d-flex justify-content-around">
-                    <div className="card" style={{ width: "18rem" }}>
+                    <div className="card shadow" style={{ width: "18rem" }}>
                       <img
-                        className="card-img-top"
+                        className="card-img-top skeleton"
                         src={data[3]?.img}
                         alt="Bhubaneshwar"
                       />
@@ -437,7 +442,7 @@ export default function Home({ date }) {
                         <p>
                           <button
                             type="button"
-                            className="btn btn-primary mt-2"
+                            className="btn btn-primary mt-2 shadow"
                             data-bs-toggle="modal"
                             data-bs-target="#staticBackdrop21"
                           >
@@ -452,9 +457,9 @@ export default function Home({ date }) {
                 {/* 2 */}
                 <Fade delay={500} bottom>
                   <div className="col-md-4 d-flex justify-content-around">
-                    <div className="card" style={{ width: "18rem" }}>
+                    <div className="card shadow" style={{ width: "18rem" }}>
                       <img
-                        className="card-img-top"
+                        className="card-img-top skeleton"
                         src={data[4]?.img}
                         alt="Konark"
                       />
@@ -469,7 +474,7 @@ export default function Home({ date }) {
                         <p>
                           <button
                             type="button"
-                            className="btn btn-primary mt-2"
+                            className="btn btn-primary mt-2 shadow"
                             data-bs-toggle="modal"
                             data-bs-target="#staticBackdrop22"
                           >
@@ -484,9 +489,9 @@ export default function Home({ date }) {
                 {/* 3 */}
                 <Fade delay={800} bottom>
                   <div className="col-md-4 d-flex justify-content-around">
-                    <div className="card" style={{ width: "18rem" }}>
+                    <div className="card shadow" style={{ width: "18rem" }}>
                       <img
-                        className="card-img-top"
+                        className="card-img-top skeleton"
                         src={data[5]?.img}
                         height={"100%"}
                         alt="Puri"
@@ -502,7 +507,7 @@ export default function Home({ date }) {
                         <p>
                           <button
                             type="button"
-                            className="btn btn-primary mt-2"
+                            className="btn btn-primary mt-2 shadow"
                             data-bs-toggle="modal"
                             data-bs-target="#staticBackdrop23"
                           >
@@ -535,16 +540,16 @@ export default function Home({ date }) {
             </h2>
             <div
               id="collapse3"
-              className="accordion-collapse collapse"
+              className="accordion-collapse collapse mb-5 mt-5"
               aria-labelledby="headingThree"
               data-bs-parent="#accordionExample"
             >
               <div className="row mt-2 mb-2">
                 <Fade delay={200} bottom>
                   <div className="col-md-4 d-flex justify-content-around">
-                    <div className="card" style={{ width: "18rem" }}>
+                    <div className="card shadow" style={{ width: "18rem" }}>
                       <img
-                        className="card-img-top"
+                        className="card-img-top skeleton"
                         src={data[6]?.img}
                         height={"100%"}
                         alt="Agra"
@@ -560,7 +565,7 @@ export default function Home({ date }) {
                         <p>
                           <button
                             type="button"
-                            className="btn btn-primary mt-2"
+                            className="btn btn-primary mt-2 shadow"
                             data-bs-toggle="modal"
                             data-bs-target="#staticBackdrop31"
                           >
@@ -575,9 +580,9 @@ export default function Home({ date }) {
                 {/* 2 */}
                 <Fade delay={500} bottom>
                   <div className="col-md-4 d-flex justify-content-around">
-                    <div className="card" style={{ width: "18rem" }}>
+                    <div className="card shadow" style={{ width: "18rem" }}>
                       <img
-                        className="card-img-top"
+                        className="card-img-top skeleton"
                         src={data[7]?.img}
                         alt="Mathura"
                       />
@@ -592,7 +597,7 @@ export default function Home({ date }) {
                         <p>
                           <button
                             type="button"
-                            className="btn btn-primary mt-2"
+                            className="btn btn-primary mt-2 shadow"
                             data-bs-toggle="modal"
                             data-bs-target="#staticBackdrop32"
                           >
@@ -607,9 +612,9 @@ export default function Home({ date }) {
                 {/* 3 */}
                 <Fade delay={800} bottom>
                   <div className="col-md-4 d-flex justify-content-around">
-                    <div className="card" style={{ width: "18rem" }}>
+                    <div className="card shadow" style={{ width: "18rem" }}>
                       <img
-                        className="card-img-top"
+                        className="card-img-top skeleton"
                         src={data[8]?.img}
                         alt="Varanasi"
                       />
@@ -624,7 +629,7 @@ export default function Home({ date }) {
                         <p>
                           <button
                             type="button"
-                            className="btn btn-primary mt-2"
+                            className="btn btn-primary mt-2 shadow"
                             data-bs-toggle="modal"
                             data-bs-target="#staticBackdrop33"
                           >
@@ -657,16 +662,16 @@ export default function Home({ date }) {
             </h2>
             <div
               id="collapse4"
-              className="accordion-collapse collapse"
+              className="accordion-collapse collapse mb-5 mt-5"
               aria-labelledby="headingFour"
               data-bs-parent="#accordionExample"
             >
               <div className="row mt-2 mb-2">
                 <Fade delay={200} bottom>
                   <div className="col-md-4 d-flex justify-content-around">
-                    <div className="card" style={{ width: "18rem" }}>
+                    <div className="card shadow" style={{ width: "18rem" }}>
                       <img
-                        className="card-img-top"
+                        className="card-img-top skeleton"
                         src={data[9]?.img}
                         height={"100%"}
                         alt="Haridwar"
@@ -682,7 +687,7 @@ export default function Home({ date }) {
                         <p>
                           <button
                             type="button"
-                            className="btn btn-primary mt-2"
+                            className="btn btn-primary mt-2 shadow"
                             data-bs-toggle="modal"
                             data-bs-target="#staticBackdrop41"
                           >
@@ -697,9 +702,9 @@ export default function Home({ date }) {
                 {/* 2 */}
                 <Fade delay={500} bottom>
                   <div className="col-md-4 d-flex justify-content-around">
-                    <div className="card" style={{ width: "18rem" }}>
+                    <div className="card shadow" style={{ width: "18rem" }}>
                       <img
-                        className="card-img-top"
+                        className="card-img-top skeleton"
                         src={data[10]?.img}
                         alt="Mussoorie"
                       />
@@ -714,7 +719,7 @@ export default function Home({ date }) {
                         <p>
                           <button
                             type="button"
-                            className="btn btn-primary mt-2"
+                            className="btn btn-primary mt-2 shadow"
                             data-bs-toggle="modal"
                             data-bs-target="#staticBackdrop42"
                           >
@@ -729,9 +734,9 @@ export default function Home({ date }) {
                 {/* 3 */}
                 <Fade delay={800} bottom>
                   <div className="col-md-4 d-flex justify-content-around">
-                    <div className="card" style={{ width: "18rem" }}>
+                    <div className="card shadow" style={{ width: "18rem" }}>
                       <img
-                        className="card-img-top"
+                        className="card-img-top skeleton"
                         src={data[11]?.img}
                         alt="Rishikesh"
                         height={"100%"}
@@ -747,7 +752,7 @@ export default function Home({ date }) {
                         <p>
                           <button
                             type="button"
-                            className="btn btn-primary mt-2"
+                            className="btn btn-primary mt-2 shadow"
                             data-bs-toggle="modal"
                             data-bs-target="#staticBackdrop43"
                           >
@@ -780,16 +785,16 @@ export default function Home({ date }) {
             </h2>
             <div
               id="collapse5"
-              className="accordion-collapse collapse"
+              className="accordion-collapse collapse mb-5 mt-5"
               aria-labelledby="headingFive"
               data-bs-parent="#accordionExample"
             >
               <div className="row mt-2 mb-2">
                 <Fade delay={200} bottom>
                   <div className="col-md-4 d-flex justify-content-around">
-                    <div className="card" style={{ width: "18rem" }}>
+                    <div className="card shadow" style={{ width: "18rem" }}>
                       <img
-                        className="card-img-top"
+                        className="card-img-top skeleton"
                         src={data[12]?.img}
                         alt="Darjeeling"
                       />
@@ -804,7 +809,7 @@ export default function Home({ date }) {
                         <p>
                           <button
                             type="button"
-                            className="btn btn-primary mt-2"
+                            className="btn btn-primary mt-2 shadow"
                             data-bs-toggle="modal"
                             data-bs-target="#staticBackdrop51"
                           >
@@ -819,9 +824,9 @@ export default function Home({ date }) {
                 {/* 2 */}
                 <Fade delay={500} bottom>
                   <div className="col-md-4 d-flex justify-content-around">
-                    <div className="card" style={{ width: "18rem" }}>
+                    <div className="card shadow" style={{ width: "18rem" }}>
                       <img
-                        className="card-img-top"
+                        className="card-img-top skeleton"
                         src={data[13]?.img}
                         alt="Digha"
                       />
@@ -836,7 +841,7 @@ export default function Home({ date }) {
                         <p>
                           <button
                             type="button"
-                            className="btn btn-primary mt-2"
+                            className="btn btn-primary mt-2 shadow"
                             data-bs-toggle="modal"
                             data-bs-target="#staticBackdrop52"
                           >
@@ -851,9 +856,9 @@ export default function Home({ date }) {
                 {/* 3 */}
                 <Fade delay={800} bottom>
                   <div className="col-md-4 d-flex justify-content-around">
-                    <div className="card" style={{ width: "18rem" }}>
+                    <div className="card shadow" style={{ width: "18rem" }}>
                       <img
-                        className="card-img-top"
+                        className="card-img-top skeleton"
                         src={data[14]?.img}
                         height={"100%"}
                         alt="Kolkata"
@@ -869,7 +874,7 @@ export default function Home({ date }) {
                         <p>
                           <button
                             type="button"
-                            className="btn btn-primary mt-2"
+                            className="btn btn-primary mt-2 shadow"
                             data-bs-toggle="modal"
                             data-bs-target="#staticBackdrop53"
                           >
@@ -918,7 +923,7 @@ export default function Home({ date }) {
                 src={data[0]?.img}
                 alt=""
                 width={"100%"}
-                className="modalimg mb-3"
+                className="modalimg mb-3 skeleton shadow rounded"
               />
               <p>
                 <h4 className="text-center mb-3">
@@ -1010,7 +1015,7 @@ export default function Home({ date }) {
                 alt=""
                 width={"100%"}
                 height={"263px"}
-                className="modalimg mb-3"
+                className="modalimg mb-3 skeleton shadow rounded"
               />
               <p>
                 <h4 className="text-center mb-3">{data[1]?.name}</h4>
@@ -1102,7 +1107,7 @@ export default function Home({ date }) {
                 alt=""
                 width={"100%"}
                 height="263px"
-                className="modalimg mb-3"
+                className="modalimg mb-3 skeleton shadow rounded"
               />
               <p>
                 <h4 className="text-center mb-3">{data[2]?.name}</h4>
@@ -1193,7 +1198,7 @@ export default function Home({ date }) {
                 alt=""
                 width={"100%"}
                 height="263px"
-                className="modalimg mb-3"
+                className="modalimg mb-3 skeleton shadow rounded"
               />
               <p>
                 <h4 className="text-center mb-3">{data[15]?.name}</h4>
@@ -1283,7 +1288,7 @@ export default function Home({ date }) {
                 alt=""
                 width={"100%"}
                 height="263px"
-                className="modalimg mb-3"
+                className="modalimg mb-3 skeleton shadow rounded"
               />
               <p>
                 <h4 className="text-center mb-3">{data[16]?.name}</h4>
@@ -1373,7 +1378,7 @@ export default function Home({ date }) {
                 alt=""
                 width={"100%"}
                 height="263px"
-                className="modalimg mb-3"
+                className="modalimg mb-3 skeleton shadow rounded"
               />
               <p>
                 <h4 className="text-center mb-3">{data[17]?.name}</h4>
@@ -1463,7 +1468,7 @@ export default function Home({ date }) {
                 alt=""
                 width={"100%"}
                 height="263px"
-                className="modalimg mb-3"
+                className="modalimg mb-3 skeleton shadow rounded"
               />
               <p>
                 <h4 className="text-center mb-3">
@@ -1555,21 +1560,13 @@ export default function Home({ date }) {
                 alt=""
                 width={"100%"}
                 height="263px"
-                className="modalimg mb-3"
+                className="modalimg mb-3 skeleton shadow rounded"
               />
               <p>
                 <h4 className="text-center mb-3">
                   {data[4]?.name} - "The city of the Sun Temple"
                 </h4>
-                <p className="just">
-                  Konark, in the state of Orissa is renowned world over for the
-                  Sun Temple which is also a UNESCO World Heritage Site, the
-                  Annual dance festival and its beautiful sandy beaches.
-                  Konark's Sun Temple is an architectural marvel and is one of
-                  the most beautiful monuments of India. Konark sun temple is
-                  the must visit place in your travel bucket list if you love to
-                  explore the ancient histories.
-                </p>
+                <p className="just">{data[4]?.description}</p>
               </p>
               <hr className="dropdown-divider" />
               <div className="div row">
@@ -1655,7 +1652,7 @@ export default function Home({ date }) {
                 alt=""
                 width={"100%"}
                 height="263px"
-                className="modalimg mb-3"
+                className="modalimg mb-3 skeleton shadow rounded"
               />
               <p>
                 <h4 className="text-center mb-3">
@@ -1747,7 +1744,7 @@ export default function Home({ date }) {
                 alt=""
                 width={"100%"}
                 height="263px"
-                className="modalimg mb-3"
+                className="modalimg mb-3 skeleton shadow rounded"
               />
               <p>
                 <h4 className="text-center mb-3">
@@ -1840,7 +1837,7 @@ export default function Home({ date }) {
                 alt=""
                 width={"100%"}
                 height="263px"
-                className="modalimg mb-3"
+                className="modalimg mb-3 skeleton shadow rounded"
               />
               <p>
                 <h4 className="text-center mb-3">
@@ -1932,7 +1929,7 @@ export default function Home({ date }) {
                 alt=""
                 width={"100%"}
                 height="263px"
-                className="modalimg mb-3"
+                className="modalimg mb-3 skeleton shadow rounded"
               />
               <p>
                 <h4 className="text-center mb-3">
@@ -2024,7 +2021,7 @@ export default function Home({ date }) {
                 alt=""
                 width={"100%"}
                 height="263px"
-                className="modalimg mb-3"
+                className="modalimg mb-3 skeleton shadow rounded"
               />
               <p>
                 <h4 className="text-center mb-3">
@@ -2116,7 +2113,7 @@ export default function Home({ date }) {
                 alt=""
                 width={"100%"}
                 height="263px"
-                className="modalimg mb-3"
+                className="modalimg mb-3 skeleton shadow rounded"
               />
               <p>
                 <h4 className="text-center mb-3">
@@ -2208,7 +2205,7 @@ export default function Home({ date }) {
                 alt=""
                 width={"100%"}
                 height="263px"
-                className="modalimg mb-3"
+                className="modalimg mb-3 skeleton shadow rounded"
               />
               <p>
                 <h4 className="text-center mb-3">
@@ -2300,7 +2297,7 @@ export default function Home({ date }) {
                 alt=""
                 width={"100%"}
                 height="263px"
-                className="modalimg mb-3"
+                className="modalimg mb-3 skeleton shadow rounded"
               />
               <p>
                 <h4 className="text-center mb-3">
@@ -2392,7 +2389,7 @@ export default function Home({ date }) {
                 alt=""
                 width={"100%"}
                 height="263px"
-                className="modalimg mb-3"
+                className="modalimg mb-3 skeleton shadow rounded"
               />
               <p>
                 <h4 className="text-center mb-3">
@@ -2490,7 +2487,7 @@ export default function Home({ date }) {
                 alt=""
                 width={"100%"}
                 height="263px"
-                className="modalimg mb-3"
+                className="modalimg mb-3 skeleton shadow rounded"
               />
               <p>
                 <h4 className="text-center mb-3">

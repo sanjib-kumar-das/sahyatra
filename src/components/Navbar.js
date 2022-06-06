@@ -8,7 +8,7 @@ export default function Navbar() {
     <>
       <nav className="navbar navbar-expand-lg navbar-dark bg-gradient bg-dark ">
         <div className="container-fluid">
-          <img src={navpic} alt="" height="80" width="80" />
+          <img className="" src={navpic} alt="" height="80" width="80" />
           <Link className="navbar-brand col-md-1 mx-3 text-center" to="/">
             SAHyatra
           </Link>
@@ -99,6 +99,20 @@ export default function Navbar() {
                 </Link>
               </li>
 
+              <div className="whatsapp nav-item">
+                <a
+                  href="https://wa.me/+916289181751"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="nav-link text-center"
+                  data-bs-toggle="tooltip"
+                  data-bs-placement="bottom"
+                  title="Send SOS"
+                >
+                  <i className="fab mt-3 fa-brands fa-whatsapp-square fa-3x fa-bounce"></i>
+                </a>
+              </div>
+
               {/* <li className="nav-item searchbar">
                 <form className="form-inline my-2 my-lg-0 d-flex justify-content-between col-md-4">
                   <input
@@ -148,7 +162,7 @@ export default function Navbar() {
         <div className="offcanvas-body">
           <p>
             <br />
-            <button className="btn btn-primary">
+            <button className="btn btn-primary shadow">
               <a href="tel:6289181751" className="text-white">
                 <i className="fa-solid fa-virus-covid"></i> 1075
               </a>
@@ -157,7 +171,7 @@ export default function Navbar() {
           </p>
           <p>
             <br />
-            <button className="btn btn-primary">
+            <button className="btn btn-primary shadow">
               <a href="tel:6289181751" className="text-white">
                 <i className="fa-solid fa-person-hiking"></i>&nbsp; 1363
               </a>
@@ -166,7 +180,7 @@ export default function Navbar() {
           </p>
           <p>
             <br />
-            <button className="btn btn-primary">
+            <button className="btn btn-primary shadow">
               <a href="tel:6289181751" className="text-white">
                 <i className="fa-solid fa-building-shield"></i>&nbsp;&nbsp; 100
               </a>
@@ -175,7 +189,7 @@ export default function Navbar() {
           </p>
           <p>
             <br />
-            <button className="btn btn-primary">
+            <button className="btn btn-primary shadow">
               <a href="tel:6289181751" className="text-white">
                 <i className="fa-solid fa-fire-extinguisher"></i>
                 &nbsp;&nbsp;&nbsp; 101
@@ -185,7 +199,7 @@ export default function Navbar() {
           </p>
           <p>
             <br />
-            <button className="btn btn-primary">
+            <button className="btn btn-primary shadow">
               <a href="tel:6289181751" className="text-white">
                 <i className="fa-solid fa-truck-medical"></i> &nbsp;&nbsp;102
               </a>
@@ -194,7 +208,7 @@ export default function Navbar() {
           </p>
           <p>
             <br />
-            <button className="btn btn-primary">
+            <button className="btn btn-primary shadow">
               <a href="tel:6289181751" className="text-white">
                 <i className="fa-solid fa-venus"></i>&nbsp;&nbsp; 1091
               </a>
@@ -203,7 +217,7 @@ export default function Navbar() {
           </p>
           <p>
             <br />
-            <button className="btn btn-primary">
+            <button className="btn btn-primary shadow">
               <a href="tel:6289181751" className="text-white">
                 <i className="fa-solid fa-person-cane"></i>&nbsp; 14567
               </a>
@@ -212,7 +226,7 @@ export default function Navbar() {
           </p>
           <p>
             <br />
-            <button className="btn btn-primary">
+            <button className="btn btn-primary shadow">
               <a href="tel:6289181751" className="text-white">
                 <i className="fa-solid fa-baby"></i>&nbsp;&nbsp; 1098
               </a>
@@ -221,7 +235,7 @@ export default function Navbar() {
           </p>
           <p>
             <br />
-            <button className="btn btn-primary">
+            <button className="btn btn-primary shadow">
               <a href="tel:6289181751" className="text-white">
                 <i className="fa-solid fa-cloud-showers-water"></i>
                 &nbsp;&nbsp;&nbsp; 108
@@ -231,7 +245,7 @@ export default function Navbar() {
           </p>
           <p>
             <br />
-            <button className="btn btn-primary">
+            <button className="btn btn-primary shadow">
               <a href="tel:6289181751" className="text-white">
                 <i className="fa-solid fa-train-subway"></i>
                 &nbsp;&nbsp;&nbsp;&nbsp; 139&nbsp;
@@ -241,7 +255,7 @@ export default function Navbar() {
           </p>
           <p>
             <br />
-            <button className="btn btn-primary">
+            <button className="btn btn-primary shadow">
               <a href="tel:6289181751" className="text-white">
                 <i className="fa-solid fa-road"></i>&nbsp;&nbsp; 1073
               </a>
@@ -250,7 +264,7 @@ export default function Navbar() {
           </p>
           <p>
             <br />
-            <button className="btn btn-primary">
+            <button className="btn btn-primary shadow">
               <a href="tel:6289181751" className="text-white">
                 <i className="fa-solid fa-earth-asia"></i> 155620
               </a>
@@ -261,7 +275,7 @@ export default function Navbar() {
           <div className="dropdown-divider bg-muted mt-5"></div>
           <p className="mt-2 text-center">
             <br />
-            <button className="btn btn-primary">
+            <button className="btn btn-primary shadow">
               <a href="tel:6289181751" className="text-white">
                 <i className="fa-solid fa-phone"></i> 1800-111-363
               </a>

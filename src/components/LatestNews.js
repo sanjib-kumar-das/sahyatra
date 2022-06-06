@@ -10,7 +10,7 @@ export default function LatestNews() {
         <Fade delay={100} top>
           <div className="row main">
             <div className="col-lg-6">
-              <div className="card mb-3">
+              <div className="card mb-3 shadow">
                 <div className="row g-0">
                   <div className="col-md-4">
                     <img
@@ -62,7 +62,7 @@ export default function LatestNews() {
             <div className="col-3"></div>
             <div className="col-3"></div>
             <div className="col-lg-6">
-              <div className="card mb-3">
+              <div className="card mb-3 shadow">
                 <div className="row g-0">
                   <div className="col-md-4">
                     <img
@@ -111,7 +111,7 @@ export default function LatestNews() {
         <Fade delay={500} top>
           <div className="row">
             <div className="col-lg-6">
-              <div className="card mb-3">
+              <div className="card mb-3 shadow">
                 <div className="row g-0">
                   <div className="col-md-4">
                     <img
@@ -161,7 +161,7 @@ export default function LatestNews() {
             <div className="col-3"></div>
             <div className="col-3"></div>
             <div className="col-lg-6">
-              <div className="card mb-3">
+              <div className="card mb-3 shadow">
                 <div className="row g-0">
                   <div className="col-md-4">
                     <img
@@ -211,7 +211,7 @@ export default function LatestNews() {
       <div class="container my-5" id="featured">
         <div class="row">
           <div class="col-6 ">
-            <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow h-md-250 position-relative">
               <div class="col p-4 d-flex flex-column position-static">
                 <strong class="d-inline-block mb-2 text-danger">
                   #waterfalls
@@ -222,7 +222,7 @@ export default function LatestNews() {
                   The Gokak Falls, popularly known as "the Niagara of India," is
                   one of the country's prettiest waterfalls.
                 </p>
-                <a href="#" class="stretched-link">
+                <a href="?" class="stretched-link">
                   Details
                 </a>
               </div>
@@ -239,7 +239,7 @@ export default function LatestNews() {
           </div>
 
           <div class="col-6 ">
-            <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow h-md-250 position-relative">
               <div class="col p-4 d-flex flex-column position-static">
                 <strong class="d-inline-block mb-2 text-primary">
                   #indian_mountains
@@ -250,7 +250,7 @@ export default function LatestNews() {
                   Abbott Mount is an unsung hillside which has managed to retain
                   its natural charm and splendor for over a century.
                 </p>
-                <a href="#" class="stretched-link">
+                <a href="?" class="stretched-link">
                   Details
                 </a>
               </div>
@@ -269,7 +269,7 @@ export default function LatestNews() {
 
         <div class="row">
           <div class="col-6 ">
-            <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow h-md-250 position-relative">
               <div class="col p-4 d-flex flex-column position-static">
                 <strong class="d-inline-block mb-2 text-warning">
                   #heaven_on_earth
@@ -281,7 +281,7 @@ export default function LatestNews() {
                   in the Baramulla district in the Indian union territory of
                   Jammu and Kashmir.
                 </p>
-                <a href="#" class="stretched-link">
+                <a href="?" class="stretched-link">
                   Details
                 </a>
               </div>
@@ -298,7 +298,7 @@ export default function LatestNews() {
           </div>
 
           <div class="col-6 ">
-            <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow h-md-250 position-relative">
               <div class="col p-4 d-flex flex-column position-static">
                 <strong class="d-inline-block mb-2 text-success">
                   #queen_of_northeast
@@ -309,7 +309,7 @@ export default function LatestNews() {
                   Tawang is situated 448 km north-west of state capital Itanagar
                   at an elevation of approximately 3,048 metres (10,000 ft).
                 </p>
-                <a href="#" class="stretched-link">
+                <a href="?" class="stretched-link">
                   Details
                 </a>
               </div>
