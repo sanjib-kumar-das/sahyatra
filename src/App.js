@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import "./App.css";
 import ScrollToTop from "./components/ScrollToTop";
 import Navbar from "./components/Navbar";
@@ -11,9 +11,11 @@ import Footer from "./components/Footer";
 import Error from "./components/Error";
 import About from "./components/About";
 import Goodgraph from "./components/Goodgraph";
-
-import ClimbingBoxLoader from "react-spinners/ClimbingBoxLoader";
+import GetLocation from "./components/GetLocation";
+// import ClimbingBoxLoader from "react-spinners/ClimbingBoxLoader";
 import Spin from "../src/components/images/spin2.gif";
+// import AlanAI from "../src/components/AlanAI";
+import alanBtn from "@alan-ai/alan-sdk-web";
 
 function App() {
   const [loading, setLoading] = useState(false);
@@ -23,6 +25,19 @@ function App() {
       setLoading(false);
     }, 3000);
   }, []);
+
+  // const alanBtnInstance = useRef(null);
+
+  // const alanKey =
+  //   "4ccacafa9ad5a7c2db05cd214405b57a2e956eca572e1d8b807a3e2338fdd0dc/stage";
+  // useEffect(() => {
+  //   alanBtn({
+  //     bottom: "15px",
+  //     left: "15px",
+  //     key: alanKey,
+  //   });
+  // }, []);
+
   return (
     <>
       {/* <div className="App"> */}
@@ -42,6 +57,7 @@ function App() {
         />
       ) : (
         <BrowserRouter>
+          {/* <AlanAI /> */}
           <ScrollToTop />
           <Navbar />
 

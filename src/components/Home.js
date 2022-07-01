@@ -27,7 +27,7 @@ ChartJS.register(
   Legend
 );
 
-export default function Home({ date }) {
+export default function Home({ date, id, setId }) {
   // Counter
 
   const [counter1, setCounter1] = useState(0);

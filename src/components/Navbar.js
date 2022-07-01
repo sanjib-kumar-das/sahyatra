@@ -1,9 +1,17 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import "./styles/navbar.css";
 import navpic from "./images/SAH_Logo.png";
+import GetLocation from "./GetLocation";
 
 export default function Navbar() {
+  const location = GetLocation();
+  const lat = location.loaded
+    ? JSON.stringify(location.coordinates.lat)
+    : "Location data not availale yet";
+  const lng = location.loaded
+    ? JSON.stringify(location.coordinates.lng)
+    : "Location data not availale yet";
   return (
     <>
       <nav className="navbar navbar-expand-lg navbar-dark bg-gradient bg-dark ">
@@ -283,7 +291,19 @@ export default function Navbar() {
             <p className="mt-3"> Tourist Helpline (Toll-free)</p>
           </p>
         </div>
-        <div className="dropdown-divider bg-muted mt-5"></div>
+
+        <div className="div bg-dark">
+          {/* {location.loaded
+            ? JSON.stringify(location)
+            : "Location data not availale yet"} */}
+          <p className="text-center text-muted">
+            <br />
+            <h4>Your current location</h4>
+            Latitude: {lat} <br />
+            Longitude: {lng}
+          </p>
+        </div>
+        {/* <div className="dropdown-divider bg-muted mt-2"></div> */}
         <p className="text-center text-muted">
           <br />
           For any other query you may contact teamudvaban@gmail.com
