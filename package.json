@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@alan-ai/alan-sdk-web": "^1.8.34",
     "@emotion/react": "^11.8.2",
     "@emotion/styled": "^11.8.1",
     "@fortawesome/fontawesome-svg-core": "^6.1.0",
@@ -25,6 +26,7 @@
     "react-parallax-button": "^1.0.4",
     "react-router-dom": "^6.2.2",
     "react-scripts": "5.0.0",
+    "react-speech": "^1.0.2",
     "react-spinners": "^0.12.0",
     "react-time-ago": "^7.1.9",
     "web-vitals": "^2.1.4"
