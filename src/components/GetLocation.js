@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import alanBtn from "@alan-ai/alan-sdk-web";
-import Speech from "react-speech";
 
 export default function GetLocation() {
   const [location, setLocation] = useState({
@@ -15,7 +14,14 @@ export default function GetLocation() {
         lng: location.coords.longitude,
       },
     });
+    const roundLat = Number(location.coords.latitude.toFixed(2));
+    const roundLng = Number(location.coords.longitude.toFixed(2));
+
+    if (roundLat === 22.57 && roundLng === 88.36) {
+      // alert("danger");
+    }
   };
+
   const onError = (error) => {
     setLocation({
       loaded: true,
@@ -25,6 +31,7 @@ export default function GetLocation() {
       },
     });
   };
+
   useEffect(() => {
     if (!("geolocation" in navigator)) {
       onError({
@@ -52,23 +59,8 @@ export default function GetLocation() {
     });
   }, []);
 
-  if (
-    location.coordinates.lat === 23.2602614 &&
-    location.coordinates.lng === 87.8459598
-  ) {
-    alanBtn({
-      key: alanKey,
-      // bottom: "15px",
-      // left: "15px",
-
-      onCommand: ({ command }) => {
-        if (command === "danger") {
-          alert("well done");
-        }
-      },
-    });
-    console.log(location.coordinates.lat, location.coordinates.lng);
-  }
+  //   console.log(location.coordinates.lat, location.coordinates.lng);
+  //   console.log("object");
 
   return location;
 }

@@ -2,6 +2,7 @@ import React from "react";
 import { useState } from "react";
 import "./styles/travelogue.css";
 import Fade from "react-reveal/Fade";
+import Sparkles from "react-sparkle";
 
 const Travelogue = () => {
   // States of Form
@@ -189,7 +190,24 @@ const Travelogue = () => {
         <form className="row g-4 mt-5" onSubmit={handleSubmit} method="POST">
           <Fade top>
             <div className="row d-flex justify-content-between mb-5">
-              <div className="col-10 "></div>
+              <span className="col-10 ">
+                <span className="cointext fs-4">
+                  You're just one step away to earn a SafarCoin
+                </span>
+
+                <Sparkles flicker={false} color="gold" />
+                <img
+                  className="coin fab fa-flip"
+                  src="./safarcoin.png"
+                  alt="safarcoin"
+                  style={{
+                    height: "3em",
+                    width: "3rem",
+                    cursor: "none",
+                  }}
+                />
+              </span>
+
               <div className="col-2 text-danger required1">Required fields</div>
             </div>
           </Fade>
