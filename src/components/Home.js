@@ -413,7 +413,7 @@ export default function Home({ date, id, setId }) {
       },
       title: {
         display: true,
-        text: "Ratings Drift(2016-2022)",
+        text: "Ratings Drift (2016-2022)",
       },
     },
     maintainAspectRatio: false,

@@ -215,8 +215,8 @@ export default function Footer() {
                 <h6 className="fw-bold mt-4">YatraMon</h6>
                 <hr className="mb-4 mt-0 d-inline-block mx-auto hr2" />
                 <p className="just">
-                  YatraMon - Your Safe and Secure Travel AI Assistance to guide
-                  you through any kind of doubts and assistance you need during
+                  YatraMon - Your Safe and Secure Travel AI Assistant to guide
+                  you through any kind of doubts and queries you need during
                   your journey.
                 </p>
               </div>

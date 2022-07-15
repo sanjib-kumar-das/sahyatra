@@ -10,7 +10,7 @@ import {
   LinearScale,
   PointElement,
 } from "chart.js";
-import { Line, Bar } from "react-chartjs-2";
+import { Bar } from "react-chartjs-2";
 
 ChartJS.register(
   BarElement,
@@ -347,56 +347,63 @@ function Goodgraph() {
         label: "2016",
         data: d16.map((ya) => ya.val),
 
-        backgroundColor: ["rgba(255, 99, 132, 0.2)"],
-        borderColor: ["rgba(255, 99, 132, 1)"],
+        backgroundColor: ["#4d8825"],
+        // borderColor: ["rgba(255, 99, 132, 1)"],
+        borderColor: ["rgba(0, 0, 0, 1)"],
         borderWidth: 1,
       },
       {
         label: "2017",
         data: d17.map((ya) => ya.val),
 
-        backgroundColor: ["rgba(255, 99, 132, 0.2)"],
-        borderColor: ["rgba(255, 99, 132, 1)"],
+        backgroundColor: ["#0378dd"],
+        // borderColor: ["rgba(255, 99, 132, 1)"],
+        borderColor: ["rgba(0, 0, 0, 1)"],
         borderWidth: 1,
       },
       {
         label: "2018",
         data: d18.map((ya) => ya.val),
 
-        backgroundColor: ["rgba(54, 162, 235, 0.2)"],
-        borderColor: ["rgba(54, 162, 235, 1)"],
+        backgroundColor: ["#e3782b"],
+        // borderColor: ["rgba(54, 162, 235, 1)"],
+        borderColor: ["rgba(0, 0, 0, 1)"],
         borderWidth: 1,
       },
       {
         label: "2019",
         data: d19.map((ya) => ya.val),
 
-        backgroundColor: ["rgba(255, 206, 86, 0.2)"],
-        borderColor: ["rgba(255, 206, 86, 1)"],
+        backgroundColor: ["#43eead"],
+        // borderColor: ["rgba(255, 206, 86, 1)"],
+        borderColor: ["rgba(0, 0, 0, 1)"],
         borderWidth: 1,
       },
       {
         label: "2020",
         data: d20.map((ya) => ya.val),
 
-        backgroundColor: ["rgba(153, 102, 255, 0.2)"],
-        borderColor: ["rgba(153, 102, 255, 1)"],
+        backgroundColor: ["#d41452"],
+        // borderColor: ["rgba(153, 102, 255, 1)"],
+        borderColor: ["rgba(0, 0, 0, 1)"],
         borderWidth: 1,
       },
       {
         label: "2021",
         data: d21.map((ya) => ya.val),
 
-        backgroundColor: ["rgba(255, 159, 64, 0.2)"],
-        borderColor: ["rgba(255, 159, 64, 1)"],
+        backgroundColor: ["#ffc200"],
+        // borderColor: ["rgba(255, 159, 64, 1)"],
+        borderColor: ["rgba(0, 0, 0, 1)"],
         borderWidth: 1,
       },
       {
         label: "2022",
         data: d22.map((ya) => ya.val),
 
-        backgroundColor: ["rgba(255, 99, 132, 0.2)"],
-        borderColor: ["rgba(255, 99, 132, 1)"],
+        backgroundColor: ["#ff5048"],
+        // borderColor: ["rgba(255, 99, 132, 1)"],
+        borderColor: ["rgba(0, 0, 0, 1)"],
         borderWidth: 1,
       },
     ],
@@ -410,56 +417,63 @@ function Goodgraph() {
         label: "2016",
         data: e16.map((ya) => ya.val),
 
-        backgroundColor: ["rgba(255, 99, 132, 0.2)"],
-        borderColor: ["rgba(255, 99, 132, 1)"],
+        backgroundColor: ["#4d8825"],
+        // borderColor: ["rgba(255, 99, 132, 1)"],
+        borderColor: ["rgba(0, 0, 0, 1)"],
         borderWidth: 1,
       },
       {
         label: "2017",
         data: e17.map((ya) => ya.val),
 
-        backgroundColor: ["rgba(255, 99, 132, 0.2)"],
-        borderColor: ["rgba(255, 99, 132, 1)"],
+        backgroundColor: ["#0378dd"],
+        // borderColor: ["rgba(255, 99, 132, 1)"],
+        borderColor: ["rgba(0, 0, 0, 1)"],
         borderWidth: 1,
       },
       {
         label: "2018",
         data: e18.map((ya) => ya.val),
 
-        backgroundColor: ["rgba(54, 162, 235, 0.2)"],
-        borderColor: ["rgba(54, 162, 235, 1)"],
+        backgroundColor: ["#e3782b"],
+        // borderColor: ["rgba(54, 162, 235, 1)"],
+        borderColor: ["rgba(0, 0, 0, 1)"],
         borderWidth: 1,
       },
       {
         label: "2019",
         data: e19.map((ya) => ya.val),
 
-        backgroundColor: ["rgba(255, 206, 86, 0.2)"],
-        borderColor: ["rgba(255, 206, 86, 1)"],
+        backgroundColor: ["#43eead"],
+        // borderColor: ["rgba(255, 206, 86, 1)"],
+        borderColor: ["rgba(0, 0, 0, 1)"],
         borderWidth: 1,
       },
       {
         label: "2020",
         data: e20.map((ya) => ya.val),
 
-        backgroundColor: ["rgba(153, 102, 255, 0.2)"],
-        borderColor: ["rgba(153, 102, 255, 1)"],
+        backgroundColor: ["#d41452"],
+        // borderColor: ["rgba(153, 102, 255, 1)"],
+        borderColor: ["rgba(0, 0, 0, 1)"],
         borderWidth: 1,
       },
       {
         label: "2021",
         data: e21.map((ya) => ya.val),
 
-        backgroundColor: ["rgba(255, 159, 64, 0.2)"],
-        borderColor: ["rgba(255, 159, 64, 1)"],
+        backgroundColor: ["#ffc200"],
+        // borderColor: ["rgba(255, 159, 64, 1)"],
+        borderColor: ["rgba(0, 0, 0, 1)"],
         borderWidth: 1,
       },
       {
         label: "2022",
         data: e22.map((ya) => ya.val),
 
-        backgroundColor: ["rgba(255, 99, 132, 0.2)"],
-        borderColor: ["rgba(255, 99, 132, 1)"],
+        backgroundColor: ["#ff5048"],
+        // borderColor: ["rgba(255, 99, 132, 1)"],
+        borderColor: ["rgba(0, 0, 0, 1)"],
         borderWidth: 1,
       },
     ],
