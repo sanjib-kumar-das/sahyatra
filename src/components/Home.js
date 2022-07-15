@@ -14,7 +14,7 @@ import {
   LinearScale,
   PointElement,
 } from "chart.js";
-import { Line, Bar } from "react-chartjs-2";
+import { Line } from "react-chartjs-2";
 
 ChartJS.register(
   BarElement,
@@ -62,7 +62,7 @@ export default function Home({ date, id, setId }) {
     labels,
     datasets: [
       {
-        label: "Crime",
+        label: "Hotel Rating",
         data: [
           "11.42857",
           "0",
@@ -78,7 +78,7 @@ export default function Home({ date, id, setId }) {
         borderWidth: 1,
       },
       {
-        label: "clean",
+        label: "Food Rating",
         data: [
           "1.42857",
           "0.1",
@@ -96,8 +96,316 @@ export default function Home({ date, id, setId }) {
     ],
   };
 
+  var bagabeach = {
+    labels,
+    datasets: [
+      {
+        label: "Hotel Rating",
+        data: ["", "", "4", "3", "", "", ""],
+
+        backgroundColor: ["rgba(255, 99, 132, 0.2)"],
+        borderColor: ["rgba(255, 99, 132, 1)"],
+        borderWidth: 1,
+      },
+      {
+        label: "Food Rating",
+        data: ["", "", "5", "5", "", "", ""],
+
+        backgroundColor: ["rgba(25, 9, 102, 0.2)"],
+        borderColor: ["rgba(25, 9, 102, 1)"],
+        borderWidth: 1,
+      },
+    ],
+  };
+
+  var panaji = {
+    labels,
+    datasets: [
+      {
+        label: "Hotel Rating",
+        data: ["", "", "5", "", "", "", ""],
+
+        backgroundColor: ["rgba(255, 99, 132, 0.2)"],
+        borderColor: ["rgba(255, 99, 132, 1)"],
+        borderWidth: 1,
+      },
+      {
+        label: "Food Rating",
+        data: ["", "", "5", "", "", "", ""],
+
+        backgroundColor: ["rgba(25, 9, 102, 0.2)"],
+        borderColor: ["rgba(25, 9, 102, 1)"],
+        borderWidth: 1,
+      },
+    ],
+  };
+
+  var alappuzha = {
+    labels,
+    datasets: [
+      {
+        label: "Hotel Rating",
+        data: ["", "5", "", "3", "", "", ""],
+
+        backgroundColor: ["rgba(255, 99, 132, 0.2)"],
+        borderColor: ["rgba(255, 99, 132, 1)"],
+        borderWidth: 1,
+      },
+      {
+        label: "Food Rating",
+        data: ["", "5", "", "3", "", "", ""],
+
+        backgroundColor: ["rgba(25, 9, 102, 0.2)"],
+        borderColor: ["rgba(25, 9, 102, 1)"],
+        borderWidth: 1,
+      },
+    ],
+  };
+
+  var bhubaneshwar = {
+    labels,
+    datasets: [
+      {
+        label: "Hotel Rating",
+        data: ["3", "", "", "3", "", "", ""],
+
+        backgroundColor: ["rgba(255, 99, 132, 0.2)"],
+        borderColor: ["rgba(255, 99, 132, 1)"],
+        borderWidth: 1,
+      },
+      {
+        label: "Food Rating",
+        data: ["4", "", "", "3", "", "", ""],
+
+        backgroundColor: ["rgba(25, 9, 102, 0.2)"],
+        borderColor: ["rgba(25, 9, 102, 1)"],
+        borderWidth: 1,
+      },
+    ],
+  };
+
+  var konark = {
+    labels,
+    datasets: [
+      {
+        label: "Hotel Rating",
+        data: ["", "", "4", "4", "", "", ""],
+
+        backgroundColor: ["rgba(255, 99, 132, 0.2)"],
+        borderColor: ["rgba(255, 99, 132, 1)"],
+        borderWidth: 1,
+      },
+      {
+        label: "Food Rating",
+        data: ["", "", "4", "3", "", "", ""],
+
+        backgroundColor: ["rgba(25, 9, 102, 0.2)"],
+        borderColor: ["rgba(25, 9, 102, 1)"],
+        borderWidth: 1,
+      },
+    ],
+  };
+
+  var puri = {
+    labels,
+    datasets: [
+      {
+        label: "Hotel Rating",
+        data: ["3", "3.67", "3", "3.5", "4", "", "3.67"],
+
+        backgroundColor: ["rgba(255, 99, 132, 0.2)"],
+        borderColor: ["rgba(255, 99, 132, 1)"],
+        borderWidth: 1,
+      },
+      {
+        label: "Food Rating",
+        data: ["3.67", "4", "4", "3.5", "5", "", "4.33"],
+
+        backgroundColor: ["rgba(25, 9, 102, 0.2)"],
+        borderColor: ["rgba(25, 9, 102, 1)"],
+        borderWidth: 1,
+      },
+    ],
+  };
+
+  var agra = {
+    labels,
+    datasets: [
+      {
+        label: "Hotel Rating",
+        data: ["3.5", "4", "3.25", "", "4.33", "5", "3.33"],
+
+        backgroundColor: ["rgba(255, 99, 132, 0.2)"],
+        borderColor: ["rgba(255, 99, 132, 1)"],
+        borderWidth: 1,
+      },
+      {
+        label: "Food Rating",
+        data: ["3.6", "4", "3.25", "", "4.67", "5", "3.5"],
+
+        backgroundColor: ["rgba(25, 9, 102, 0.2)"],
+        borderColor: ["rgba(25, 9, 102, 1)"],
+        borderWidth: 1,
+      },
+    ],
+  };
+
+  var mathura = {
+    labels,
+    datasets: [
+      {
+        label: "Hotel Rating",
+        data: ["4", "", "", "", "", "", ""],
+
+        backgroundColor: ["rgba(255, 99, 132, 0.2)"],
+        borderColor: ["rgba(255, 99, 132, 1)"],
+        borderWidth: 1,
+      },
+      {
+        label: "Food Rating",
+        data: ["5", "", "", "", "", "", ""],
+
+        backgroundColor: ["rgba(25, 9, 102, 0.2)"],
+        borderColor: ["rgba(25, 9, 102, 1)"],
+        borderWidth: 1,
+      },
+    ],
+  };
+
+  var varanasi = {
+    labels,
+    datasets: [
+      {
+        label: "Hotel Rating",
+        data: ["4", "", "", "1", "", "", "3.5"],
+
+        backgroundColor: ["rgba(255, 99, 132, 0.2)"],
+        borderColor: ["rgba(255, 99, 132, 1)"],
+        borderWidth: 1,
+      },
+      {
+        label: "Food Rating",
+        data: ["5", "", "", "3", "", "", "4"],
+
+        backgroundColor: ["rgba(25, 9, 102, 0.2)"],
+        borderColor: ["rgba(25, 9, 102, 1)"],
+        borderWidth: 1,
+      },
+    ],
+  };
+
+  var haridwar = {
+    labels,
+    datasets: [
+      {
+        label: "Hotel Rating",
+        data: ["4", "", "3", "", "", "3.67", "3.5"],
+
+        backgroundColor: ["rgba(255, 99, 132, 0.2)"],
+        borderColor: ["rgba(255, 99, 132, 1)"],
+        borderWidth: 1,
+      },
+      {
+        label: "Food Rating",
+        data: ["3.25", "", "5", "", "", "4.67", "4"],
+
+        backgroundColor: ["rgba(25, 9, 102, 0.2)"],
+        borderColor: ["rgba(25, 9, 102, 1)"],
+        borderWidth: 1,
+      },
+    ],
+  };
+
+  var mussoorie = {
+    labels,
+    datasets: [
+      {
+        label: "Hotel Rating",
+        data: ["4", "", "4", "", "", "", ""],
+
+        backgroundColor: ["rgba(255, 99, 132, 0.2)"],
+        borderColor: ["rgba(255, 99, 132, 1)"],
+        borderWidth: 1,
+      },
+      {
+        label: "Food Rating",
+        data: ["5", "", "4", "", "", "", ""],
+
+        backgroundColor: ["rgba(25, 9, 102, 0.2)"],
+        borderColor: ["rgba(25, 9, 102, 1)"],
+        borderWidth: 1,
+      },
+    ],
+  };
+
+  var darjeeling = {
+    labels,
+    datasets: [
+      {
+        label: "Hotel Rating",
+        data: ["3.67", "4.5", "4", "", "5", "4", "3.5"],
+
+        backgroundColor: ["rgba(255, 99, 132, 0.2)"],
+        borderColor: ["rgba(255, 99, 132, 1)"],
+        borderWidth: 1,
+      },
+      {
+        label: "Food Rating",
+        data: ["4.33", "4", "4", "", "5", "4", "4.5"],
+
+        backgroundColor: ["rgba(25, 9, 102, 0.2)"],
+        borderColor: ["rgba(25, 9, 102, 1)"],
+        borderWidth: 1,
+      },
+    ],
+  };
+
+  var digha = {
+    labels,
+    datasets: [
+      {
+        label: "Hotel Rating",
+        data: ["3.25", "3", "3.5", "3.17", "1", "3.33", "3"],
+
+        backgroundColor: ["rgba(255, 99, 132, 0.2)"],
+        borderColor: ["rgba(255, 99, 132, 1)"],
+        borderWidth: 1,
+      },
+      {
+        label: "Food Rating",
+        data: ["4", "4", "4", "3", "4", "3.67", "4.5"],
+
+        backgroundColor: ["rgba(25, 9, 102, 0.2)"],
+        borderColor: ["rgba(25, 9, 102, 1)"],
+        borderWidth: 1,
+      },
+    ],
+  };
+
+  var kolkata = {
+    labels,
+    datasets: [
+      {
+        label: "Hotel Rating",
+        data: ["3", "", "", "3.5", "2.67", "4.25", "3.75"],
+
+        backgroundColor: ["rgba(255, 99, 132, 0.2)"],
+        borderColor: ["rgba(255, 99, 132, 1)"],
+        borderWidth: 1,
+      },
+      {
+        label: "Food Rating",
+        data: ["5", "", "", "3", "3.33", "4", "4.08"],
+
+        backgroundColor: ["rgba(25, 9, 102, 0.2)"],
+        borderColor: ["rgba(25, 9, 102, 1)"],
+        borderWidth: 1,
+      },
+    ],
+  };
+
   var myoptions = {
-    indexAxis: "y",
+    indexAxis: "x",
     responsive: true,
     plugins: {
       legend: {
@@ -105,16 +413,15 @@ export default function Home({ date, id, setId }) {
       },
       title: {
         display: true,
-        text: "Safety Chart(2017-2021)",
+        text: "Ratings Drift(2016-2022)",
       },
     },
     maintainAspectRatio: false,
     scales: {
-      y: {
+      x: {
         beginAtZero: true,
       },
     },
-
     tooltips: {
       enabled: true,
     },
@@ -952,10 +1259,15 @@ export default function Home({ date, id, setId }) {
                 </div>
               </div>
               <hr className="dropdown-divider" />
-              <Bar data={mydata} options={myoptions} height={350} width={200} />
+              <Line
+                data={bagabeach}
+                options={myoptions}
+                height={350}
+                width={200}
+              />
             </div>
             <div className="modal-footer d-flex justify-content-between">
-              <p className="text-muted">Updated on 21st May, 2022</p>
+              <p className="text-muted">Updated on 15th July, 2022</p>
               <div className="div">
                 <button
                   type="button"
@@ -1044,10 +1356,15 @@ export default function Home({ date, id, setId }) {
                 </div>
               </div>
               <hr className="dropdown-divider" />
-              <Bar data={mydata} options={myoptions} height={350} width={200} />
+              <Line
+                data={mydata}
+                options={myoptions}
+                height={350}
+                width={200}
+              />
             </div>
             <div className="modal-footer d-flex justify-content-between">
-              <p className="text-muted">Updated on 21st May, 2022</p>
+              <p className="text-muted">Updated on 15th July, 2022</p>
               <div className="div">
                 <button
                   type="button"
@@ -1136,10 +1453,15 @@ export default function Home({ date, id, setId }) {
                 </div>
               </div>
               <hr className="dropdown-divider" />
-              <Bar data={mydata} options={myoptions} height={350} width={200} />
+              <Line
+                data={panaji}
+                options={myoptions}
+                height={350}
+                width={200}
+              />
             </div>
             <div className="modal-footer d-flex justify-content-between">
-              <p className="text-muted">Updated on 21st May, 2022</p>
+              <p className="text-muted">Updated on 15th July, 2022</p>
               <div className="div">
                 <button
                   type="button"
@@ -1227,10 +1549,15 @@ export default function Home({ date, id, setId }) {
                 </div>
               </div>
               <hr className="dropdown-divider" />
-              <Bar data={mydata} options={myoptions} height={350} width={200} />
+              <Line
+                data={alappuzha}
+                options={myoptions}
+                height={350}
+                width={200}
+              />
             </div>
             <div className="modal-footer d-flex justify-content-between">
-              <p className="text-muted">Updated on 21st May, 2022</p>
+              <p className="text-muted">Updated on 15th July, 2022</p>
               <div className="div">
                 <button
                   type="button"
@@ -1317,10 +1644,15 @@ export default function Home({ date, id, setId }) {
                 </div>
               </div>
               <hr className="dropdown-divider" />
-              <Bar data={mydata} options={myoptions} height={350} width={200} />
+              <Line
+                data={mydata}
+                options={myoptions}
+                height={350}
+                width={200}
+              />
             </div>
             <div className="modal-footer d-flex justify-content-between">
-              <p className="text-muted">Updated on 21st May, 2022</p>
+              <p className="text-muted">Updated on 15th July, 2022</p>
               <div className="div">
                 <button
                   type="button"
@@ -1407,10 +1739,15 @@ export default function Home({ date, id, setId }) {
                 </div>
               </div>
               <hr className="dropdown-divider" />
-              <Bar data={mydata} options={myoptions} height={350} width={200} />
+              <Line
+                data={mydata}
+                options={myoptions}
+                height={350}
+                width={200}
+              />
             </div>
             <div className="modal-footer d-flex justify-content-between">
-              <p className="text-muted">Updated on 21st May, 2022</p>
+              <p className="text-muted">Updated on 15th July, 2022</p>
               <div className="div">
                 <button
                   type="button"
@@ -1499,10 +1836,15 @@ export default function Home({ date, id, setId }) {
                 </div>
               </div>
               <hr className="dropdown-divider" />
-              <Bar data={mydata} options={myoptions} height={350} width={200} />
+              <Line
+                data={bhubaneshwar}
+                options={myoptions}
+                height={350}
+                width={200}
+              />
             </div>
             <div className="modal-footer d-flex justify-content-between">
-              <p className="text-muted">Updated on 21st May, 2022</p>
+              <p className="text-muted">Updated on 15th July, 2022</p>
               <div className="div">
                 <button
                   type="button"
@@ -1591,10 +1933,15 @@ export default function Home({ date, id, setId }) {
                 </div>
               </div>
               <hr className="dropdown-divider" />
-              <Bar data={mydata} options={myoptions} height={350} width={200} />
+              <Line
+                data={konark}
+                options={myoptions}
+                height={350}
+                width={200}
+              />
             </div>
             <div className="modal-footer d-flex justify-content-between">
-              <p className="text-muted">Updated on 21st May, 2022</p>
+              <p className="text-muted">Updated on 15th July, 2022</p>
               <div className="div">
                 <button
                   type="button"
@@ -1683,10 +2030,10 @@ export default function Home({ date, id, setId }) {
                 </div>
               </div>
               <hr className="dropdown-divider" />
-              <Bar data={mydata} options={myoptions} height={350} width={200} />
+              <Line data={puri} options={myoptions} height={350} width={200} />
             </div>
             <div className="modal-footer d-flex justify-content-between">
-              <p className="text-muted">Updated on 21st May, 2022</p>
+              <p className="text-muted">Updated on 15th July, 2022</p>
               <div className="div">
                 <button
                   type="button"
@@ -1776,10 +2123,10 @@ export default function Home({ date, id, setId }) {
                 </div>
               </div>
               <hr className="dropdown-divider" />
-              <Bar data={mydata} options={myoptions} height={350} width={200} />
+              <Line data={agra} options={myoptions} height={350} width={200} />
             </div>
             <div className="modal-footer d-flex justify-content-between">
-              <p className="text-muted">Updated on 21st May, 2022</p>
+              <p className="text-muted">Updated on 15th July, 2022</p>
               <div className="div">
                 <button
                   type="button"
@@ -1868,10 +2215,15 @@ export default function Home({ date, id, setId }) {
                 </div>
               </div>
               <hr className="dropdown-divider" />
-              <Bar data={mydata} options={myoptions} height={350} width={200} />
+              <Line
+                data={mathura}
+                options={myoptions}
+                height={350}
+                width={200}
+              />
             </div>
             <div className="modal-footer d-flex justify-content-between">
-              <p className="text-muted">Updated on 21st May, 2022</p>
+              <p className="text-muted">Updated on 15th July, 2022</p>
               <div className="div">
                 <button
                   type="button"
@@ -1960,10 +2312,15 @@ export default function Home({ date, id, setId }) {
                 </div>
               </div>
               <hr className="dropdown-divider" />
-              <Bar data={mydata} options={myoptions} height={350} width={200} />
+              <Line
+                data={varanasi}
+                options={myoptions}
+                height={350}
+                width={200}
+              />
             </div>
             <div className="modal-footer d-flex justify-content-between">
-              <p className="text-muted">Updated on 21st May, 2022</p>
+              <p className="text-muted">Updated on 15th July, 2022</p>
               <div className="div">
                 <button
                   type="button"
@@ -2052,10 +2409,15 @@ export default function Home({ date, id, setId }) {
                 </div>
               </div>
               <hr className="dropdown-divider" />
-              <Bar data={mydata} options={myoptions} height={350} width={200} />
+              <Line
+                data={haridwar}
+                options={myoptions}
+                height={350}
+                width={200}
+              />
             </div>
             <div className="modal-footer d-flex justify-content-between">
-              <p className="text-muted">Updated on 21st May, 2022</p>
+              <p className="text-muted">Updated on 15th July, 2022</p>
               <div className="div">
                 <button
                   type="button"
@@ -2144,10 +2506,15 @@ export default function Home({ date, id, setId }) {
                 </div>
               </div>
               <hr className="dropdown-divider" />
-              <Bar data={mydata} options={myoptions} height={350} width={200} />
+              <Line
+                data={mussoorie}
+                options={myoptions}
+                height={350}
+                width={200}
+              />
             </div>
             <div className="modal-footer d-flex justify-content-between">
-              <p className="text-muted">Updated on 21st May, 2022</p>
+              <p className="text-muted">Updated on 15th July, 2022</p>
               <div className="div">
                 <button
                   type="button"
@@ -2236,10 +2603,15 @@ export default function Home({ date, id, setId }) {
                 </div>
               </div>
               <hr className="dropdown-divider" />
-              <Bar data={mydata} options={myoptions} height={350} width={200} />
+              <Line
+                data={mydata}
+                options={myoptions}
+                height={350}
+                width={200}
+              />
             </div>
             <div className="modal-footer d-flex justify-content-between">
-              <p className="text-muted">Updated on 21st May, 2022</p>
+              <p className="text-muted">Updated on 15th July, 2022</p>
               <div className="div">
                 <button
                   type="button"
@@ -2328,10 +2700,15 @@ export default function Home({ date, id, setId }) {
                 </div>
               </div>
               <hr className="dropdown-divider" />
-              <Bar data={mydata} options={myoptions} height={350} width={200} />
+              <Line
+                data={darjeeling}
+                options={myoptions}
+                height={350}
+                width={200}
+              />
             </div>
             <div className="modal-footer d-flex justify-content-between">
-              <p className="text-muted">Updated on 21st May, 2022</p>
+              <p className="text-muted">Updated on 15th July, 2022</p>
               <div className="div">
                 <button
                   type="button"
@@ -2426,10 +2803,10 @@ export default function Home({ date, id, setId }) {
                 </div>
               </div>
               <hr className="dropdown-divider" />
-              <Bar data={mydata} options={myoptions} height={350} width={200} />
+              <Line data={digha} options={myoptions} height={350} width={200} />
             </div>
             <div className="modal-footer d-flex justify-content-between">
-              <p className="text-muted">Updated on 21st May, 2022</p>
+              <p className="text-muted">Updated on 15th July, 2022</p>
               <div className="div">
                 <button
                   type="button"
@@ -2518,10 +2895,15 @@ export default function Home({ date, id, setId }) {
                 </div>
               </div>
               <hr className="dropdown-divider" />
-              <Bar data={mydata} options={myoptions} height={350} width={200} />
+              <Line
+                data={kolkata}
+                options={myoptions}
+                height={350}
+                width={200}
+              />
             </div>
             <div className="modal-footer d-flex justify-content-between">
-              <p className="text-muted">Updated on 21st May, 2022</p>
+              <p className="text-muted">Updated on 15th July, 2022</p>
               <div className="div">
                 <button
                   type="button"

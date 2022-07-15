@@ -20,13 +20,13 @@ export default function Chatbot() {
           title="YatraMon"
         >
           <img
-            className="botimg position-fixed bottom-0 end-0 chatbtn fixed-sm-bottom mx-4 my-4 fab fa-shake "
+            className="botimg position-fixed bottom-0 end-0 chatbtn fixed-sm-bottom mx-2 my-4 fab fa-shake "
             // src="https://i.postimg.cc/k5VfR72p/Beige-and-Black-Simple-Circular-Wedding-Event-Logo-removebg-preview.png"
             src="./newYatramon.png"
             alt="bot"
             style={{
-              height: "7em",
-              width: "7rem",
+              height: "6em",
+              width: "6rem",
               cursor: "pointer",
             }}
             data-bs-toggle="offcanvas"

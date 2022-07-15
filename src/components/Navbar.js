@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import "./styles/navbar.css";
 import navpic from "./images/SAH_Logo.png";
@@ -72,25 +72,25 @@ export default function Navbar() {
                 </Link>
               </li>
 
-              {/* <li className="nav-item">
-                <Link className="nav-link" to="goodgraph">
+              <li className="nav-item">
+                <Link className="nav-link" to="analysis">
                   <p className="text-center">
-                    Good graph
+                    Analysis
                     <br />
-                    hindi
+                    विश्लेषण
                   </p>
                 </Link>
               </li>
 
-              <li className="nav-item">
-                <Link className="nav-link" to="latestnews">
-                  <p className="text-center">
-                    Bad graph
-                    <br />
-                    hindi
-                  </p>
-                </Link>
-              </li> */}
+              {/* // <li className="nav-item">
+              //   <Link className="nav-link" to="latestnews">
+              //     <p className="text-center">
+              //       Bad graph
+              //       <br />
+              //       hindi
+              //     </p>
+              //   </Link>
+              // </li>  */}
 
               <li className="nav-item">
                 <Link className="nav-link" to="?">

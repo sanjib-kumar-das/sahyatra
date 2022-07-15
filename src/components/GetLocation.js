@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import alanBtn from "@alan-ai/alan-sdk-web";
 
 export default function GetLocation() {
@@ -17,8 +17,8 @@ export default function GetLocation() {
     const roundLat = Number(location.coords.latitude.toFixed(2));
     const roundLng = Number(location.coords.longitude.toFixed(2));
 
-    if (roundLat === 22.57 && roundLng === 88.36) {
-      // alert("danger");
+    if (roundLat === 22.55 && roundLng === 88.37) {
+      // alert("⚠ Caution! You are entering an danger zone.");
     }
   };
 
@@ -49,8 +49,10 @@ export default function GetLocation() {
   useEffect(() => {
     alanBtn({
       key: alanKey,
-      bottom: "15px",
-      left: "15px",
+      // bottom: "135px",
+      // right: "30px",
+      bottom: "30px",
+      left: "30px",
       // onCommand: ({ command }) => {
       //   if (command === "test") {
       //     alert("hello world");

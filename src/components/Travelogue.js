@@ -198,7 +198,7 @@ const Travelogue = () => {
                 <Sparkles flicker={false} color="gold" />
                 <img
                   className="coin fab fa-flip"
-                  src="./safarcoin.png"
+                  src="./newSafarcoin.png"
                   alt="safarcoin"
                   style={{
                     height: "3em",

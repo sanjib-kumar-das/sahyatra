@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect } from "react";
 import "./App.css";
 import ScrollToTop from "./components/ScrollToTop";
 import Navbar from "./components/Navbar";
@@ -10,12 +10,12 @@ import Chatbot from "./components/Chatbot";
 import Footer from "./components/Footer";
 import Error from "./components/Error";
 import About from "./components/About";
-import Goodgraph from "./components/Goodgraph";
-import GetLocation from "./components/GetLocation";
+import Analysis from "./components/Analysis";
+// import GetLocation from "./components/GetLocation";
 // import ClimbingBoxLoader from "react-spinners/ClimbingBoxLoader";
 import Spin from "../src/components/images/spin2.gif";
 // import AlanAI from "../src/components/AlanAI";
-import alanBtn from "@alan-ai/alan-sdk-web";
+// import alanBtn from "@alan-ai/alan-sdk-web";
 
 function App() {
   const [loading, setLoading] = useState(false);
@@ -76,8 +76,8 @@ function App() {
             ></Route>
             <Route
               exact
-              path="goodgraph"
-              element={<Goodgraph key="goodgraph" />}
+              path="analysis"
+              element={<Analysis key="analysis" />}
             ></Route>
             <Route path="*" element={<Error />}></Route>
           </Routes>

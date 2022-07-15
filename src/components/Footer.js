@@ -71,11 +71,12 @@ export default function Footer() {
                     SAHyatra: Security Application for Hassle-free Travel, aims
                     to revolutionize the tourism industry by earmarking the
                     safety and security standards of tourist destinations and
-                    meets two-fold objectives:
+                    meets three-fold objectives:
                   </p>
                   <ul>
                     <li>Travel Recommendation System</li>
                     <li>Grievance Monitoring System</li>
+                    <li>Quality Improvement System</li>
                   </ul>
                   <p className="just">
                     Three crucial performance metrics include:
@@ -141,7 +142,6 @@ export default function Footer() {
                     Kamal Singh
                   </a>
                 </p>
-
                 <p>
                   <a
                     target="_blank"
@@ -162,6 +162,14 @@ export default function Footer() {
                     Prof. Sumit Gupta (Mentor)
                   </a>
                 </p>
+                {/* ALAN AI */}
+                {/* <h6 className="fw-bold mt-4">Alan AI</h6>
+                <hr className="mb-4 mt-0 d-inline-block mx-auto hr2" />
+                <p className="just">
+                  Alan AI - Fully voice automated auditory bot that will read
+                  out every minute details of a place that a tourist asks for
+                  and specially visually impair tourists.
+                </p> */}
               </div>
 
               <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4 mt-4">
@@ -185,6 +193,11 @@ export default function Footer() {
                 <p>
                   <Link to="/travelogue" className="text-dark">
                     Travelogue / सफ़रनामा
+                  </Link>
+                </p>
+                <p>
+                  <Link to="/analysis" className="text-dark">
+                    Analysis / विश्लेषण
                   </Link>
                 </p>
                 <p>
